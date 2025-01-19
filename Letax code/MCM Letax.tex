@@ -15,9 +15,10 @@
           \endgroup
         }
       %%%%%%%%%%%下面是关于references的
-        \usepackage[utf8]{inputenc} % 确保在 biblatex 之前加载
-        \usepackage[backend=biber,style=numeric,sorting=none]{biblatex}
-        \addbibresource{references.bib} % 添加参考文献文件
+      \usepackage{cite} % 推荐使用，优化引用格式
+      \usepackage{geometry}
+      \geometry{left=1in, right=1in, top=1in, bottom=1in}
+      
         
   %四款字体可以选择
   %\usepackage{times}
@@ -34,7 +35,7 @@
 \usepackage{tikz}
 \usetikzlibrary{shapes.geometric, arrows}
 \usetikzlibrary{calc}
-\graphicspath{{C:/Users/32624/Desktop/xs/}}
+\graphicspath{{C:/Users/32624/Desktop/MCM/}}
 
 \title{Neophocaena Asiaeorientalis in Vortex}
 \author{\small \href{https://www.latexstudio.net/}
@@ -52,7 +53,8 @@
 
 \maketitle
 \newpage
-
+\pagestyle{main}
+\setcounter{page}{2} % 设置页码从 2 开始
 \tableofcontents
 
 \newpage
