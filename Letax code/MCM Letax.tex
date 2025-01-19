@@ -1,0 +1,85 @@
+\documentclass{mcmthesis}
+ %\documentclass[CTeX = true]{mcmthesis}  % 当使用 CTeX 套装时请注释上一行使用该行的设置
+\mcmsetup{tstyle=\color{black}\bfseries,%修改题号，队号的颜色和加粗显示，黑色可以修改为 black
+        tcn = 25M656, problem = A, %修改队号，参赛题号
+        sheet = true, titleinsheet = true, keywordsinsheet = true,%修改sheet显示信息
+        titlepage = false, abstract = true}
+
+
+        \usepackage{setspace}%目录间距的调节
+        \let\oldtableofcontents\tableofcontents
+        \renewcommand{\tableofcontents}{%
+          \begingroup
+          \setstretch{0.1} % 设定为1.5倍行距，可修改为1.2、2等
+          \oldtableofcontents
+          \endgroup
+        }
+      %%%%%%%%%%%下面是关于references的
+        \usepackage[utf8]{inputenc} % 确保在 biblatex 之前加载
+        \usepackage[backend=biber,style=numeric,sorting=none]{biblatex}
+        \addbibresource{references.bib} % 添加参考文献文件
+        
+  %四款字体可以选择
+  %\usepackage{times}
+  \usepackage[scheme=plain]{ctex}%%%%%%%%%%%%%%%%%%%%%
+  \usepackage{newtxtext,newtxmath} %CTeX 无此字体，可用 txfonts 替代，请使用新版 TeXLive.
+  \usepackage[english]{babel} % 设置文档主要语言为英文%%%%%%%%%%%%%%%%%%%%
+  %\usepackage{ctex}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \usepackage{lastpage} % 获取总页数
+ %\usepackage{palatino}
+  %\usepackage{txfonts}
+  \geometry{left=1in,right=0.75in,top=1in,bottom=1in}  % 设置1英寸的边距
+\usepackage{indentfirst}  %首行缩进，注释掉，首行就不再缩进。
+\usepackage{lipsum}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+\usetikzlibrary{calc}
+\graphicspath{{C:/Users/32624/Desktop/xs/}}
+
+\title{Neophocaena Asiaeorientalis in Vortex}
+\author{\small \href{https://www.latexstudio.net/}
+  {\includegraphics[width=7cm]{mcmthesis-logo}}}
+\date{\today}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%(上面的部分你们不要动，有格式问题找ww)
+\begin{document}
+\begin{abstract}%这里是摘要部分
+    \par       
+\begin{keywords}%这里是关键词
+               
+\end{keywords}
+\end{abstract}   
+
+\maketitle
+\newpage
+
+\tableofcontents
+
+\newpage
+%正文
+\section{Introduction}
+\subsection{Problem Background}
+\subsection{Restatement of the Problem}
+\subsection{Literature Review}%可以不要，一般如果有半页可以要
+\subsection{Our Work}
+\section{Assumptions and Justifications}
+\section{Notations}%可以有Definitions and Notations
+\section{Model 1}
+\section{Model 2}
+\section{Sensitivity Analysis}
+\section{Strengths and Weaknesses}%或者做成 Model Evaluation and Further Discussion多一个Model Extension小部分
+\subsection{Strengths}
+\subsection{Weaknesses}
+\section{Conclusion}
+
+\newpage
+
+\renewcommand{\refname}{References} % 确保标题显示为 References
+\addcontentsline{toc}{section}{References} % 手动加入目录
+\patchcmd{\thebibliography}{\section*}{\section*}{}{} % 移除编号
+\nocite{*}
+
+\bibliographystyle{ieeetr} % 可选格式：plain、ieeetr、apalike 等
+\bibliography{References}
+
+\end{document}
