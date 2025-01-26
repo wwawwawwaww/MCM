@@ -1,0 +1,165 @@
+\documentclass{mcmthesis}
+ %\documentclass[CTeX = true]{mcmthesis}  % 当使用 CTeX 套装时请注释上一行使用该行的设置
+\mcmsetup{tstyle=\color{black}\bfseries,%修改题号，队号的颜色和加粗显示，黑色可以修改为 black
+        tcn = 25M656, problem = A, %修改队号，参赛题号
+        sheet = true, titleinsheet = true, keywordsinsheet = true,%修改sheet显示信息
+        titlepage = false, abstract = true}
+
+
+        \usepackage{setspace}%目录间距的调节
+        \let\oldtableofcontents\tableofcontents
+        \renewcommand{\tableofcontents}{%
+          \begingroup
+          \setstretch{0.1} % 设定为1.5倍行距，可修改为1.2、2等
+          \oldtableofcontents
+          \endgroup
+        }
+      %%%%%%%%%%%下面是关于references的
+      \usepackage{cite} % 推荐使用，优化引用格式
+      \usepackage{geometry}
+      \geometry{left=1in, right=1in, top=1in, bottom=1in}
+    % 调整引用为右上角标
+    \makeatletter
+    \def\@cite#1#2{\textsuperscript{[#1]}} % 设置右上角标格式
+    \makeatother  
+        
+  %四款字体可以选择
+  %\usepackage{times}
+  \usepackage[scheme=plain]{ctex}%%%%%%%%%%%%%%%%%%%%%
+  \usepackage{newtxtext,newtxmath} %CTeX 无此字体，可用 txfonts 替代，请使用新版 TeXLive.
+  \usepackage[english]{babel} % 设置文档主要语言为英文%%%%%%%%%%%%%%%%%%%%
+  %\usepackage{ctex}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \usepackage{lastpage} % 获取总页数
+ %\usepackage{palatino}
+  %\usepackage{txfonts}
+  \geometry{left=1in,right=0.75in,top=1in,bottom=1in}  % 设置1英寸的边距
+\usepackage{indentfirst}  %首行缩进，注释掉，首行就不再缩进。
+\usepackage{lipsum}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+\usetikzlibrary{calc}
+\graphicspath{{C:/Users/32624/Desktop/MCM/}}
+
+\title{Neophocaena Asiaeorientalis in Vortex}
+\author{\small \href{https://www.latexstudio.net/}
+  {\includegraphics[width=7cm]{mcmthesis-logo}}}
+\date{\today}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%(上面的部分你们不要动，有格式问题找ww)
+\begin{document}
+\begin{abstract}%这里是摘要部分
+    \par       
+\begin{keywords}%这里是关键词
+               
+\end{keywords}
+\end{abstract}   
+
+\maketitle
+\newpage
+\pagestyle{main}
+\setcounter{page}{2} % 设置页码从 2 开始
+\tableofcontents
+
+\newpage
+%正文
+\section{Introduction}
+\subsection{Problem Background}
+
+Stairs are a common architectural element in our daily lives and an indispensable part of architectural history.From modern buildings to ancient temples and churches,stairs are often found and serve as records of human history. However, as time passes, the surface of stairs gradually develops uneven wear due to long-term use. These wears not only reflect how often and how the stairs were used, but also contain information about when they were built and the materials used, providing archaeologists with important clues about the history of the building.
+
+Despite the important research value of stair wear, there are still relatively few targeted and systematic studies. Up to now, most analyses rely on qualitative observations and lack an analytical framework that can quantify wear patterns and their effects. To fill this research gap, there is an urgent need to develop mathematical models that combine the wear characteristics of stairs with information on foot traffic frequency, weight distribution, and environmental factors.
+
+As shown in Fig. n, the wear traces of stairs exhibit complex and diverse patterns. Combining these features, the goal of our article is to provide archaeologists with a feasible measurement method and quantitative analysis of stair wear by building a mathematical model to excavate the historical and cultural information in the wear of stairs.
+
+\subsection{Restatement of the Problem}
+The wear of stairs is a complex object of study influenced by multiple factors combined. By analyzing the background of the problem in depth and combining the specific constraints, the problem can be restated as follows:
+1. Clarify the data requirements
+
+Under the assumption that archaeologists can employ low-cost, simple, and non-destructive measurements, clarify the key types of data that need to be acquired.
+
+2. Build an analytical model
+
+Build a mathematical model to analyze the wear of stairs and predict how the target stairs will be used, using the key data types acquired in Problem 1. Specifically include:
+
+A. the frequency of use of the staircase;
+
+B. the direction in which the stairs are primarily used (upward or downward preference);
+
+C. the number of people using the stairs simultaneously and their mode of use (e.g., side-by-side walking or single-passing).
+
+3. Further exploration of issues related to specific conditions
+
+Based on the..... model, provided being able to estimate the age exists, clarifying the way the stairwell was used, and understanding the daily pattern of life in the structure, analyse the following aspects in depth:
+
+A. whether the wear patterns are consistent with the available information;
+
+B. the estimation of the age of the stairs and its reliability;
+
+C. the repair or renovation history of the stairs;
+
+D. the certainty of the source of materials used in the construction of the stair;
+
+E. The information that can be determined includes the number of people using the stairs on a typical day and the usage frequency ( whether it involves a large number of people over a short time or a small number over a longer period).
+
+\subsection{Our Work}
+\section{Assumptions and Explanations}
+\begin{itemize}
+
+\item \textbf{The materials from which the stairs are made have constant mechanical properties and for the same material, the mechanical properties are consistent throughout the stairs.}
+
+\textbf{Explanation:}
+Changes in the mechanical properties of materials over time or space will lead to increased complexity of analysis and difficulty in accurate modeling. Therefore, assuming that the material properties are constant and consistent can simplify the research process and improve the scientific and operability of the model.
+
+\item \textbf{The effect of special shoes such as high-heeled shoes on the wear of stairs is not considered in the analysis, and only the role of common soles is investigated.}
+
+\textbf{Explanation:}
+The wear effect of special shoes such as high-heeled shoes is usually concentrated in localized areas and happens less frequently, which has a modest influence on the overall wear pattern.
+
+\item \textbf{The data obtained by the simulation expedition in the article is accurate and can truly reflect the wear of stairs and usage patterns.}
+
+\textbf{Explanation:}
+Assumptions about the data that accurately reflect the wear of stairs and patterns of use will prevent data quality issues from interfering with the study.
+
+\item \textbf{In the study stair users tend to walk on the right when walking, either alone or side by side.}
+
+\textbf{Explanation:}
+Right-hand drive traffic habits in the United States have been extended to everyday life, and it is more common for pedestrians to walk on the right side. Assuming that stair users also follow this behavior helps to reflect the actual situation reasonably and simplifies the model analysis.
+
+\item \textbf{The study was conducted only on uneven wear of stairs made of stone or wood due to long-term use.}
+
+\textbf{Explanation:}
+The problem statement explicitly specifies that the study is limited to stone or wooden stairs that show uneven wear after long-term use.
+
+\item \textbf{All stair users walk at a normal gait (based on the first model, the “Human Gait Model”), and the effects of intentional friction or other abnormal use behaviors on the wear of stairs are not considered.}
+
+\textbf{Explanation:}
+Assuming that all stair users walk at a normal gait allows the study to focus on regular use and natural wear and tear, thus simplifying the model and avoiding the introduction of unnecessary complexity due to unusual behaviors(such as intentional rubbing or fast running).
+
+
+Additionally, to simplify the analysis, additional assumptions were introduced and are discussed in the relevant sections.
+\section{Notations}%可以有Definitions and Notations
+\section{Model Preparation}
+\subsection{Stair Load Interaction Model}
+
+\subsection{}
+\section{Model 1}
+\section{Model 2}
+\section{Sensitivity Analysis}
+\section{Strengths and Weaknesses}%或者做成 Model Evaluation and Further Discussion多一个Model Extension小部分
+\subsection{Strengths}
+\subsection{Weaknesses}
+\section{Conclusion}
+
+\newpage
+
+\renewcommand{\refname}{References} % 确保标题显示为 References
+\addcontentsline{toc}{section}{References} % 手动加入目录
+\patchcmd{\thebibliography}{\section*}{\section*}{}{} % 移除编号
+\nocite{*}
+
+\bibliographystyle{ieeetr} % 可选格式：plain、ieeetr、apalike 等
+\bibliography{References}
+\begin{appendices}  % 附录
+
+\end{appendices}  % 附录结束
+\end{document}
