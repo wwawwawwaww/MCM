@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.15)  28 JAN 2025 05:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.15)  28 JAN 2025 05:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1792,7 +1792,7 @@ Here is how much of TeX's memory you used:
 
 pdfTeX warning: pdflatex.exe (file c:/Windows/Fonts/simsun.ttc): subfont unisong20: wrong mapping: character 11 --> 0x200B --> .notdef
 ><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/bera/fvsr8a.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/txexs.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/txsys.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmr.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on MCMLetax.pdf (25 pages, 10237478 bytes).
+Output written on MCMLetax.pdf (25 pages, 10237519 bytes).
 PDF statistics:
  500 PDF objects out of 1000 (max. 8388607)
  420 compressed objects within 5 object streams
