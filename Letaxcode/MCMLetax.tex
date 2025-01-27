@@ -180,15 +180,26 @@ Some important mathematical notations used in this paper are listed in Table 1:
 
 \section{Model Preparation}
 \subsection{Guidance on Obtaining Information}
-Before studying the wear of stairs, archaeologists must collect a variety of information about the target stairs to support subsequent modeling and analysis. This includes the following three components: measurement, literature search, and data preprocessing.
-1.Measurement
-To ensure that the measurements are non-destructive, inexpensive, and can be done by a small number of people using minimal tools while maximizing the accuracy of the measurements, the following tools and measurement methods are chosen:
+Before studying the wear of stairs, archaeologists must collect a variety of information about the target stairs to support subsequent modeling and analysis. This includes the following two components: measurement, literature search.
+
+
 
 %图
 
 \textbf{1.Measurement and data preprocessing of the depth of wear on stairs}
 
-Choose 20 steps of the target stairs and complete the following operations using the laser rangefinder and the vernier caliper for one steps:
+To ensure that the measurements are non-destructive, inexpensive, and can be done by a small number of people using minimal tools while maximizing the accuracy of the measurements, the following tools and measurement methods are chosen:
+
+\begin{figure}[h]  % 图片
+  \small
+  \centering  % 居中
+  \includegraphics[width=12cm]{2-Measuring tools.jpg}
+  \caption{Measuring tools} \label{fig:2}  % 标题与标签
+  \end{figure}  % 图片结束
+
+
+
+  Choose 20 steps of the target stairs and complete the following operations using the laser rangefinder and the vernier caliper for one steps:
 
 \begin{enumerate}
 \item Fix the laser range finder in a constant horizontal plane using a sliding table and set the height of the stair root as the reference height;
@@ -243,11 +254,37 @@ The required information includes the construction period given by the archaeolo
 \subsection{Step Load Interaction Model}
 To analyze the wear of stairs, it is essential to study how the force acts on the stairs when a person walks on them. Based on previous studies, we establish the Step Load Interaction Model (SLIM) to analyze the way forces act on stairs when a person walks on them. 
  
+
+
+
 When a person walks on the stairs, the shoe is the only part that directly contacts the ground. Based on assumption n, without considering footwear such as high-heeled shoes, which significantly change the way the force acts, and neglecting the mass of the shoe itself, we can consider the force of the shoe on the ground to be equivalent to the force of the foot on the shoe. That is, under this simplified condition, the shoe does not affect the magnitude and distribution of the force.  
 
-By reviewing the literature, we obtained an Infrared pressure distribution diagram of the force on the foot when a person is walking up and down stairs\cite{YISX202303023}. The blue part of this map indicates the minimum pressure and the orange and red parts indicate the maximum pressure. The parts with the highest pressure correspond to three parts of the foot, i.e. the Hallux region (first metatarsal), the Metatarsals two and three\& the Metatarsals four and five regions, as well as the Medical and Lateral Calcaneus regions, which are defined as the main force-bearing areas. To further study the area of the main force-bearing areas and its relationship with the total area of the foot, we first outlined the projection profile of the foot with a black line on the infrared distribution map. Subsequently, the grid method was used to process the images: when a certain grid was covered by one-half or more of the image area, it was counted as one grid, otherwise, it was ignored.  
 
-Then, we counted 32 grids covered by the main force-bearing areas and 118 grids covered by the total projection of the foot, with the area share of the main stress portion being about 0.2712. Based on the average foot area of a U.S. citizen (approximately 245 %square centimeters%), we calculated the average area of the main force-bearing areas to be 66.44 %square centimeters%, taking 66 %square centimeters% to simplify the problem.  
+\subsection{Step Load Interaction Model}
+To analyze the wear of stairs, it is essential to study how the force acts on the stairs when a person walks on them. Based on previous studies, we establish the Step Load Interaction Model (SLIM) to analyze the way forces act on stairs when a person walks on them. 
+ 
+\begin{figure}[h]  % 图片
+  \small
+  \centering  % 居中
+  \includegraphics[width=10cm]{3-Infrared foot pressure zoning map.png}
+  \caption{Infrared foot pressure zoning map} \label{fig:2}  % 标题与标签
+  \end{figure}  % 图片结束
+
+
+
+
+By reviewing the literature, we obtained an Infrared pressure distribution diagram of the force on the foot when a person is walking up and down stairs\cite{YISX202303023}(Fig.n). The blue part of this map indicates the minimum pressure and the orange and red parts indicate the maximum pressure. The parts with the highest pressure correspond to three parts of the foot, i.e. the Hallux region (first metatarsal), the Metatarsals two and three\& the Metatarsals four and five regions, as well as the Medical and Lateral Calcaneus regions, which are defined as the main force-bearing areas. To further study the area of the main force-bearing areas and its relationship with the total area of the foot, we first outlined the projection profile of the foot with a black line on the infrared distribution map. Subsequently, the grid method was used to process the images: when a certain grid was covered by one-half or more of the image area, it was counted as one grid, otherwise, it was ignored.  
+
+
+\subsection{Step Load Interaction Model}
+To analyze the wear of stairs, it is essential to study how the force acts on the stairs when a person walks on them. Based on previous studies, we establish the Step Load Interaction Model (SLIM) to analyze the way forces act on stairs when a person walks on them. 
+ 
+
+
+
+
+
+Then, we counted 32 grids covered by the main force-bearing areas and 118 grids covered by the total projection of the foot, with the area share of the main stress portion being about 0.2712. Based on the average foot area of a U.S. citizen (approximately 245 cm\(^2\)), we calculated the average area of the main force-bearing areas to be 66.44 cm\(^2\), taking 66 cm\(^2\) to simplify the problem.
 
 Thus, we can abstract the force of the foot on the stairs to the action of the main force area. According to the assumption n, the force exerted by a person walking on the stairs can be further simplified into the model shown in Figure n.
 
@@ -302,6 +339,17 @@ To describe the wear behavior of stairs more accurately, a mathematical model ba
 
 The coordinate axis of the stair adopts the left-handed rectangular coordinate system, the outer edge of the staircase coincides with the Y-axis, and the Z-axis is along the vertical direction of the stair, indicating the change of deformation and deflection, and the origin of the coordinate system is located at the bottom of the stair, as illustrated in the figure n.
 
+
+\begin{figure}[h]  % 图片
+  \small
+  \centering  % 居中
+  \includegraphics[width=10cm]{4-Establishment of stair coordinate axes and empirical partitioning of tread surfaces.png}
+  \caption{Establishment of stair coordinate axes and empirical partitioning of tread surfaces} \label{fig:2}  % 标题与标签
+  \end{figure}  % 图片结束
+
+
+
+
 \textbf{3.model building}
 
 Firstly, we simplify the stair to a model of a beam fixed at both ends (both ends are fixed by supports, one of which is supported with pulleys to allow sliding in the axial direction) \cite{Levinson1981}\cite{SJZT20241216003}. Based on this assumption, the deflection equation for this model is expressed as:
@@ -310,7 +358,19 @@ Firstly, we simplify the stair to a model of a beam fixed at both ends (both end
 
 From the above equation, We established the functional relationship between the deflection Wr and the horizontal coordinate of the force application point X and plotted the corresponding figure n. The figure shows that the deflection reaches its maximum value near X=Xmax.
 
-%(图)
+\begin{figure}[h]  % 图片
+  \small
+  \centering  % 居中
+  \includegraphics[width=10cm]{7-The depth of the depression on the staircase caused by the bending deformation.jpg}
+  \caption{The depth of the depression on the staircase caused by the bending deformation} \label{fig:2}  % 标题与标签
+  \end{figure}  % 图片结束
+
+
+
+
+
+
+
 
 We further abstracted the overall bending deformation of the stairs as a concave region centered at Xmax, corresponding to the maximum deflection Wr. It is assumed that the cross-sectional profile of this region conforms to the shape of a catenary (while ignoring the deformation and concavity at other positions). The indentation caused by each normal load corresponds to the perimeter is calculated using the following equation:
 
@@ -318,7 +378,23 @@ We further abstracted the overall bending deformation of the stairs as a concave
 
 Where $L_1$ refers to The width corresponding to the indentation caused by each normal load.(b and $L1$ are specifically indicated in Figure n)
 
+
+\begin{figure}[h]  % 图片
+  \small
+  \centering  % 居中
+  \includegraphics[width=9cm]{8-Length of catenary line-x.jpg}
+  \caption{Length of catenary line} \label{fig:2}  % 标题与标签
+  \end{figure}  % 图片结束
+
+
 Through calculation, the wear width L1 caused by each applied load is determined to be 0.1±0.01. For the sake of simplification in subsequent calculations, L1 is treated as a constant value of 0.1.
+
+\begin{figure}[h]  % 图片
+  \small
+  \centering  % 居中
+  \includegraphics[width=9cm]{6-Bending model diagram.png}
+  \caption{Bending model diagram} \label{fig:2}  % 标题与标签
+  \end{figure}  % 图片结束
 
 \section{Step-pit Model}
 To investigate the wear of stairs further, we first need to clarify the mechanical mechanism of human action on stairs during walking. To this end, this article developed the Step-pit model
@@ -326,7 +402,14 @@ to quantify the wear and tear produced on the stairs by each step during walking
 
 \subsection{Model preparation}
 
-Based on the SLIM, we have simplified the force exerted by a person walking on a stair. By analyzing the IR pressure distribution map using the grid method, the length and area of the foot as a whole and the three main force regions can be obtained as follows:
+\begin{figure}[h]  % 图片
+  \small
+  \centering  % 居中
+  \includegraphics[width=10cm]{5-Foot sole grid.png}
+  \caption{Foot sole grid} \label{fig:2}  % 标题与标签
+  \end{figure}  % 图片结束
+
+  Based on the SLIM, we have simplified the force exerted by a person walking on a stair. By analyzing the IR pressure distribution map using the grid method, the length and area of the foot as a whole and the three main force regions can be obtained as follows:
 
 
 
@@ -389,9 +472,27 @@ Although walking styles vary, regardless of the style, the human stride length t
 
 On this basis, the standard coordinates of the i+1-th stair need to be adjusted according to the constraints of the comfort zone. The specific calculation process is shown in Figure N. 
 
-After multiple iterations, the model generates a probability distribution curve for the pressure in the second main stress area on the upper foot of the stair table surface (with respect to the variable x, see Fig. N for details).
 
- Combining the coordinate relationships of the three main force regions, the probability distributions of the first and third force regions can be further plotted in Fig. N.
+\begin{figure}[h]  % 图片
+  \small
+  \centering  % 居中
+  \includegraphics[width=12cm]{9-The flowchart for calculating the cumulative number of landing points.png}
+  \caption{The flowchart for calculating the cumulative number of landing points} \label{fig:2}  % 标题与标签
+  \end{figure}  % 图片结束
+
+
+After multiple iterations, the model generates a probability distribution curve for the pressure in the second main stress area on the upper foot of the stair table surface (with respect to the variable x, see Fig. N for details).
+Combining the coordinate relationships of the three main force regions, the probability distributions of the first and third force regions can be further plotted in Fig. N.
+\newpage
+
+\begin{figure}[h]  % 图片
+  \small
+  \centering  % 居中
+  \includegraphics[width=12cm]{10-The Distribution of the Number of Landing Points of M,H and C.png}
+  \caption{The Distribution of the Number of Landing Points of M,H and C} \label{fig:2}  % 标题与标签
+  \end{figure}  % 图片结束
+
+
 
 \subsection{Wear depth analysis of a single step.}
 \begin{itemize}[label=$\diamond$]
@@ -430,7 +531,12 @@ Combining the actual walking pattern, the force of human walking on stairs can b
 
 To analyze the effect of walking patterns on the stairs more accurately, the actual stepping area at the intersection of each step of the stairs and the walkway is defined as the target area. In the plan view of the stairs, the target areas are divided into four sub-areas, numbered 1, 2, 3, and 4, based on the functional characteristics of walking patterns(shown in Fig. n).
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%（图）
+\begin{figure}[h]  % 图片
+  \small
+  \centering  % 居中
+  \includegraphics[width=10cm]{12-Explanation of the Division of the Pathways.png}
+  \caption{Explanation of the Division of the Pathways} \label{fig:2}  % 标题与标签
+  \end{figure}  % 图片结束
 
 
 Sub-areas 1, 2, and 3: These areas correspond to the combined effects of different walking patterns, and their wears need to be analyzed separately according to the force characteristics of different patterns.
@@ -547,6 +653,16 @@ For repairs or renovations that are visually apparent, their presence can typica
 We first calculate the difference between the measured original depth data of surface depressions and the optimized depth data from ....., identifying points with significant positive differences as abnormal depression points. These points may indicate abnormal depressions caused by repairs or renovations.
 
 Next, we conduct secondary sampling on the treads where the abnormal depression points are located, significantly increasing the sampling density to 300 samples per square meter. The same abnormal point analysis is repeated on the newly collected data. If the newly identified abnormal points exhibit circular or strip-shaped clustered distributions (as shown in reference figures), we preliminarily conclude that the area may have undergone repairs using polymer reinforcement methods.
+
+\begin{figure}[h]  % 图片
+  \small
+  \centering  % 居中
+  \includegraphics[width=11cm]{13-Illustrative cluster diagram of the renovated areas.png}
+  \caption{Illustrative cluster diagram of the renovated areas} \label{fig:2}  % 标题与标签
+  \end{figure}  % 图片结束
+
+
+
 To further verify the use of polymer materials for reinforcement, we employ the Torrent Permeability Test Method to measure the air permeability of the building material\cite{sena2015non}. Polymer materials typically exhibit strong adhesion, no powder residues, water resistance, and polishability. However, their air permeability differs significantly from that of the base stone material. By comparing air permeability values, we can further confirm the presence and extent of repaired regions.
 
 When further analyzing areas with abnormal air permeability, we perform water absorption tests on the associated staircase treads. The specific method is as follows:
@@ -663,6 +779,12 @@ By integrating the Mann-Whitney U test results with the theoretical analysis, th
 
 
 \section{Sensitivity Analysis}
+\begin{figure}[h]  % 图片
+  \small
+  \centering  % 居中
+  \includegraphics[width=11cm]{14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png}
+  \caption{14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey} \label{fig:2}  % 标题与标签
+  \end{figure}  % 图片结束
 \section{ Evaluation of Strengths and Weaknesses}%或者做成 Model Evaluation and Further Discussion多一个Model Extension小部分
 \subsection{Strengths}
 \subsection{Weaknesses and Further Improvements}
