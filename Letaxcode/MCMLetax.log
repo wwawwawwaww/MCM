@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.15)  28 JAN 2025 05:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.15)  28 JAN 2025 05:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1355,11 +1355,27 @@ File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
 LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 2.
  (d:/texlive/2024/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
-))
+) [2])
 \tf@toc=\write6
 \openout6 = `MCMLetax.toc'.
 
- [2]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.95pt on input line 82.
+LaTeX Font Info:    Trying to load font information for T1+fvs on input line 82.
+ (d:/texlive/2024/texmf-dist/tex/latex/bera/t1fvs.fd
+File: t1fvs.fd 2004/09/07 scalable font definitions for T1/fvs.
+)
+LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
+(Font)              scaled to size 9.85492pt on input line 82.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[3{d:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 14.4pt on input line 85.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
@@ -1370,14 +1386,6 @@ File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 94.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 127.
-LaTeX Font Info:    Trying to load font information for T1+fvs on input line 127.
- (d:/texlive/2024/texmf-dist/tex/latex/bera/t1fvs.fd
-File: t1fvs.fd 2004/09/07 scalable font definitions for T1/fvs.
-)
-LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 127.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1386,7 +1394,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[3{d:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}{d:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
+[4{d:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1397,8 +1405,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[4]
-<2-Measuring tools.jpg, id=221, 416.538pt x 312.075pt>
+[5]
+<2-Measuring tools.jpg, id=266, 416.538pt x 312.075pt>
 File: 2-Measuring tools.jpg Graphic file (type jpg)
 <use 2-Measuring tools.jpg>
 Package pdftex.def Info: 2-Measuring tools.jpg  used on input line 220.
@@ -1414,7 +1422,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[5
+[6
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1442,13 +1450,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[6
+[7
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.255 T
        he required information includes the construction period given by the... <./2-Measuring tools.jpg>]
-<3-Infrared foot pressure zoning map.png, id=245, 1780.15062pt x 1301.36188pt>
+<3-Infrared foot pressure zoning map.png, id=291, 1780.15062pt x 1301.36188pt>
 File: 3-Infrared foot pressure zoning map.png Graphic file (type png)
 <use 3-Infrared foot pressure zoning map.png>
 Package pdftex.def Info: 3-Infrared foot pressure zoning map.png  used on input line 293.
@@ -1464,7 +1472,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[7
+[8
 pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1477,13 +1485,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[8
+[9
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.326 ...} \cdot \mu}{1 + e^{t - \varepsilon }} \]
                                                    <./3-Infrared foot pressure zoning map.png>]
-<4-Establishment of stair coordinate axes and empirical partitioning of tread surfaces.png, id=264, 1773.62625pt x 860.71562pt>
+<4-Establishment of stair coordinate axes and empirical partitioning of tread surfaces.png, id=309, 1773.62625pt x 860.71562pt>
 File: 4-Establishment of stair coordinate axes and empirical partitioning of tread surfaces.png Graphic file (type png)
 <use 4-Establishment of stair coordinate axes and empirical partitioning of tread surfaces.png>
 Package pdftex.def Info: 4-Establishment of stair coordinate axes and empirical partitioning of tread surfaces.png  used on input line 370.
@@ -1492,7 +1500,7 @@ Package pdftex.def Info: 4-Establishment of stair coordinate axes and empirical 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<7-The depth of the depression on the staircase caused by the bending deformation.jpg, id=265, 843.15pt x 632.3625pt>
+<7-The depth of the depression on the staircase caused by the bending deformation.jpg, id=310, 843.15pt x 632.3625pt>
 File: 7-The depth of the depression on the staircase caused by the bending deformation.jpg Graphic file (type jpg)
 <use 7-The depth of the depression on the staircase caused by the bending deformation.jpg>
 Package pdftex.def Info: 7-The depth of the depression on the staircase caused by the bending deformation.jpg  used on input line 388.
@@ -1504,8 +1512,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[9]
-<8-Length of catenary line-x.jpg, id=272, 843.15pt x 632.3625pt>
+[10]
+<8-Length of catenary line-x.jpg, id=318, 843.15pt x 632.3625pt>
 File: 8-Length of catenary line-x.jpg Graphic file (type jpg)
 <use 8-Length of catenary line-x.jpg>
 Package pdftex.def Info: 8-Length of catenary line-x.jpg  used on input line 409.
@@ -1514,7 +1522,7 @@ Package pdftex.def Info: 8-Length of catenary line-x.jpg  used on input line 409
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<6-Bending model diagram.png, id=273, 384.43625pt x 249.93375pt>
+<6-Bending model diagram.png, id=319, 384.43625pt x 249.93375pt>
 File: 6-Bending model diagram.png Graphic file (type png)
 <use 6-Bending model diagram.png>
 Package pdftex.def Info: 6-Bending model diagram.png  used on input line 419.
@@ -1529,7 +1537,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[10
+[11
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1540,7 +1548,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has
                                                   \__shipout_drop_firstpage_...
 l.425 
        <./4-Establishment of stair coordinate axes and empirical partitioning of tread surfaces.png> <./7-The depth of the depression on the staircase caused by the bending deformation.jpg>]
-<5-Foot sole grid.png, id=282, 1351.54938pt x 1164.85187pt>
+<5-Foot sole grid.png, id=328, 1351.54938pt x 1164.85187pt>
 File: 5-Foot sole grid.png Graphic file (type png)
 <use 5-Foot sole grid.png>
 Package pdftex.def Info: 5-Foot sole grid.png  used on input line 431.
@@ -1556,7 +1564,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[11
+[12
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1574,7 +1582,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[12
+[13
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1585,7 +1593,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has 
                                                   \__shipout_drop_firstpage_...
 l.481     \item F
                  ull-foot Walking: The entire foot applies force to the stairs. <./5-Foot sole grid.png>]
-<9-The flowchart for calculating the cumulative number of landing points.png, id=302, 4015.50188pt x 2258.93938pt>
+<9-The flowchart for calculating the cumulative number of landing points.png, id=349, 4015.50188pt x 2258.93938pt>
 File: 9-The flowchart for calculating the cumulative number of landing points.png Graphic file (type png)
 <use 9-The flowchart for calculating the cumulative number of landing points.png>
 Package pdftex.def Info: 9-The flowchart for calculating the cumulative number of landing points.png  used on input line 513.
@@ -1598,13 +1606,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[13
+[14
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.519   \newpage
                  <./9-The flowchart for calculating the cumulative number of landing points.png>]
-<10-The Distribution of the Number of Landing Points of M,H and C.png, id=313, 1614.03pt x 1235.11438pt>
+<10-The Distribution of the Number of Landing Points of M,H and C.png, id=358, 1614.03pt x 1235.11438pt>
 File: 10-The Distribution of the Number of Landing Points of M,H and C.png Graphic file (type png)
 <use 10-The Distribution of the Number of Landing Points of M,H and C.png>
 Package pdftex.def Info: 10-The Distribution of the Number of Landing Points of M,H and C.png  used on input line 524.
@@ -1613,7 +1621,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 8.8pt on input line 553.
 
 
-LaTeX Warning: Citation `1' on page 14 undefined on input line 553.
+LaTeX Warning: Citation `1' on page 15 undefined on input line 553.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1622,7 +1630,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[14
+[15
 pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1633,7 +1641,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has 
                                                   \__shipout_drop_firstpage_...
 l.563   \item \textbf
                      {Forefoot Walking} <./10-The Distribution of the Number of Landing Points of M,H and C.png>]
-<12-Explanation of the Division of the Pathways.png, id=325, 3277.74562pt x 1022.82124pt>
+<12-Explanation of the Division of the Pathways.png, id=370, 3277.74562pt x 1022.82124pt>
 File: 12-Explanation of the Division of the Pathways.png Graphic file (type png)
 <use 12-Explanation of the Division of the Pathways.png>
 Package pdftex.def Info: 12-Explanation of the Division of the Pathways.png  used on input line 588.
@@ -1646,7 +1654,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[15
+[16
 pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1654,14 +1662,6 @@ l.603 ...dot \left(k_A + k_B + k_C + k_D\right) \]
                                                    <./12-Explanation of the Division of the Pathways.png>]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 629.
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[16]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1678,10 +1678,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [18]
-<13-Illustrative cluster diagram of the renovated areas.png, id=358, 1614.03pt x 1235.11438pt>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[19]
+<13-Illustrative cluster diagram of the renovated areas.png, id=403, 1614.03pt x 1235.11438pt>
 File: 13-Illustrative cluster diagram of the renovated areas.png Graphic file (type png)
 <use 13-Illustrative cluster diagram of the renovated areas.png>
-Package pdftex.def Info: 13-Illustrative cluster diagram of the renovated areas.png  used on input line 736.
+Package pdftex.def Info: 13-Illustrative cluster diagram of the renovated areas.png  used on input line 746.
 (pdftex.def)             Requested size: 312.9803pt x 239.49883pt.
 
 
@@ -1691,11 +1699,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[19
+[20
 pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.765 
+l.753 
        <./13-Illustrative cluster diagram of the renovated areas.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1704,7 +1712,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[20]
+[21]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1712,41 +1720,44 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[21]
-<14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png, id=389, 1614.03pt x 1235.11438pt>
+[22]
+<14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png, id=435, 1614.03pt x 1235.11438pt>
 File: 14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png Graphic file (type png)
 <use 14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png>
-Package pdftex.def Info: 14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png  used on input line 867.
+Package pdftex.def Info: 14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png  used on input line 879.
 (pdftex.def)             Requested size: 312.9803pt x 239.49883pt.
 
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[22
+[23]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[24
 pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.875 \newpage
-               <./14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[23] (./MCMLetax.bbl
+l.887 \newpage
+               <./14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png>] (./MCMLetax.bbl
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 12.0pt on input line 4.
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 884.
+(Font)              scaled to size 24.88pt on input line 896.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 24.88pt on input line 884.
+(Font)              scaled to size 24.88pt on input line 896.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1755,7 +1766,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[24]
+[25]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1763,7 +1774,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[25] 
+[26] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./MCMLetax.aux)
  ***********
@@ -1778,13 +1789,13 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `MCMLetax.out' has not changed.
-(rerunfilecheck)             Checksum: D2E13125116EF68266931B6924EE39CE;6912.
+(rerunfilecheck)             Checksum: 0AC81EFE3F477325085687D5DC970476;8822.
  ) 
 Here is how much of TeX's memory you used:
- 37973 strings out of 474116
- 700000 string characters out of 5747716
+ 37990 strings out of 474116
+ 700249 string characters out of 5747716
  1945190 words of memory out of 5000000
- 59445 multiletter control sequences out of 15000+600000
+ 59453 multiletter control sequences out of 15000+600000
  633959 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,13n,93p,1076b,754s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1792,10 +1803,10 @@ Here is how much of TeX's memory you used:
 
 pdfTeX warning: pdflatex.exe (file c:/Windows/Fonts/simsun.ttc): subfont unisong20: wrong mapping: character 11 --> 0x200B --> .notdef
 ><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/bera/fvsr8a.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/txexs.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/txsys.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmr.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on MCMLetax.pdf (25 pages, 10237478 bytes).
+Output written on MCMLetax.pdf (26 pages, 10239171 bytes).
 PDF statistics:
- 500 PDF objects out of 1000 (max. 8388607)
- 420 compressed objects within 5 object streams
- 103 named destinations out of 1000 (max. 500000)
- 389 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 547 PDF objects out of 1000 (max. 8388607)
+ 466 compressed objects within 5 object streams
+ 112 named destinations out of 1000 (max. 500000)
+ 453 words of extra memory for PDF output out of 10000 (max. 10000000)
 

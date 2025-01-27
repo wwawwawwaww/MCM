@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex MCMLetax"] 1738012537.04411 "MCMLetax.aux" "MCMLetax.bbl" "MCMLetax" 1738012930.11964 0
+["bibtex MCMLetax"] 1738013332.07065 "MCMLetax.aux" "MCMLetax.bbl" "MCMLetax" 1738013339.0926 0
   "./References.bib" 1738009927 5111 0390507abacc1b5c1ae18450907fd398 ""
-  "MCMLetax.aux" 1738012929 10103 bb3d2b39c238695de0555e501b6be3a2 "pdflatex"
+  "MCMLetax.aux" 1738013337 11238 a99122aa6de151e381626888d217f838 "pdflatex"
   "d:/texlive/2024/texmf-dist/bibtex/bst/base/ieeetr.bst" 1734240918 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
   (generated)
   "MCMLetax.bbl"
   "MCMLetax.blg"
   (rewritten before read)
-["pdflatex"] 1738012923.98338 "c:/Users/10451/Desktop/TEST1/MCM/Letaxcode/MCMLetax.tex" "MCMLetax.pdf" "MCMLetax" 1738012930.12003 0
+["pdflatex"] 1738013332.47536 "c:/Users/10451/Desktop/TEST1/MCM/Letaxcode/MCMLetax.tex" "MCMLetax.pdf" "MCMLetax" 1738013339.09378 0
   "10-The Distribution of the Number of Landing Points of M,H and C.png" 1738009927 173649 7e93669844c7515e5f583508657b8afa ""
   "12-Explanation of the Division of the Pathways.png" 1738009927 3541353 cdd9e50cd27488c85e7ddc407daf3bbd ""
   "13-Illustrative cluster diagram of the renovated areas.png" 1738009927 225450 fcb1350d3693e4a7e9c4c3ef3f763b4c ""
@@ -20,12 +20,12 @@
   "7-The depth of the depression on the staircase caused by the bending deformation.jpg" 1738009927 45074 7ef184a75f3878fa03d501e2a6afc2f3 ""
   "8-Length of catenary line-x.jpg" 1738009927 44228 6e3494a3cfae26cb125edc13d85f34ed ""
   "9-The flowchart for calculating the cumulative number of landing points.png" 1738009927 825644 7d0607cba67852d26f3c4b7dc3d09c3a ""
-  "MCMLetax.aux" 1738012929 10103 bb3d2b39c238695de0555e501b6be3a2 "pdflatex"
-  "MCMLetax.bbl" 1738012537 3354 7784f2b35cdffd16c2817dddba10d0d1 "bibtex MCMLetax"
-  "MCMLetax.out" 1738012929 6912 d2e13125116ef68266931b6924ee39ce "pdflatex"
-  "MCMLetax.tex" 1738012923 54954 9df7e783fba15fabc09991aff89fe724 ""
-  "MCMLetax.toc" 1738012929 3331 919a15da9602c7f16e33000f007a4a50 "pdflatex"
-  "c:/Users/10451/Desktop/TEST1/MCM/Letaxcode/MCMLetax.tex" 1738012923 54954 9df7e783fba15fabc09991aff89fe724 ""
+  "MCMLetax.aux" 1738013337 11238 a99122aa6de151e381626888d217f838 "pdflatex"
+  "MCMLetax.bbl" 1738013332 3354 7784f2b35cdffd16c2817dddba10d0d1 "bibtex MCMLetax"
+  "MCMLetax.out" 1738013337 8822 0ac81efe3f477325085687d5dc970476 "pdflatex"
+  "MCMLetax.tex" 1738013318 55859 6c3197ee7b029f69431889d49bec2ddc ""
+  "MCMLetax.toc" 1738013337 4138 4b335e082170bee25866af02be1228ec "pdflatex"
+  "c:/Users/10451/Desktop/TEST1/MCM/Letaxcode/MCMLetax.tex" 1738013318 55859 6c3197ee7b029f69431889d49bec2ddc ""
   "c:/Windows/Fonts/msyh.ttc" 1731521334 19704352 1e10e74402e59d54499af795caf0b135 ""
   "c:/Windows/Fonts/simsun.ttc" 1731521335 18070492 992f2bdc407dde6953c5ed83ceac9a91 ""
   "d:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1734241858 4850 80dc9bab7f31fb78a000ccfed0e27cab ""

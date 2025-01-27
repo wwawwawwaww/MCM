@@ -1,39 +1,47 @@
 \babel@toc {english}{}\relax 
-\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Problem Background}{3}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Restatement of the Problem}{3}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Our Work}{4}{subsection.1.3}%
-\contentsline {section}{\numberline {2}Assumptions and Justifications}{4}{section.2}%
-\contentsline {section}{\numberline {3}Notations}{4}{section.3}%
-\contentsline {section}{\numberline {4}Model Preparation}{5}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Guidance on Obtaining Information}{5}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Step Load Interaction Model}{7}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Step Load Interaction Model}{7}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Step Load Interaction Model}{7}{subsection.4.4}%
-\contentsline {section}{\numberline {5}Synergizing Mechanics with Mathematical Modeling}{8}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Friction Model}{8}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Bending Model}{9}{subsection.5.2}%
-\contentsline {section}{\numberline {6}Step Load Interaction Model}{11}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Model preparation}{11}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Walking patterns and Landing point analysis}{13}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Conclusion}{14}{subsection.6.3}%
-\contentsline {section}{\numberline {7}MESH Analysis Model}{14}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Wear depth analysis of a single step}{14}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}}{15}{subsection.7.2}%
-\contentsline {section}{\numberline {8}Conclusion of Basic Predictions}{17}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Question A: Usage frequency}{17}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Question B: Directional preference}{17}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}Question C: Usage mode}{17}{subsection.8.3}%
-\contentsline {section}{\numberline {9}Guidance Based on Stairwell Usage}{18}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Question D: The fit consistency}{18}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Question E: Age of the stair }{18}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Question F: Repairs and renovation}{18}{subsection.9.3}%
-\contentsline {subsection}{\numberline {9.4}Question G: Consistency of mechanical parameters}{20}{subsection.9.4}%
-\contentsline {subsection}{\numberline {9.5}Question H: Number of people and time scale}{20}{subsection.9.5}%
-\contentsline {section}{\numberline {10}Sensitivity Analysis}{22}{section.10}%
-\contentsline {section}{\numberline {11} Evaluation of Strengths and Weaknesses}{23}{section.11}%
-\contentsline {subsection}{\numberline {11.1}Strengths}{23}{subsection.11.1}%
-\contentsline {subsection}{\numberline {11.2}Weaknesses and Further Improvements}{23}{subsection.11.2}%
-\contentsline {section}{\numberline {12}Conclusion}{23}{section.12}%
-\contentsline {section}{References}{24}{section.12}%
-\contentsline {section}{Appendices}{25}{section*.2}%
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Problem Background}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Restatement of the Problem}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Our Work}{5}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Assumptions and Justifications}{5}{section.2}%
+\contentsline {section}{\numberline {3}Notations}{5}{section.3}%
+\contentsline {section}{\numberline {4}Model Preparation}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Guidance on Obtaining Information}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Step Load Interaction Model}{8}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Step Load Interaction Model}{8}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Step Load Interaction Model}{8}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Synergizing Mechanics with Mathematical Modeling}{9}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Friction Model}{9}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Bending Model}{10}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Step Load Interaction Model}{12}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Model preparation}{12}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Walking patterns and Landing point analysis}{14}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Conclusion}{15}{subsection.6.3}%
+\contentsline {section}{\numberline {7}MESH Analysis Model}{15}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Wear depth analysis of a single step}{15}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}}{16}{subsection.7.2}%
+\contentsline {section}{\numberline {8}Conclusion of Basic Predictions}{18}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Question A: Usage frequency}{18}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Question A: Usage frequency}{18}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Question B: Directional preference}{18}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Question B: Directional preference}{18}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Question C: Usage mode}{19}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}Question C: Usage mode}{19}{subsection.8.6}%
+\contentsline {section}{\numberline {9}Guidance Based on Stairwell Usage}{19}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Question D: The fit consistency}{19}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Question E: Age of the stair }{19}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Question D: The fit consistency}{19}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Question E: Age of the stair }{19}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}Question F: Repairs and renovation}{20}{subsection.9.5}%
+\contentsline {subsection}{\numberline {9.6}Question F: Repairs and renovation}{20}{subsection.9.6}%
+\contentsline {subsection}{\numberline {9.7}Question G: Consistency of mechanical parameters}{21}{subsection.9.7}%
+\contentsline {subsection}{\numberline {9.8}Question G: Consistency of mechanical parameters}{21}{subsection.9.8}%
+\contentsline {subsection}{\numberline {9.9}Question H: Number of people and time scale}{22}{subsection.9.9}%
+\contentsline {subsection}{\numberline {9.10}Question H: Number of people and time scale}{22}{subsection.9.10}%
+\contentsline {section}{\numberline {10}Sensitivity Analysis}{23}{section.10}%
+\contentsline {section}{\numberline {11} Evaluation of Strengths and Weaknesses}{24}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Strengths}{24}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Weaknesses and Further Improvements}{24}{subsection.11.2}%
+\contentsline {section}{\numberline {12}Conclusion}{24}{section.12}%
+\contentsline {section}{References}{25}{section.12}%
+\contentsline {section}{Appendices}{26}{section*.2}%
