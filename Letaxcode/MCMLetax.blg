@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: MCMLetax.aux
+The style file: ieeetr.bst
+Database file #1: References.bib
+Warning--I didn't find a database entry for "1"
+Warning--empty journal in WOS:000678697003082
+You've used 13 entries,
+            1876 wiz_defined-function locations,
+            582 strings with 6638 characters,
+and the built_in function-call counts, 4255 in all, are:
+= -- 446
+> -- 160
+< -- 0
++ -- 58
+- -- 45
+* -- 314
+:= -- 595
+add.period$ -- 14
+call.type$ -- 13
+change.case$ -- 13
+chr.to.int$ -- 0
+cite$ -- 14
+duplicate$ -- 210
+empty$ -- 364
+format.name$ -- 45
+if$ -- 1036
+int.to.chr$ -- 0
+int.to.str$ -- 13
+missing$ -- 13
+newline$ -- 43
+num.names$ -- 13
+pop$ -- 23
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 168
+stack$ -- 0
+substring$ -- 346
+swap$ -- 106
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 48
+width$ -- 15
+write$ -- 138
+(There were 2 warnings)

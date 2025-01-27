@@ -106,7 +106,7 @@ A. The consistency between the wear patterns simulated by the model optimization
 
 B. The direction in which the stairs are primarily used (upward or downward preference);
 
-C. The number of people using the stairs simultaneously and their mode of use (e.g., side-by-side walking or single-passing).
+C. The number of people using the stairs simultaneously and their mode of use (e.g. side-by-side walking or single-passing).
 
 \end{flushleft}
 
@@ -217,7 +217,7 @@ To ensure that the measurements are non-destructive, inexpensive, and can be don
 \begin{figure}[h]  % 图片
   \small
   \centering  % 居中
-  \includegraphics[width=12cm]{3-Measuring tools.png}
+  \includegraphics[width=12cm]{2-Measuring tools.jpg}
   \caption{Measuring tools} \label{fig:2}  % 标题与标签
   \end{figure}  % 图片结束
 
@@ -290,7 +290,7 @@ To analyze the wear of stairs, it is essential to study how the force acts on th
 \begin{figure}[h]  % 图片
   \small
   \centering  % 居中
-  \includegraphics[width=10cm]{4-Infrared foot pressure zoning map.png}
+  \includegraphics[width=10cm]{3-Infrared foot pressure zoning map.png}
   \caption{Infrared foot pressure zoning map} \label{fig:2}  % 标题与标签
   \end{figure}  % 图片结束
 
@@ -317,15 +317,15 @@ Figure n shows that a countertop of stairs can be divided into two parts: the ac
 \subsection{Friction Model}
 The Mills model is used to characterize the wear of materials under multiple loading conditions and is suitable for complex wear scenarios by considering the microscopic changes in the material surface and its elastic recovery properties.
 
-In the case of stairs, which are used under stable conditions (e.g., constant flow of people and gait characteristics), the friction process is dominated by sliding wear due to the low sliding velocities. In this case, the contact state of the stair surface (including pressure and temperature distribution) remains stable during the friction process. Based on this assumption, the amount of wear W is usually linearly related to the nth power of the sliding velocity V, where n is the velocity factor, which is related to the material properties and contact conditions%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%网址的引用
+In the case of stairs, which are used under stable conditions (e.g. constant flow of people and gait characteristics), the friction process is dominated by sliding wear due to the low sliding velocities. In this case, the contact state of the stair surface (including pressure and temperature distribution) remains stable during the friction process. Based on this assumption, the amount of wear W is usually linearly related to the nth power of the sliding velocity $V$, where n is the velocity factor, which is related to the material properties and contact conditions%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%网址的引用
 
-On this basis, to more accurately analyze the wear behavior of staircase materials (e.g., stone or wood), we will modify the classical Mills model and develop a mathematical model suitable for staircase wear analysis.
+On this basis, to more accurately analyze the wear behavior of staircase materials (e.g. stone or wood), we will modify the classical Mills model and develop a mathematical model suitable for staircase wear analysis.
 
-First, the normal load F acting on the surface of the staircase material is calculated with the following expression:
+First, the normal load $F$ acting on the surface of the staircase material is calculated with the following expression:
 
 \[ F(t) = \frac{F_{q} \cdot \mu}{1 + e^{t - \varepsilon }} \]
 
-Where FG is the average value of normal pressure, $\varepsilon$  represents the adjustment coefficient, and μ represents the coefficient of kinetic friction.The F obtained above is used as an independent variable in the wear volume model to further calculate the material wear amount W:
+Where $\varepsilon$  represents the adjustment coefficient, and $\mu$ represents the coefficient of kinetic friction.The $F$ obtained above is used as an independent variable in the wear volume model to further calculate the material wear amount $W$:
 
 
 \[ W = \int_{0}^{t} \frac{K \cdot V^{n} \cdot F(t)}{H} \ dt \]
@@ -361,13 +361,13 @@ To describe the wear behavior of stairs more accurately, a mathematical model ba
 
 \textbf{2.Coordinate axis description}
 
-The coordinate axis of the stair adopts the left-handed rectangular coordinate system, the outer edge of the staircase coincides with the Y-axis, and the Z-axis is along the vertical direction of the stair, indicating the change of deformation and deflection, and the origin of the coordinate system is located at the bottom of the stair, as illustrated in the figure 3.
+The coordinate axis of the stair adopts the left-handed rectangular coordinate system, the outer edge of the staircase coincides with the Y-axis, and the Z-axis is along the vertical direction of the stair, indicating the change of deformation and deflection, and the origin of the coordinate system is located at the bottom of the stair, as illustrated in the Figure 3.
 
 
 \begin{figure}[h]  % 图片
   \small
   \centering  % 居中
-  \includegraphics[width=10cm]{5-Establishment of stair coordinate axes and empirical partitioning of tread surfaces.png}
+  \includegraphics[width=10cm]{4-Establishment of stair coordinate axes and empirical partitioning of tread surfaces.png}
   \caption{Establishment of stair coordinate axes and empirical partitioning of tread surfaces} \label{fig:2}  % 标题与标签
   \end{figure}  % 图片结束
 
@@ -376,16 +376,16 @@ The coordinate axis of the stair adopts the left-handed rectangular coordinate s
 
 \textbf{3.model building}
 
-Firstly, we simplify the stair to a model of a beam fixed at both ends (both ends are fixed by supports, one of which is supported with pulleys to allow sliding in the axial direction) \cite{Levinson1981}\cite{SJZT20241216003}. Based on this assumption, the deflection equation for this model is expressed as:
+Upon calculating the total number of individuals on each walkway, we subsequently aggregate these values to determine the overall number of individuals utilizing the stairs, as expressed by the following formula:
 
 \[ W_r = \frac{9X}{24EI} \left[ X^3 - 2LEN \cdot X^2 + LEN^3 - \frac{12EI}{kgA}(X - LEN) \right] \]
 
-From the above equation, We established the functional relationship between the deflection Wr and the horizontal coordinate of the force application point X and plotted the corresponding figure 4. The figure shows that the deflection reaches its maximum value near X=Xmax.
+From the above equation, We established the functional relationship between the deflection Wr and the horizontal coordinate of the force application point X and plotted the corresponding Figure 4. The Figure shows that the deflection reaches its maximum value near X=Xmax.
 
 \begin{figure}[h]  % 图片
   \small
   \centering  % 居中
-  \includegraphics[width=10cm]{8-The depth of the depression on the staircase caused by the bending deformation.jpg}
+  \includegraphics[width=10cm]{7-The depth of the depression on the staircase caused by the bending deformation.jpg}
   \caption{The depth of the depression on the staircase caused by the bending deformation} \label{fig:2}  % 标题与标签
   \end{figure}  % 图片结束
 
@@ -400,23 +400,23 @@ We further abstracted the overall bending deformation of the stairs as a concave
 
 \[ b = 2Wr \sinh\left(\frac{L_1}{2Wr}\right) \]
 
-Where $L_1$ refers to The width corresponding to the indentation caused by each normal load.(b and $L1$ are specifically indicated in Figure 6)
+Where $L_1$ refers to The width corresponding to the indentation caused by each normal load.($b$ and $L_1$ are specifically indicated in Figure 6)
 
 
 \begin{figure}[h]  % 图片
   \small
   \centering  % 居中
-  \includegraphics[width=9cm]{9-Length of catenary line-x.png}
+  \includegraphics[width=9cm]{8-Length of catenary line-x.jpg}
   \caption{Length of catenary line} \label{fig:2}  % 标题与标签
   \end{figure}  % 图片结束
 
 
-Through calculation, the wear width L1 caused by each applied load is determined to be 0.1±0.01. For the sake of simplification in subsequent calculations, L1 is treated as a constant value of 0.1.
+Through calculation, the wear width $L_1$ caused by each applied load is determined to be 0.1±0.01. For the sake of simplification in subsequent calculations, $L_1$ is treated as a constant value of 0.1.
 
 \begin{figure}[h]  % 图片
   \small
   \centering  % 居中
-  \includegraphics[width=9cm]{7-Bending model diagram.png}
+  \includegraphics[width=9cm]{6-Bending model diagram.png}
   \caption{Bending model diagram} \label{fig:2}  % 标题与标签
   \end{figure}  % 图片结束
 
@@ -428,7 +428,7 @@ Through calculation, the wear width L1 caused by each applied load is determined
   \begin{figure}[h]  % 图片
     \small
     \centering  % 居中
-    \includegraphics[width=10cm]{6-Foot sole grid.png}
+    \includegraphics[width=10cm]{5-Foot sole grid.png}
     \caption{Foot sole grid} \label{fig:2}  % 标题与标签
     \end{figure}  % 图片结束
   
@@ -490,27 +490,27 @@ unit lengths and the height is about 21 unit lengths.
   \item \textbf{Calculation of standard coordinates}
   \end{itemize}
   
-  The standard coordinates on the i+1st step can be obtained recursively from the standard coordinates of the i-th step:
+  The standard coordinates on the i+1st step can be obtained recursively from the standard coordinates of the $i$-th step:
   
   \[
   X_n = X_n + L_{\text{stride}} - D
   \]
   
   
-  Although walking styles vary, regardless of the style, the human stride length tends to keep the landing point of the next step within a “comfort zone”. When the expected landing point is outside the comfort zone, the walker adjusts the stride length to bring it back within a reasonable range. The comfort zone can be expressed as:
+  Although walking styles vary, regardless of the style, the human stride length tends to keep the landing point of the next step within a “comfort zone”. When the expected landing point is outside the comfort zone, the walker adjusts the stride length to bring it back within a reasonable range. The comfort zone can be definited by:
   
 \[
 \text{Full-foot Walking: } L_{\text{stride}} = [38, 58], \quad \text{Forefoot Walking: } L_{\text{stride}} = [36, 60]
 \]
 
 
-  On this basis, the standard coordinates of the i+1-th stair need to be adjusted according to the constraints of the comfort zone. The specific calculation process is shown in Figure 10. 
+  On this basis, the standard coordinates of the $i$+1-th stair need to be adjusted according to the constraints of the comfort zone. The specific calculation process is shown in Figure 10. 
   
   
   \begin{figure}[h]  % 图片
     \small
     \centering  % 居中
-    \includegraphics[width=12cm]{10-The flowchart for calculating the cumulative number of landing points.png}
+    \includegraphics[width=12cm]{9-The flowchart for calculating the cumulative number of landing points.png}
     \caption{The flowchart for calculating the cumulative number of landing points} \label{fig:2}  % 标题与标签
     \end{figure}  % 图片结束
   
@@ -521,7 +521,7 @@ unit lengths and the height is about 21 unit lengths.
   \begin{figure}[h]  % 图片
     \small
     \centering  % 居中
-    \includegraphics[width=12cm]{11-The Distribution of the Number of Landing Points of M,H and C.png}
+    \includegraphics[width=12cm]{10-The Distribution of the Number of Landing Points of M,H and C.png}
     \caption{The Distribution of the Number of Landing Points of M,H and C} \label{fig:2}  % 标题与标签
     \end{figure}  % 图片结束
   
@@ -550,16 +550,16 @@ unit lengths and the height is about 21 unit lengths.
     \end{tabular}
     \end{table}
 
-  Where\( G = 1624 \pm 19.2 \, \text{N} \) (from \cite{1})%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  Where \( G = 1624 \pm 19.2 \, \text{N} \) (from \cite{1})%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
   
-  Where FGi is the vertical pressure exerted by region i on the stairs and G is the total vertical pressure.
+  Where $FG_i$ is the vertical pressure exerted by region $i$ on the stairs and $G$ is the total vertical pressure.
   
   
   Assume that the wear volume can be approximated as a regular quadrangular pyramid, then based on its geometric characteristics, the wear depth in region m is calculated as:
   
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  Where Wm and \(S_m\) represent the wear volume and area of the m-th region, respectively.
+  Where Wm and \(S_m\) represent the wear volume and area of the $m$-th region, respectively.
   \item \textbf{Forefoot Walking}
   
   The wear analysis of forefoot walking is similar to that of full-foot walking, but the proportional distribution of forces is different from that of full-foot walking due to the fact that there are only two main force regions applying forces. In Fig. N, a trilinear diagram was plotted to show the relationship between the force distribution in the two regions. The depth of wear was calculated in the same way as for full-footed walking, with only the parameters adjusted.
@@ -618,9 +618,9 @@ First, process the data measured by the archaeologists using the following formu
   \end{align}
   
 
-Where $X_i$ represents the total depth of wear due to friction in sub-area i; $k$ refers to the number of people; $A_{i \to j}$ refers to the depth of friction due to friction at a time corresponding to the range of distance from the edge of the staircase from i to j; and $\alpha$ is the amount of wear in the target area due to environmental factors (e.g., temperature changes, humidity fluctuations, extreme weather, etc.).
+Where $X_i$ represents the total depth of wear due to friction in sub-area $i$; $K$ refers to the number of people; $A_{i \to j}$ refers to the depth of friction due to friction at a time corresponding to the range of distance from the edge of the staircase from $i$ to $j$; and $\alpha$ is the amount of wear in the target area due to environmental factors (e.g. temperature changes, humidity fluctuations, extreme weather, etc.).
 
-The formulae for subregions 1, and 2 have been given above, and since there is no direct function to calculate $X_3$ for subregion 3, Probability-based fitting method is designed to calculate the total depth of wear due to friction. The pseudo code is as follows:
+The formula for subregions (1), and (2) have been given above, and since there is no direct function to calculate $X_3$ for subregion (3), Probability-based fitting method is designed to calculate the total depth of wear due to friction. The pseudo code is as follows:
 
 \renewcommand{\algorithmicrequire}{\textbf{Input:}}
 \renewcommand{\algorithmicensure}{\textbf{Output:}}
@@ -654,12 +654,14 @@ Initially, we assume that when only one person is walking on the stairs, the wal
 
 Using this expression, we can calculate the total number of people on each path, which is then visually represented using a bar chart (as shown in Figure n).
 
-After calculating the total number of people on each walkway, we further sum these values to obtain the total number of people using the stairs, expressed as:
+\textbf{!!WARNING Figure n is a placeholder, please replace it with the actual figure WARNING!!}
+
+After calculating the total number of people on each walkway, we further sum these values to obtain the total number of people using the stairs, which could be expressed as:
 
 \[ K_{\text{total}} = \sum_{i=1}^n K_i \]
 
 
-\subsection{Question A:Usage frequency}
+\subsection{Question A: Usage frequency}
 
 The question of "How often were the stairs used?" is quantified as the average usage frequency of the stairs over the total usage time, with the calculation formula as follows:
 
@@ -667,13 +669,13 @@ The question of "How often were the stairs used?" is quantified as the average u
 
 On this basis, the average time interval between uses of the stairs is obtained as .......
 
-\subsection{Question B:Directional preference}
+\subsection{Question B: Directional preference}
 
-The total number of people descending the stairs can be expressed as:
+The total number of people descending the stairs can be definited by:
 
 \[ K_{\text{downstairs}} = K_B + K_D \]
 
-The total number of people ascending the stairs can be expressed as:
+The total number of people ascending the stairs can be definited by:
 
 \[ K_{\text{upstairs}} = K_A + K_C \]
 
@@ -681,19 +683,19 @@ By comparing the total numbers of ascending and descending, We can draw the foll
 
 \begin{itemize} 
 
-\item If Kupstairs$>$Kdownstairs, it indicates that the travel direction favored by the people using the stairs is \textbf{ascending}. %%%%
+\item If $K_{\text{upstairs}}>K_{\text{downstairs}}$, it indicates that the travel direction favored by the people using the stairs is \textbf{ascending}. %%%%
 
-\item If Kupstairs$<$Kdownstairs, it indicates that the travel direction favored by the people using the stairs is \textbf{descending}. %%%%%
+\item If $K_{\text{upstairs}}<K_{\text{downstairs}}$, it indicates that the travel direction favored by the people using the stairs is \textbf{descending}. %%%%%
 
 \end{itemize}
 
 
-\subsection{Question C:Usage mode}
-The Z-scores formula can be used to determine outliers in the data. When the Zi corresponding to the ith data in a data set satisfies the condition Zi>3.5\cite{curtis2016mystery},  it can be considered that this data point is a peak. The Z-scores formula is as follows:
+\subsection{Question C: Usage mode}
+The Z-scores formula can be used to determine outliers in the data. When the $Z_i$ corresponding to the $i$th data in a data set satisfies the condition $Z_i>3.5$\cite{curtis2016mystery},  it can be considered that this data point is a peak. The Z-scores formula is as follows:
 
 \[ Z_i = \frac{K_i - \bar{K}}{\sqrt{\text{Var}(K)}} \]
 
-Where Var(k) refers to the variance of the number of people on walkways and represents the mean value of the number of people on walkways.
+Where Var($K$) refers to the variance of the number of people on walkways and represents the mean value of the number of people on walkways.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
@@ -703,15 +705,17 @@ If a peak exists, it indicates that the number of people on a certain walkway is
 If there is no peak, it indicates that the distribution of people across walkways is relatively uniform, suggesting that people prefer to walk side by side.
 
 \section{Guidance Based on Stairwell Usage}
-\subsection{Qestion D:The fit consistency}
-When evaluating the model fit with $\varepsilon +\eta$ , if the confidence is greater than 95\% (i.e., less than 1.9), the model is considered to have a good fit with the actual data. Additionally, if the confidence is less than 0.95, the fit is considered excellent.
-\subsection{Question E:Age of the stair }
+\subsection{Question D: The fit consistency}
+When evaluating the model fit with $\varepsilon +\eta$ , if the confidence is greater than 95\% (i.e. less than 1.9), the model is considered to have a good fit with the actual data. Additionally, if the confidence is less than 0.95, the fit is considered excellent.
+\subsection{Question E: Age of the stair }
 
 Based on the wear data shown in (Figure x), the wear in the 39-48 range is primarily influenced by environmental factors, exhibiting a Micro-weathering effect, and it is assumed that no significant wear is caused to the stairs.
 
+\textbf{!!WARNING Figure x is a placeholder, please replace it with the actual figure number WARNING!!}
+
 On this basis, using the principles of probability theory, we can assume that the wear amount of the stairs caused each year follows a Gaussian distribution.
 
-The total wear rate of the stairs is determined by both the average annual wear rate and the time (i.e., the number of years since construction), and their relationship is expressed as:
+The total wear rate of the stairs is determined by both the average annual wear rate and the time (i.e. the number of years since construction), and their relationship is expressed by the following formula:
 
 \[R_{\text{total}} = R_{\text{year}} \cdot T \]
 
@@ -719,19 +723,19 @@ Where $R_{\text{total}}$​ represents the total wear amount, $R_{\text{daily}}$
 
 Since division operations do not alter the distribution pattern of a Gaussian distribution, the estimated value of the construction year of the stairs also follows a Gaussian distribution. Therefore, we can further calculate the probability of the time period provided by the archaeologist within this estimated Gaussian distribution. The higher the probability, the more reliable the estimated value.
 
-\subsection{Question F:Repairs and renovation}
+\subsection{Question F: Repairs and renovation}
 
-The primary repair method for building materials is crack reinforcement using polymer materials\cite{YTLX200401034}. Steel plate bonding is also commonly used to strengthen flexural or tensile members (e.g., stair platform beams, slabs, and treads) under normal working and static loads. Another option is wrapping original staircase components with steel plates for protection.
+The primary repair method for building materials is crack reinforcement using polymer materials\cite{YTLX200401034}. Steel plate bonding is also commonly used to strengthen flexural or tensile members (e.g. stair platform beams, slabs, and treads) under normal working and static loads. Another option is wrapping original staircase components with steel plates for protection.
 
 For visible repairs or renovations, their presence can usually be confirmed by direct observation. However, for polymer reinforcement methods not easily visible, we designed the following detection approach:
 
 First, we calculate the difference between the original depth data of surface depressions and the optimized depth data from the result of pseudo-code, identifying points with significant positive differences as abnormal depressions, which may indicate repairs.
 
-Next, we conduct secondary sampling on the treads with abnormal depression points, increasing the sampling density to 300 samples per square meter. We repeat the abnormal point analysis on the new data. If the abnormal points show circular or strip-shaped clustering (as seen in figure 11), we preliminarily conclude that the area may have been repaired with polymer reinforcement methods.
+Next, we conduct secondary sampling on the treads with abnormal depression points, increasing the sampling density to 300 samples per square meter. We repeat the abnormal point analysis on the new data. If the abnormal points show circular or strip-shaped clustering (as seen in Figure 11), we preliminarily conclude that the area may have been repaired with polymer reinforcement methods.
 \begin{figure}[h]  % 图片
   \small
   \centering  % 居中
-  \includegraphics[width=11cm]{14-Illustrative cluster diagram of the renovated areas.png}
+  \includegraphics[width=11cm]{13-Illustrative cluster diagram of the renovated areas.png}
   \caption{Illustrative cluster diagram of the renovated areas} \label{fig:2}  % 标题与标签
   \end{figure}  % 图片结束
 
@@ -763,7 +767,7 @@ between the clustered abnormal points and normal areas, the presence and spatial
 
 Through the above multi-level detection method, not only can the presence of repairs or renovations be scientifically determined, but the repaired areas can also be accurately identified.
 \end{itemize}
-\subsection{Question G:Consistency of mechanical parameters}
+\subsection{Question G: Consistency of mechanical parameters}
 
 To determine whether the source of the target material aligns with the archaeologist's hypothesis, we recommend sampling from what the archaeologist believes to be the original source and conducting destructive mechanical experiments to obtain precise material parameters. These experimentally obtained parameters are then used to replace the tabulated values and are re-integrated into the Step Load Interaction Model to derive the optimal fitting result. Finally, this result is compared to the fitting result obtained using the tabulated parameters, with the coefficient of determination $R^2$ used as the evaluation criterion.
 
@@ -784,18 +788,18 @@ Goodness-of-fit calculation formula:
 
 
 
-\[SST=SSE+SSR\text{SST} = \text{SSE} + \text{SSR}\]
+\[\text{SST} = \text{SSE} + \text{SSR}\]
 
 $R^2$ represents the proportion of the total variation that can be explained by the model. The closer the $R^2$ value is to 1, the higher the consistency of the model. The $R^2$ value can be used to evaluate the match between the archaeologist's hypothesized material source and the actual results. When $R^2$ exceeds 0.8, it indicates that the source of the target material is consistent with the archaeologist's hypothesis.
 
 
-\subsection{Question H:Number of people and time scale}
+\subsection{Question H: Number of people and time scale}
 
 
 \textbf{1.Number of Users in a Typical Day for Staircase }
 
 
-In ... (referenced analysis), we have already obtained the total number of users during the operational period of the staircase. Assuming that the number of people using the stairs per day remains constant during this period, the number of people using the stairs in a typical day can be expressed as:
+In ... (referenced analysis), we have already obtained the total number of users during the operational period of the staircase. Assuming that the number of people using the stairs per day remains constant during this period, the number of people using the stairs in a typical day can be definited by:
 
 \[\text{Number of Users in a Typical Day} = \frac{\text{Total Number of Users}}{\text{Total Days of Usage}}\]
 
@@ -826,11 +830,11 @@ To assess the relationship between $X_6$ and the loading frequency parameter \te
 \item Alternative Hypothesis (H\(_1\)): \(X_6 + \text{LFP}\) is significantly greater than \(X_6\). 
 \end{itemize}
 
-The U statistic is calculated as follows:
+The $U$ statistic is calculated as follows:
 
 $$U = n^2 + \frac{n}{2}(n + 1) - R(X_6)$$
 
-Here, R represents the calculation of the sum of ranks.
+Here, $R$ represents the calculation of the sum of ranks.
 
 At a significance level of \(\alpha = 0.05\), the rejection region is \(U < 8\). The decision criteria are:
 \begin{itemize} 
@@ -856,13 +860,13 @@ By integrating the Mann-Whitney U test results with the theoretical analysis, th
 
 Due to the orientation of a person's stance during walking, which is taken into account by the model, the preferences for going up or down are not fixed. Any change in parameters may lead to a different profile of the worn pit in the staircase section. Consequently, by changing a certain parameter and solving the model, the sensitivity of the model can be verified.
 
-Maintaining the total number of people unchanged, by changing the ratio of Kupstairs to Kdownstairs and simulating, the shapes of the depressions under different parameters can be obtained（Fig.12）.
+Maintaining the total number of people unchanged, by changing the ratio of $K_{\text{upstairs}}$ to $K_{\text{downstairs}}$ and simulating, the shapes of the depressions under different parameters can be obtained（Fig.12）.
 As can be seen from the Fig.12 with the decrease of the proportion of people walking up stairs, the depth of the depression near the edge increases, while the depth of the depression in the area far from the edge decreases. The change in the ratio of the number has a significant impact on the result, indicating that the model is highly sensitive. Therefore, the fitting of K is feasible and accurate.
 
 \begin{figure}[h]  % 图片
   \small
   \centering  % 居中
-  \includegraphics[width=11cm]{15-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png}
+  \includegraphics[width=11cm]{14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png}
   \caption{Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey} \label{fig:2}  % 标题与标签
   \end{figure}  % 图片结束
 \section{ Evaluation of Strengths and Weaknesses}%或者做成 Model Evaluation and Further Discussion多一个Model Extension小部分
