@@ -3,12 +3,6 @@
 \bibitem{YISX202303023}
 Y.~Ke, L.~Yihui, Z.~Zeyi, Z.~Meizhen, W.~Xiaogang, and C.~Weiyi, ``The effects of backpack types on the kinematics of stair walking and plantar pressure of college students,'' {\em Medical Biomechanics}, vol.~38, no.~03, pp.~580--593, 2023.
 
-\bibitem{Levinson1981}
-M.~Levinson, ``A new rectangular beam theory,'' {\em Journal of Sound and Vibration}, vol.~74, no.~1, pp.~81--87, 1981.
-
-\bibitem{SJZT20241216003}
-M.~Weili, P.~Fan, S.~Zexin, L.~Xianfang, and D.~Jingbo, ``Research on the analysis of beam bending behavior based on the comparison of two classical beam theory and higher-order beam theory,'' {\em Journal of Shijiazhuang University of Railway Technology (Natural Science Edition)}, no.~04, pp.~1--9, 2024.
-
 \bibitem{WOS:000783553300001}
 F.~Diker, M.~Arslan, and I.~Erkan, ``Estimating tread width values for stair design appropriated to people's comfort and safety needs with adaptive network-based fuzzy inference system,'' {\em International Journal of Architectural Computing}, vol.~21, pp.~188--205, Mar 2023.
 
@@ -39,5 +33,11 @@ R.~Zeng, E.~Han, and W.~Ke, ``A critical discussion on influence of loading freq
 
 \bibitem{SJESF46245B4D88236414B6977C781CEC048}
 Y.~Nakai and C.~Hiwa, ``Effects of loading frequency and environment on delamination fatigue crack growth of cfrp,'' {\em International Journal of Fatigue}, vol.~24, no.~2, pp.~161--170, 2002.
+
+\bibitem{Levinson1981}
+M.~Levinson, ``A new rectangular beam theory,'' {\em Journal of Sound and Vibration}, vol.~74, no.~1, pp.~81--87, 1981.
+
+\bibitem{SJZT20241216003}
+M.~Weili, P.~Fan, S.~Zexin, L.~Xianfang, and D.~Jingbo, ``Research on the analysis of beam bending behavior based on the comparison of two classical beam theory and higher-order beam theory,'' {\em Journal of Shijiazhuang University of Railway Technology (Natural Science Edition)}, no.~04, pp.~1--9, 2024.
 
 \end{thebibliography}
