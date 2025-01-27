@@ -1,3 +1,43 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
+
+\bibitem{YISX202303023}
+Y.~Ke, L.~Yihui, Z.~Zeyi, Z.~Meizhen, W.~Xiaogang, and C.~Weiyi, ``The effects of backpack types on the kinematics of stair walking and plantar pressure of college students,'' {\em Medical Biomechanics}.
+
+\bibitem{Levinson1981}
+M.~Levinson, ``A new rectangular beam theory,'' {\em Journal of Sound and Vibration}, vol.~74, no.~1, pp.~81--87, 1981.
+
+\bibitem{SJZT20241216003}
+M.~Weili, P.~Fan, S.~Zexin, L.~Xianfang, and D.~Jingbo, ``Research on the analysis of beam bending behavior based on the comparison of two classical beam theory and higher-order beam theory,'' {\em Journal of Shijiazhuang University of Railway Technology (Natural Science Edition)}.
+
+\bibitem{WOS:000783553300001}
+F.~Diker, M.~Arslan, and I.~Erkan, ``Estimating tread width values for stair design appropriated to people's comfort and safety needs with adaptive network-based fuzzy inference system,'' {\em INTERNATIONAL JOURNAL OF ARCHITECTURAL COMPUTING}, vol.~21, pp.~188--205, MAR 2023.
+
+\bibitem{WOS:000678697003082}
+Z.~Ping, M.~Zhidong, W.~Pengyu, and D.~Zhihong, ``Pedestrian stride-length estimation based on bidirectional lstm network,'' in {\em 2020 CHINESE AUTOMATION CONGRESS (CAC 2020)}, Chinese Automation Congress, pp.~3358--3363, IEEE; CAA; IEEE Syst, Man, \& Cybernet Soc, 2020.
+\newblock Chinese Automation Congress (CAC), Shanghai, PEOPLES R CHINA, NOV 06-08, 2020.
+
+\bibitem{curtis2016mystery}
+A.~E. Curtis, T.~A. Smith, B.~A. Ziganshin, and J.~A. Elefteriades, ``The mystery of the z-score,'' {\em Aorta}, vol.~4, no.~04, pp.~124--130, 2016.
+
+\bibitem{YTLX200401034}
+F.~X. Z. H. W.~S. Ding~Wuxiu, Chen~Jianping, ``Research on the weathering characteristics of surrounding rock of longmen grottoes in luoyang,'' {\em Rock and Soil Mechanics}.
+
+\bibitem{sena2015non}
+B.~Sena~da Fonseca, A.~Castela, R.~Duarte, R.~Neves, and M.~Montemor, ``Non-destructive and on site method to assess the air-permeability in dimension stones and its relationship with other transport-related properties,'' {\em Materials and Structures}, vol.~48, pp.~3795--3809, 2015.
+
+\bibitem{Yokobori1976}
+T.~Yokobori and K.~Sato, ``Title of the paper,''
+
+\bibitem{Takezono1980}
+S.~Takezono, K.~Tao, and K.~Kanezaki, ``Title of the paper,''
+
+\bibitem{HeimbachHeimbach+1970+377+380}
+H.~Heimbach and H.~Heimbach, ``Zum einfluß der belastungsfrequenz auf die zeit- und dauerfestigkeit von stahl/ influence of loading frequency on the fatigue strength of steel for finite and infinite life/ l’influence de la fréquence des contraintes sur la résistance à la fatigue de p’acier pour une durée de vie finie et infinie,'' {\em Materials Testing}, vol.~12, no.~11, pp.~377--380, 1970.
+
+\bibitem{SJESAC88A958454EEE1CD4ED092FB8A0E8F8}
+R.~Zeng, E.~Han, and W.~Ke, ``A critical discussion on influence of loading frequency on fatigue crack propagation behavior for extruded mg–al–zn alloys,'' {\em International Journal of Fatigue}, vol.~36, no.~1, pp.~40--46, 2011.
+
+\bibitem{SJESF46245B4D88236414B6977C781CEC048}
+Y.~Nakai and C.~Hiwa, ``Effects of loading frequency and environment on delamination fatigue crack growth of cfrp,'' {\em International Journal of Fatigue}, vol.~24, no.~2, pp.~161--170, 2002.
 
 \end{thebibliography}
