@@ -95,11 +95,11 @@ Build an analytical model
 Build a mathematical model to analyze the wear of stairs and predict how the target stairs will be used, using the key data types acquired in Problem 1. Specifically include:
 \hspace{2em} % 添加两个字符宽度的空格
 \begin{flushleft}
-A. the frequency of use of the staircase;
+A. The consistency between the wear patterns simulated by the model optimization and the actual wear patters of the staircase;
 
-B. the direction in which the stairs are primarily used (upward or downward preference);
+B. The direction in which the stairs are primarily used (upward or downward preference);
 
-C. the number of people using the stairs simultaneously and their mode of use (e.g., side-by-side walking or single-passing).
+C. The number of people using the stairs simultaneously and their mode of use (e.g., side-by-side walking or single-passing).
 
 \end{flushleft}
 
@@ -115,9 +115,9 @@ Based on the..... model, provided being able to estimate the age exists, clarify
 
   E. The estimation of the age of the stairs and its reliability;
 
-  F. Identify the repairs or renovations conducted;
+  F. Identify the repairs and renovations conducted;
 
-  G. Determine whether the material's source aligns with the assumptions;
+  G. The consistency between the material mechanical parameters used in the model and those obtained experimentally from the sources believed by archaeologists as the material origins;
 
   H. The information that can be determined includes the number of people using the stairs on a typical day and the usage frequency ( whether it involves a large number of people over a short time or a small number over a longer period).
 
@@ -129,7 +129,7 @@ Based on the..... model, provided being able to estimate the age exists, clarify
 \begin{itemize}
 \item \textbf{The materials from which the stairs are made have constant mechanical properties and for the same material, the mechanical properties are consistent throughout the stairs.}
 
-\textbf{Explanation:}Changes in the mechanical properties of materials over time or space will lead to increased complexity of analysis and difficulty in accurate modeling. Therefore, assuming that the material properties are constant and consistent can simplify the research process and improve the scientific and operability of the model.
+\textbf{Explanation:}In practical scenarios, the internal variation of the material is minimal and can be disregarded, supporting the validity of this assumption.
 
 \item \textbf{The effect of special shoes such as high-heeled shoes on the wear of stairs is not considered in the analysis, and only the role of common soles is investigated.}
 
@@ -139,7 +139,7 @@ Based on the..... model, provided being able to estimate the age exists, clarify
 
 \textbf{Explanation:}Assumptions about the data that accurately reflect the wear of stairs and patterns of use will prevent data quality issues from interfering with the study.
 
-\item \textbf{The study was conducted only on uneven wear of stairs made of stone or wood due to long-term use.}
+\item \textbf{This study focuses on stone or wooden staircases that have been in use for a long time. It requires that the width of the stair treads be greater than the average foot length of Americans.}
 
 \textbf{Explanation:}The problem statement explicitly specifies that the study is limited to stone or wooden stairs that show uneven wear after long-term use.
 
@@ -151,6 +151,33 @@ Based on the..... model, provided being able to estimate the age exists, clarify
 
 Additionally, to simplify the analysis, additional assumptions were introduced and are discussed in the relevant sections.
 \section{Notations}%可以有Definitions and Notations
+
+Some important mathematical notations used in this paper are listed in Table 1:
+
+\begin{table}[h!]
+  \centering
+  \caption{Notations and Definitions}
+  \begin{tabular}{@{}lll@{}}
+  \toprule
+  \textbf{Symbol} & \textbf{Definition}                          & \textbf{Unit}              \\ \midrule
+  W               & Wear volume                                  & cubic meters (m³)          \\
+  R               & Wear rate                                    & cubic meters/second (m³/s) \\
+  t               & Time                                         & seconds (s)                \\
+  Fq              & Contact friction force                      & newtons (N)                \\
+  FG              & Vertical pressure                           & newtons (N)                \\
+  CE              & Actual wear depth                           & meters (m)                 \\
+  X               & Wear depth caused by friction               & meters (m)                 \\
+  α               & Wear depth caused by bending                & meters (m)                 \\
+  K               & Number of people passing per unit time      & dimensionless              \\
+  LEN             & Length of a single step                     & meters (m)                 \\
+  WID             & Width of a single step                      & meters (m)                 \\
+  HIG             & Height of a single step                     & meters (m)                 \\
+  h               & Distance from the corresponding point to the lower tread    & meters (m)                 \\ \bottomrule
+  \end{tabular}
+  \end{table}
+
+  \textbf{Note: Some variables are not listed here and will be explained in detail in the relevant sections.}
+
 \section{Model Preparation}
 \subsection{Guidance on Obtaining Information}
 Before studying the wear of stairs, archaeologists must collect a variety of information about the target stairs to support subsequent modeling and analysis. This includes the following three components: measurement, literature search, and data preprocessing.
@@ -163,14 +190,14 @@ To ensure that the measurements are non-destructive, inexpensive, and can be don
 
 Choose 20 steps of the target stairs and complete the following operations using the laser rangefinder and the vernier caliper for one steps:
 
-\begin{itemize}[label=$\star$] % 将项目符号替换为五角星
+\begin{enumerate}
 \item Fix the laser range finder in a constant horizontal plane using a sliding table and set the height of the stair root as the reference height;
 
 \item Randomly select 100 sample points for each square meter of the stair plane and record the 2D coordinates (x,y) of each sample point and its measured height.
 
 \item Corners and other data that cannot be measured with a laser distance meter are measured with vernier calipers.
 
-\end{itemize}
+\end{enumerate}
 
 Next, based on the data obtained from the measurements, we can use the following formula to calculate the depth of wear for each sampling point:
 
@@ -197,7 +224,7 @@ The required information includes the construction period given by the archaeolo
   \centering
   \caption{Material Properties for Analysis}
   \label{tab:material_properties}
-  \begin{tabular}{@{\hspace{1cm}} p{8cm} c @{\hspace{1cm}}}
+  \begin{tabular}{@{} p{8cm} c @{}}
   \toprule
   \textbf{Property} & \textbf{Symbol} \\
   \midrule
@@ -247,7 +274,7 @@ Where V represents the average sliding velocity of the contact producing frictio
 To describe the wear behavior of stairs more accurately, a mathematical model based on beam bending theory is developed to predict the wear under different conditions through the relationship between deflection and loading.
 
 \textbf{1.Variable description}
-\begin{itemize}[label=\ding{96}]  
+\begin{itemize}
 
 \item \( \text{Wr} \): Deflection, the depth of deformation under external forces, measured in meters (m). 
 
@@ -438,7 +465,7 @@ Where $X_i$ represents the total depth of wear due to friction in sub-area i; $k
 
 The formulae for subregions 1, and 2 have been given above, and since there is no direct function to calculate $X_3$ for subregion 3, Probability-based fitting method is designed to calculate the total depth of wear due to friction. The pseudo code is as follows:
 
-\section{Conlusion and Problem Solving}
+\section{Conclusion of Basic Predictions}
 
 
 
@@ -453,7 +480,7 @@ After calculating the total number of people on each walkway, we further sum the
 \[ K_{\text{total}} = \sum_{i=1}^n K_i \]
 
 
-\subsection{A:Usage frequency}
+\subsection{Question A:Usage frequency}
 
 The question of "How often were the stairs used?" is quantified as the average usage frequency of the stairs over the total usage time, with the calculation formula as follows:
 
@@ -461,7 +488,7 @@ The question of "How often were the stairs used?" is quantified as the average u
 
 On this basis, the average time interval between uses of the stairs is obtained as .......
 
-\subsection{B:Directional preference}
+\subsection{Question B:Directional preference}
 
 The total number of people descending the stairs can be expressed as:
 
@@ -475,21 +502,20 @@ By comparing the total numbers of ascending and descending, We can draw the foll
 
 \begin{itemize} 
 
-\item If \(...\), it indicates that the travel direction favored by the people using the stairs is \textbf{ascending}. %%%%
+\item If Kupstairs$>$Kdownstairs, it indicates that the travel direction favored by the people using the stairs is \textbf{ascending}. %%%%
 
-\item If \(...\), it indicates that the travel direction favored by the people using the stairs is \textbf{descending}. %%%%%
+\item If Kupstairs$<$Kdownstairs, it indicates that the travel direction favored by the people using the stairs is \textbf{descending}. %%%%%
 
 \end{itemize}
 
 
-\subsection{C:Usage mode}
-The Z-scores formula can be used to determine outliers in the data. When the Zi corresponding to the ith data in a data set satisfies the condition Zi>3.5\cite{curtis2016mystery}, it can be considered that there is a peak at that data point. The Z-scores formula is as follows:
+\subsection{Question C:Usage mode}
+The Z-scores formula can be used to determine outliers in the data. When the Zi corresponding to the ith data in a data set satisfies the condition Zi>3.5\cite{curtis2016mystery},  it can be considered that this data point is a peak. The Z-scores formula is as follows:
 
 \[ Z_i = \frac{K_i - \bar{K}}{\sqrt{\text{Var}(K)}} \]
 
 Where Var(k) refers to the variance of the number of people on walkways and represents the mean value of the number of people on walkways.
 
-The Z-scores formula can be used to determine whether a peak exists in the bar graph of the number of people on each walkway:
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 
@@ -497,11 +523,11 @@ If a peak exists, it indicates that the number of people on a certain walkway is
 
 If there is no peak, it indicates that the distribution of people across walkways is relatively uniform, suggesting that people prefer to walk side by side.
 
-\section{Guidance Based on Stairwell Usage and Environmental Factors}
+\section{Guidance Based on Stairwell Usage}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%EEE
-\subsection{E:Age of the stair }
+\subsection{Question E:Age of the stair }
 
-Based on the wear data shown in (Figure x), the wear in the 39-48 range is primarily influenced by environmental factors, exhibiting a mild weathering effect, and it is assumed that no significant wear is caused to the stairs.
+Based on the wear data shown in (Figure x), the wear in the 39-48 range is primarily influenced by environmental factors, exhibiting a Micro-weathering effect, and it is assumed that no significant wear is caused to the stairs.
 
 On this basis, using the principles of probability theory, we can assume that the wear amount of the stairs caused each year follows a Gaussian distribution.
 
@@ -513,7 +539,7 @@ Where $R_{\text{total}}$​ represents the total wear amount, $R_{\text{daily}}$
 
 Since division operations do not alter the distribution pattern of a Gaussian distribution, the estimated value of the construction year of the stairs also follows a Gaussian distribution. Therefore, we can further calculate the probability of the time period provided by the archaeologist within this estimated Gaussian distribution. The higher the probability, the more reliable the estimated value.
 
-\subsection{F:Repairs and renovation}
+\subsection{Question F:Repairs and renovation}
 
 The primary method for repairing building materials involves reinforcing cracks by filling them with polymer materials\cite{ YTLX200401034}. In addition, the steel plate bonding method is commonly used for strengthening flexural or tensile members (such as stair platform beams, platform slabs, and stair slabs) under normal working conditions and static loads. Closed protection by wrapping the original staircase components in steel plates is also an option.
 For repairs or renovations that are visually apparent, their presence can typically be determined through direct observation. However, for polymer reinforcement methods that are not easily discernible to the naked eye, we have designed the following detection method:
@@ -539,15 +565,15 @@ To further study areas with abnormal air permeability, we performed water absorp
 
 \item \textbf{Analysis of Test Results}
 
-\end{itemize}
+
 Cobalt chloride test paper turns blue upon water absorption. By monitoring the rate at which the paper turns blue, we can assess the water absorption capacity of different areas of the stone material.
 If the test paper in the clustered abnormal points turns blue at a delayed rate, it indicates poor water absorption capacity in that area, further supporting the conclusion that polymer reinforcement has been applied.
 Finally, by combining the test results with the surface water permeability characteristics of the material and comparing the water absorption differences 
 between the clustered abnormal points and normal areas, the presence and spatial distribution of polymer material repairs can be further confirmed.
 
 Through the above multi-level detection method, not only can the presence of repairs or renovations be scientifically determined, but the repaired areas can also be accurately identified.
-
-\subsection{G:Consistency of mechanical parameters}
+\end{itemize}
+\subsection{Question G:Consistency of mechanical parameters}
 
 To determine whether the source of the target material aligns with the archaeologist's hypothesis, we recommend sampling from what the archaeologist believes to be the original source and conducting destructive mechanical experiments to obtain precise material parameters. These experimentally obtained parameters are then used to replace the tabulated values and are re-integrated into the Step-pit model to derive the optimal fitting result. Finally, this result is compared to the fitting result obtained using the tabulated parameters, with the coefficient of determination $R^2$ used as the evaluation criterion.
 
@@ -573,7 +599,7 @@ Goodness-of-fit calculation formula:
 $R^2$ represents the proportion of the total variation that can be explained by the model. The closer the $R^2$ value is to 1, the higher the consistency of the model. The $R^2$ value can be used to evaluate the match between the archaeologist's hypothesized material source and the actual results. When $R^2$ exceeds 0.8, it indicates that the source of the target material is consistent with the archaeologist's hypothesis.
 
 
-\subsection{H:Number of people and time scale}
+\subsection{Question H:Number of people and time scale}
 
 
 \textbf{1.Number of Users in a Typical Day for Staircase }
@@ -587,7 +613,7 @@ In ... (referenced analysis), we have already obtained the total number of users
 
 
 Fatigue strength is significantly influenced by loading frequency, defined as the frequency at which force is applied to the
-material\cite{Yokobori1976}.\cite{Takezono1980}.\cite{HeimbachHeimbach+1970+377+380}. Higher loading frequency accelerates the formation of micro-cracks within the material, which can rapidly propagate in a short
+material\cite{Yokobori1976}\cite{Takezono1980}\cite{HeimbachHeimbach+1970+377+380}. Higher loading frequency accelerates the formation of micro-cracks within the material, which can rapidly propagate in a short
 period\cite{ SJESAC88A958454EEE1CD4ED092FB8A0E8F8}.\cite{ SJESF46245B4D88236414B6977C781CEC048}, ultimately leading to fracture. This indicates that higher loading frequencies directly increase the probability of fracture by expediting crack propagation. Consequently, when a large number of people use the staircase within a short period, the increased loading frequency makes the formation and propagation of cracks within the staircase more likely, thereby increasing the risk of fracture.
 
 Additionally, due to abrupt geometric transitions, the outer edges of staircases often exhibit stress concentration, which further accelerates fatigue damage. This stress concentration makes cracks more likely to propagate, ultimately resulting in material fracture. Observations of real structures corroborate this phenomenon, as cracks are predominantly concentrated along the outer edges of staircases, confirming the role of stress concentration.
@@ -613,6 +639,8 @@ To assess the relationship between $X_6$ and the loading frequency parameter \te
 The U statistic is calculated as follows:
 
 $$U = n^2 + \frac{n}{2}(n + 1) - R(X_6)$$
+
+Here, R represents the calculation of the sum of ranks.
 
 At a significance level of \(\alpha = 0.05\), the rejection region is \(U < 8\). The decision criteria are:
 \begin{itemize} 
