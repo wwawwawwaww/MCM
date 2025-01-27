@@ -106,7 +106,7 @@ A. The consistency between the wear patterns simulated by the model optimization
 
 B. The direction in which the stairs are primarily used (upward or downward preference);
 
-C. The number of people using the stairs simultaneously and their mode of use (e.g., side-by-side walking or single-passing).
+C. The number of people using the stairs simultaneously and their mode of use (e.g. side-by-side walking or single-passing).
 
 \end{flushleft}
 
@@ -317,9 +317,9 @@ Figure n shows that a countertop of stairs can be divided into two parts: the ac
 \subsection{Friction Model}
 The Mills model is used to characterize the wear of materials under multiple loading conditions and is suitable for complex wear scenarios by considering the microscopic changes in the material surface and its elastic recovery properties.
 
-In the case of stairs, which are used under stable conditions (e.g., constant flow of people and gait characteristics), the friction process is dominated by sliding wear due to the low sliding velocities. In this case, the contact state of the stair surface (including pressure and temperature distribution) remains stable during the friction process. Based on this assumption, the amount of wear W is usually linearly related to the nth power of the sliding velocity V, where n is the velocity factor, which is related to the material properties and contact conditions%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%网址的引用
+In the case of stairs, which are used under stable conditions (e.g. constant flow of people and gait characteristics), the friction process is dominated by sliding wear due to the low sliding velocities. In this case, the contact state of the stair surface (including pressure and temperature distribution) remains stable during the friction process. Based on this assumption, the amount of wear W is usually linearly related to the nth power of the sliding velocity V, where n is the velocity factor, which is related to the material properties and contact conditions%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%网址的引用
 
-On this basis, to more accurately analyze the wear behavior of staircase materials (e.g., stone or wood), we will modify the classical Mills model and develop a mathematical model suitable for staircase wear analysis.
+On this basis, to more accurately analyze the wear behavior of staircase materials (e.g. stone or wood), we will modify the classical Mills model and develop a mathematical model suitable for staircase wear analysis.
 
 First, the normal load F acting on the surface of the staircase material is calculated with the following expression:
 
@@ -361,7 +361,7 @@ To describe the wear behavior of stairs more accurately, a mathematical model ba
 
 \textbf{2.Coordinate axis description}
 
-The coordinate axis of the stair adopts the left-handed rectangular coordinate system, the outer edge of the staircase coincides with the Y-axis, and the Z-axis is along the vertical direction of the stair, indicating the change of deformation and deflection, and the origin of the coordinate system is located at the bottom of the stair, as illustrated in the figure 3.
+The coordinate axis of the stair adopts the left-handed rectangular coordinate system, the outer edge of the staircase coincides with the Y-axis, and the Z-axis is along the vertical direction of the stair, indicating the change of deformation and deflection, and the origin of the coordinate system is located at the bottom of the stair, as illustrated in the Figure 3.
 
 
 \begin{figure}[h]  % 图片
@@ -380,7 +380,7 @@ Firstly, we simplify the stair to a model of a beam fixed at both ends (both end
 
 \[ W_r = \frac{9X}{24EI} \left[ X^3 - 2LEN \cdot X^2 + LEN^3 - \frac{12EI}{kgA}(X - LEN) \right] \]
 
-From the above equation, We established the functional relationship between the deflection Wr and the horizontal coordinate of the force application point X and plotted the corresponding figure 4. The figure shows that the deflection reaches its maximum value near X=Xmax.
+From the above equation, We established the functional relationship between the deflection Wr and the horizontal coordinate of the force application point X and plotted the corresponding Figure 4. The Figure shows that the deflection reaches its maximum value near X=Xmax.
 
 \begin{figure}[h]  % 图片
   \small
@@ -618,7 +618,7 @@ First, process the data measured by the archaeologists using the following formu
   \end{align}
   
 
-Where $X_i$ represents the total depth of wear due to friction in sub-area i; $k$ refers to the number of people; $A_{i \to j}$ refers to the depth of friction due to friction at a time corresponding to the range of distance from the edge of the staircase from i to j; and $\alpha$ is the amount of wear in the target area due to environmental factors (e.g., temperature changes, humidity fluctuations, extreme weather, etc.).
+Where $X_i$ represents the total depth of wear due to friction in sub-area i; $k$ refers to the number of people; $A_{i \to j}$ refers to the depth of friction due to friction at a time corresponding to the range of distance from the edge of the staircase from i to j; and $\alpha$ is the amount of wear in the target area due to environmental factors (e.g. temperature changes, humidity fluctuations, extreme weather, etc.).
 
 The formulae for subregions 1, and 2 have been given above, and since there is no direct function to calculate $X_3$ for subregion 3, Probability-based fitting method is designed to calculate the total depth of wear due to friction. The pseudo code is as follows:
 
@@ -681,9 +681,9 @@ By comparing the total numbers of ascending and descending, We can draw the foll
 
 \begin{itemize} 
 
-\item If Kupstairs$>$Kdownstairs, it indicates that the travel direction favored by the people using the stairs is \textbf{ascending}. %%%%
+\item If $K_{\text{upstairs}}>K_{\text{downstairs}}$, it indicates that the travel direction favored by the people using the stairs is \textbf{ascending}. %%%%
 
-\item If Kupstairs$<$Kdownstairs, it indicates that the travel direction favored by the people using the stairs is \textbf{descending}. %%%%%
+\item If $K_{\text{upstairs}}<K_{\text{downstairs}}$, it indicates that the travel direction favored by the people using the stairs is \textbf{descending}. %%%%%
 
 \end{itemize}
 
@@ -721,13 +721,13 @@ Since division operations do not alter the distribution pattern of a Gaussian di
 
 \subsection{Question F:Repairs and renovation}
 
-The primary repair method for building materials is crack reinforcement using polymer materials\cite{YTLX200401034}. Steel plate bonding is also commonly used to strengthen flexural or tensile members (e.g., stair platform beams, slabs, and treads) under normal working and static loads. Another option is wrapping original staircase components with steel plates for protection.
+The primary repair method for building materials is crack reinforcement using polymer materials\cite{YTLX200401034}. Steel plate bonding is also commonly used to strengthen flexural or tensile members (e.g. stair platform beams, slabs, and treads) under normal working and static loads. Another option is wrapping original staircase components with steel plates for protection.
 
 For visible repairs or renovations, their presence can usually be confirmed by direct observation. However, for polymer reinforcement methods not easily visible, we designed the following detection approach:
 
 First, we calculate the difference between the original depth data of surface depressions and the optimized depth data from the result of pseudo-code, identifying points with significant positive differences as abnormal depressions, which may indicate repairs.
 
-Next, we conduct secondary sampling on the treads with abnormal depression points, increasing the sampling density to 300 samples per square meter. We repeat the abnormal point analysis on the new data. If the abnormal points show circular or strip-shaped clustering (as seen in figure 11), we preliminarily conclude that the area may have been repaired with polymer reinforcement methods.
+Next, we conduct secondary sampling on the treads with abnormal depression points, increasing the sampling density to 300 samples per square meter. We repeat the abnormal point analysis on the new data. If the abnormal points show circular or strip-shaped clustering (as seen in Figure 11), we preliminarily conclude that the area may have been repaired with polymer reinforcement methods.
 \begin{figure}[h]  % 图片
   \small
   \centering  % 居中
@@ -856,7 +856,7 @@ By integrating the Mann-Whitney U test results with the theoretical analysis, th
 
 Due to the orientation of a person's stance during walking, which is taken into account by the model, the preferences for going up or down are not fixed. Any change in parameters may lead to a different profile of the worn pit in the staircase section. Consequently, by changing a certain parameter and solving the model, the sensitivity of the model can be verified.
 
-Maintaining the total number of people unchanged, by changing the ratio of Kupstairs to Kdownstairs and simulating, the shapes of the depressions under different parameters can be obtained（Fig.12）.
+Maintaining the total number of people unchanged, by changing the ratio of $K_{\text{upstairs}}$ to $K_{\text{downstairs}}$ and simulating, the shapes of the depressions under different parameters can be obtained（Fig.12）.
 As can be seen from the Fig.12 with the decrease of the proportion of people walking up stairs, the depth of the depression near the edge increases, while the depth of the depression in the area far from the edge decreases. The change in the ratio of the number has a significant impact on the result, indicating that the model is highly sensitive. Therefore, the fitting of K is feasible and accurate.
 
 \begin{figure}[h]  % 图片
