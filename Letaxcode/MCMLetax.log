@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.15)  28 JAN 2025 04:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.15)  28 JAN 2025 05:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1681,7 +1681,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <13-Illustrative cluster diagram of the renovated areas.png, id=362, 1614.03pt x 1235.11438pt>
 File: 13-Illustrative cluster diagram of the renovated areas.png Graphic file (type png)
 <use 13-Illustrative cluster diagram of the renovated areas.png>
-Package pdftex.def Info: 13-Illustrative cluster diagram of the renovated areas.png  used on input line 734.
+Package pdftex.def Info: 13-Illustrative cluster diagram of the renovated areas.png  used on input line 736.
 (pdftex.def)             Requested size: 312.9803pt x 239.49883pt.
 
 
@@ -1695,7 +1695,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.763 
+l.765 
        <./13-Illustrative cluster diagram of the renovated areas.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1716,7 +1716,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png, id=393, 1614.03pt x 1235.11438pt>
 File: 14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png Graphic file (type png)
 <use 14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png>
-Package pdftex.def Info: 14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png  used on input line 865.
+Package pdftex.def Info: 14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png  used on input line 867.
 (pdftex.def)             Requested size: 312.9803pt x 239.49883pt.
 
 
@@ -1730,15 +1730,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.873 \newpage
-               <./14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png>] (./MCMLetax.bbl
+l.875 \newpage
+               <./14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[23] (./MCMLetax.bbl
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 12.0pt on input line 4.
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 882.
+(Font)              scaled to size 24.88pt on input line 884.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 24.88pt on input line 882.
+(Font)              scaled to size 24.88pt on input line 884.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1747,7 +1755,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[23]
+[24]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1755,7 +1763,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[24] 
+[25] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./MCMLetax.aux)
  ***********
@@ -1770,11 +1778,11 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `MCMLetax.out' has not changed.
-(rerunfilecheck)             Checksum: C0F706690CDC279F12F4F65A15C53DBE;6843.
+(rerunfilecheck)             Checksum: D2E13125116EF68266931B6924EE39CE;6912.
  ) 
 Here is how much of TeX's memory you used:
- 37972 strings out of 474116
- 699993 string characters out of 5747716
+ 37973 strings out of 474116
+ 700000 string characters out of 5747716
  1945190 words of memory out of 5000000
  59445 multiletter control sequences out of 15000+600000
  633959 words of font info for 129 fonts, out of 8000000 for 9000
@@ -1784,10 +1792,10 @@ Here is how much of TeX's memory you used:
 
 pdfTeX warning: pdflatex.exe (file c:/Windows/Fonts/simsun.ttc): subfont unisong20: wrong mapping: character 11 --> 0x200B --> .notdef
 ><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/bera/fvsr8a.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/txexs.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/txsys.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmr.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on MCMLetax.pdf (24 pages, 10236927 bytes).
+Output written on MCMLetax.pdf (25 pages, 10237687 bytes).
 PDF statistics:
- 495 PDF objects out of 1000 (max. 8388607)
- 416 compressed objects within 5 object streams
- 102 named destinations out of 1000 (max. 500000)
+ 502 PDF objects out of 1000 (max. 8388607)
+ 422 compressed objects within 5 object streams
+ 103 named destinations out of 1000 (max. 500000)
  389 words of extra memory for PDF output out of 10000 (max. 10000000)
 
