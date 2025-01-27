@@ -39,7 +39,7 @@
 
 \usepackage{enumitem} % 引入 enumitem 宏包
 \usepackage{fontawesome5} % 加载 fontawesome5 宏包，用于指南针图标
-
+\usepackage{amssymb} % 提供一些符号
 
 \usetikzlibrary{shapes.geometric, arrows}
 \usetikzlibrary{calc}
@@ -69,7 +69,7 @@
 %正文
 \section{Introduction}
 \subsection{Problem Background}
-Stairs are a common architectural element in our daily lives and an indispensable part of architectural history.From modern buildings to ancient temples and churches,stairs are often found and serve as records of human history. However, as time passes, the surface of stairs gradually develops uneven wear due to long-term use. These wears not only reflect how often and how the stairs were used, but also contain information about when they were built and the materials used, providing archaeologists with important clues about the history of the building.
+Stairs are a common architectural element in our daily lives and an indispensable part of architectural history. From modern buildings to ancient temples and churches, stairs are often found and serve as records of human history. However, as time passes, the surface of stairs gradually develops uneven wear due to long-term use. These wears not only reflect how often and how the stairs were used, but also contain information about when they were built and the materials used, providing archaeologists with important clues about the history of the building.
 
 Despite the important research value of stair wear, there are still relatively few targeted and systematic studies. Up to now, most analyses rely on qualitative observations and lack an analytical framework that can quantify wear patterns and their effects. To fill this research gap, there is an urgent need to develop mathematical models that combine the wear characteristics of stairs with information on foot traffic frequency, weight distribution, and environmental factors.
 
@@ -79,10 +79,12 @@ The wear of stairs is a complex object of study influenced by multiple factors c
 \begin{itemize}
 \item \textbf{Problem 1:}
 Clarify the data requirements
+
 Under the assumption that archaeologists can employ low-cost, simple, and non-destructive measurements, clarify the key types of data that need to be acquired.
 
-\item \textbf{Prpblem 2:}
+\item \textbf{Problem 2:}
 Build an analytical model
+
 Build a mathematical model to analyze the wear of stairs and predict how the target stairs will be used, using the key data types acquired in Problem 1. Specifically include:
 \hspace{2em} % 添加两个字符宽度的空格
 \begin{flushleft}
@@ -102,13 +104,13 @@ Based on the..... model, provided being able to estimate the age exists, clarify
 \hspace{2em} % 添加两个字符宽度的空格
 \begin{flushleft}
   
-  D. whether the wear patterns are consistent with the available information; 
+  D. Whether the wear patterns are consistent with the available information; 
 
-  E. the estimation of the age of the stairs and its reliability;
+  E. The estimation of the age of the stairs and its reliability;
 
-  F. the repair or renovation history of the stairs;
+  F. Identify the repairs or renovations conducted;
 
-  G. the certainty of the source of materials used in the construction of the stair;
+  G. Determine whether the material's source aligns with the assumptions;
 
   H. The information that can be determined includes the number of people using the stairs on a typical day and the usage frequency ( whether it involves a large number of people over a short time or a small number over a longer period).
 
@@ -134,7 +136,7 @@ Based on the..... model, provided being able to estimate the age exists, clarify
 
 \textbf{Explanation:}The problem statement explicitly specifies that the study is limited to stone or wooden stairs that show uneven wear after long-term use.
 
-\item \textbf{All stair users walk at a normal gait (based on the first model, the “Human Gait Model”), and the effects of intentional friction or other abnormal use behaviors on the wear of stairs are not considered.}
+\item \textbf{All stair users walk at a normal gait , and the effects of intentional friction or other abnormal use behaviors on the wear of stairs are not considered.}
 
 \textbf{Explanation:}Assuming that all stair users walk at a normal gait allows the study to focus on regular use and natural wear and tear, thus simplifying the model and avoiding the introduction of unnecessary complexity due to unusual behaviors(such as intentional rubbing or fast running).
 
@@ -165,7 +167,7 @@ Choose 20 steps of the target stairs and complete the following operations using
 
 Next, based on the data obtained from the measurements, we can use the following formula to calculate the depth of wear for each sampling point:
 
-\[ \Delta h = h_{\text{sampling point}} - h_{\text{reference}} \]
+\[ CE = h_{\text{sampling point}} - h_{\text{reference}} \]
 
 All the \(x, y, \Delta h\) data from the sampling points will be integrated to construct the subsequent ideal staircase wear model.
 
@@ -173,15 +175,15 @@ Step size measurement and data preprocessing
 
 Randomly select 10 steps from the target staircase and use a meter rule to measure the length, width, and height of each step，record the data for each group and calculate the average to obtain the standard dimensions of the steps：
 
-\[L_{\text{average}} = \frac{\sum_{i=1}^{10} L_i}{10}\]
+\[LEN_{\text{average}} = \frac{\sum_{i=1}^{10} LEN_i}{10}\]
 
-\[\quad W_{\text{average}} = \frac{\sum_{i=1}^{10} W_i}{10}\]
+\[\quad WID_{\text{average}} = \frac{\sum_{i=1}^{10} WID_i}{10}\]
 
-\[\quad H_{\text{average}} = \frac{\sum_{i=1}^{10} H_i}{10}​\]
+\[\quad HIG_{\text{average}} = \frac{\sum_{i=1}^{10} HIG_i}{10}\]
 
 \textbf{2.Data Retrieval from Literature and Sources}
 
-The required information includes the construction and maintenance years, which can be determined through historical records or archaeological literature to estimate the approximate construction date and the timing of any renovations. Additionally, the material and mechanical properties of the staircase must be identified, either through a literature review or direct observation. Specifically, it is necessary to determine the primary material of the stairs and gather the following mechanical property parameters:
+The required information includes the construction period given by the archaeological team and the rough judgment on the types of materials made at the time of the inspection. Meanwhile, based on the rough judgment of the materials, query the data table and obtain the material mechanical parameters as shown in Table 1.
 
 
 \begin{table}[h!]
@@ -226,9 +228,9 @@ On this basis, to more accurately analyze the wear behavior of staircase materia
 
 First, the normal load F acting on the surface of the staircase material is calculated with the following expression:
 
-\[ F(t) = \frac{F_{q} \cdot \mu}{1 + e^{t - e}} \]
+\[ F(t) = \frac{F_{q} \cdot \mu}{1 + e^{t - \varepsilon }} \]
 
-Where FG is the average value of normal pressure, ¥ represents the adjustment coefficient, and μ represents the coefficient of kinetic friction.The F obtained by Eq. n is used as an independent variable in the wear volume model to further calculate the material wear amount W:
+Where FG is the average value of normal pressure, $\varepsilon$  represents the adjustment coefficient, and μ represents the coefficient of kinetic friction.The F obtained above is used as an independent variable in the wear volume model to further calculate the material wear amount W:
 
 
 \[ W = \int_{0}^{t} \frac{K \cdot V^{n} \cdot F(t)}{H} \ dt \]
@@ -258,27 +260,29 @@ To describe the wear behavior of stairs more accurately, a mathematical model ba
 
 \item \( X \): Horizontal coordinate of the force application point, measured in meters (m). 
 
-\item \( L \): Total length of the beam model of the stair, measured in meters (m).
+
 
  \end{itemize}
 
 \textbf{2.Coordinate axis description}
 
-The coordinate axis of the stair adopts the right-handed rectangular coordinate system, where the X-axis is along the horizontal direction of the stair, indicating the horizontal coordinates of the force position, and the Y-axis is along the vertical direction of the stair, indicating the change of deformation and deflection, and the origin of the coordinate system is located at the bottom of the stair, as illustrated in the figure n.
+The coordinate axis of the stair adopts the left-handed rectangular coordinate system, the outer edge of the staircase coincides with the Y-axis, and the Z-axis is along the vertical direction of the stair, indicating the change of deformation and deflection, and the origin of the coordinate system is located at the bottom of the stair, as illustrated in the figure n.
 
 \textbf{3.model building}
 
 Firstly, we simplify the stair to a model of a beam fixed at both ends (both ends are fixed by supports, one of which is supported with pulleys to allow sliding in the axial direction) \cite{Levinson1981}\cite{SJZT20241216003}. Based on this assumption, the deflection equation for this model is expressed as:
 
-\[ W_r = \frac{9X}{24EI} \left[ X^3 - 2LX^2 + L^3 - \frac{12EI}{kgA}(X - L) \right] \]
+\[ W_r = \frac{9X}{24EI} \left[ X^3 - 2LEN \cdot X^2 + LEN^3 - \frac{12EI}{kgA}(X - LEN) \right] \]
 
 From the above equation, We established the functional relationship between the deflection Wr and the horizontal coordinate of the force application point X and plotted the corresponding figure n. The figure shows that the deflection reaches its maximum value near X=Xmax.
 
 %(图)
 
-We further abstracted the overall bending deformation of the stairs as a concave region centered at Xmax, corresponding to the maximum deflection Wr. It is assumed that the cross-sectional profile of this region conforms to the shape of a catenary (while ignoring the deformation and concavity at other positions). The wear width of the catenary-shaped region is calculated using the following equation:
+We further abstracted the overall bending deformation of the stairs as a concave region centered at Xmax, corresponding to the maximum deflection Wr. It is assumed that the cross-sectional profile of this region conforms to the shape of a catenary (while ignoring the deformation and concavity at other positions). The indentation caused by each normal load corresponds to the perimeter is calculated using the following equation:
 
-\[ b = 2Wr \sinh\left(\frac{L}{2Wr}\right) \]
+\[ b = 2Wr \sinh\left(\frac{L_1}{2Wr}\right) \]
+
+Where $L_1$ refers to The width corresponding to the indentation caused by each normal load.(b and $L1$ are specifically indicated in Figure n)
 
 Through calculation, the wear width L1 caused by each applied load is determined to be 0.1±0.01. For the sake of simplification in subsequent calculations, L1 is treated as a constant value of 0.1.
 
@@ -293,7 +297,7 @@ Based on the SLIM, we have simplified the force exerted by a person walking on a
 
 
 
-Where Li represents the length of region i and Si refers to the area of region i.
+Where \(L_i\) represents the length of region \(i\) and \(S_i\) refers to the area of region \(i\).
 
 Then, coordinate axes are established on the profile of each step of the stairs, taking the i-th step as an example (as shown in Fig. n). According to relevant studies, the average step width of stairs is about 32.5 cm and the height is about 14.5 cm \cite{WOS:000783553300001}
 
@@ -301,13 +305,24 @@ Using half the length of the grid edge in Figure n as a unit of measurement, the
 
 To ensure that the landing point always remains within the countertop of the stairs, their range of values must satisfy the following constraints (due to space limitations, only the coordinate range of point M is presented here. The coordinate ranges for points U and C will be derived and explained in detail later based on the relationships among the three points):
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%差一个表
+\begin{table}[h!]
+  \centering
+  \caption{Range of \(M\) Landing Coordinates}
+  \begin{tabular}{@{}c cc@{}}
+  \toprule
+  \textbf{}      & \textbf{Forefoot Landing} & \textbf{Full Foot Landing} \\ \midrule
+  \textbf{Ascending} & [0, 14]                  & [18, 30]                   \\ 
+  \textbf{Descending} & \multicolumn{2}{c}{[4, 14]}                            \\ \bottomrule
+  \end{tabular}
+  \end{table}
 
-U: The pressure centers of Hallux  
+Where:
 
-M:The pressure centers of Metatarsals Two and Three Metatarsals Four and Five
+\(U\): The pressure centers of Hallux  
 
-C: The pressure centers of Medial Calcaneus Lateral Calcaneus 
+\(M\):The pressure centers of Metatarsals Two and Three Metatarsals Four and Five
+
+\(C\): The pressure centers of Medial Calcaneus Lateral Calcaneus 
 
 This section sets the geometric foundation for the subsequent analysis and provides a rational coordinate frame.
 
@@ -316,7 +331,7 @@ This section sets the geometric foundation for the subsequent analysis and provi
 
 In this model, it is assumed that a person walks up and down stairs in two ways and only two ways:
 
-\begin{itemize}[label=$\rightarrow$]
+\begin{itemize}
   \item Full-foot Walking: The entire foot applies force to the stairs.
 
   \item Forefoot Walking: Only the forefoot region applies force, while the rear foot remains suspended in the air.
@@ -325,9 +340,9 @@ In this model, it is assumed that a person walks up and down stairs in two ways 
 
 In addition, each individual used only one walking style during a complete flight of stairs. To standardize the analysis, M is used as a benchmark.
 
-
-Calculation of standard coordinates
-
+\begin{itemize}[label=$\diamond$]
+\item \textbf{Calculation of standard coordinates}
+\end{itemize}
 
 The standard coordinates on the i+1st step can be obtained recursively from the standard coordinates of the i-th step:
 Although walking styles vary, regardless of the style, the human stride length tends to keep the landing point of the next step within a “comfort zone”. When the expected landing point is outside the comfort zone, the walker adjusts the stride length to bring it back within a reasonable range. The comfort zone can be expressed as:
@@ -339,8 +354,11 @@ After multiple iterations, the model generates a probability distribution curve 
  Combining the coordinate relationships of the three main force regions, the probability distributions of the first and third force regions can be further plotted in Fig. N.
 
 \subsection{Wear depth analysis of a single step.}
+\begin{itemize}[label=$\diamond$]
 
+  \item \textbf{Full-foot Walking}
 Literature \cite{ WOS:000678697003082}provides proportional relationships between the forces exerted by the three main force regions of the foot when a person walks on stairs. These ratios reflect the magnitude of the forces exerted on the stairs by the different regions. The results were plotted as a trilinear diagram below:
+
 
 
 Where FGi is the vertical pressure exerted by region i on the stairs and G is the total vertical pressure.
@@ -350,18 +368,19 @@ Assume that the wear volume can be approximated as a regular quadrangular pyrami
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Where Wm and Sm represent the wear volume and area of the m-th region, respectively.
-
+\item \textbf{Forefoot Walking}
 
 The wear analysis of forefoot walking is similar to that of full-foot walking, but the proportional distribution of forces is different from that of full-foot walking due to the fact that there are only two main force regions applying forces. In Fig. N, a trilinear diagram was plotted to show the relationship between the force distribution in the two regions. The depth of wear was calculated in the same way as for full-footed walking, with only the parameters adjusted.
-
+\end{itemize}
 \subsection{conclusion}
 
 \section{MESH Analysis Model}
 To study stair wear due to friction when a person walks, MESH analysis model is constrycted. A walkway width a person walks on stairs is at least equal to the average shoulder width (disregarding extreme crowding) and does not walk tightly against the edges of the stairs. 
 
 On this basis, we divide the plane of the staircase into several walkways, each with a width approximately equal to the average shoulder width. Multiple walks cover almost the entire width of the stairs, with the excess width evenly distributed between the left and right sides of the stairs in the direction of travel.
-
-Delineation of the target area of the stairs
+\begin{itemize}[label=$\diamond$]
+\item \textbf{Delineation of the target area of the stairs}
+\end{itemize}
 
 Combining the actual walking pattern, the force of human walking on stairs can be classified into the following four patterns:
 
@@ -495,19 +514,19 @@ When further analyzing areas with abnormal air permeability, we perform water ab
 
 To further study areas with abnormal air permeability, we performed water absorption tests on the associated staircase treads. The specific steps are as follows:
 
-
-Testing Procedure
+\begin{itemize}[label=$\diamond$]
+\item \textbf{Testing Procedure}
 
 1.Attach cobalt chloride test paper, fully saturated with water and turned pink, to both the clustered abnormal points and the normal areas of the staircase treads.
 
 2.Cover the test paper with appropriately sized covers to prevent water evaporation.
 
-3.Use a D345 camera to continuously monitor and record the color change of the test paper.
+3.Use a d345 camera to continuously monitor and record the color change of the test paper.
 
 
-Analysis of Test Results
+\item \textbf{Analysis of Test Results}
 
-
+\end{itemize}
 Cobalt chloride test paper turns blue upon water absorption. By monitoring the rate at which the paper turns blue, we can assess the water absorption capacity of different areas of the stone material.
 If the test paper in the clustered abnormal points turns blue at a delayed rate, it indicates poor water absorption capacity in that area, further supporting the conclusion that polymer reinforcement has been applied.
 Finally, by combining the test results with the surface water permeability characteristics of the material and comparing the water absorption differences 
