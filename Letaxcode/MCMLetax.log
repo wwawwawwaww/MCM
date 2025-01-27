@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.14)  28 JAN 2025 01:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.14)  28 JAN 2025 03:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -490,44 +490,83 @@ File: lstlang1.sty 2024/02/21 1.10 listings language file
 File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
 )
 LaTeX Info: Redefining \AIcite on input line 350.
+) (c:/texlive/2024/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\enitkv@toks@=\toks42
+\labelindent=\skip82
+\enit@outerparindent=\dimen193
+\enit@toks=\toks43
+\enit@inbox=\box64
+\enit@count@id=\count317
+\enitdp@description=\count318
 ) (c:/texlive/2024/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 51.
-\cftparskip=\skip82
-\cftbeforetoctitleskip=\skip83
-\cftaftertoctitleskip=\skip84
-\cftbeforepartskip=\skip85
-\cftpartnumwidth=\skip86
-\cftpartindent=\skip87
-\cftbeforesecskip=\skip88
-\cftsecindent=\skip89
-\cftsecnumwidth=\skip90
-\cftbeforesubsecskip=\skip91
-\cftsubsecindent=\skip92
-\cftsubsecnumwidth=\skip93
-\cftbeforesubsubsecskip=\skip94
-\cftsubsubsecindent=\skip95
-\cftsubsubsecnumwidth=\skip96
-\cftbeforeparaskip=\skip97
-\cftparaindent=\skip98
-\cftparanumwidth=\skip99
-\cftbeforesubparaskip=\skip100
-\cftsubparaindent=\skip101
-\cftsubparanumwidth=\skip102
-\cftbeforeloftitleskip=\skip103
-\cftafterloftitleskip=\skip104
-\cftbeforefigskip=\skip105
-\cftfigindent=\skip106
-\cftfignumwidth=\skip107
-\c@lofdepth=\count317
-\c@lotdepth=\count318
-\cftbeforelottitleskip=\skip108
-\cftafterlottitleskip=\skip109
-\cftbeforetabskip=\skip110
-\cfttabindent=\skip111
-\cfttabnumwidth=\skip112
+\cftparskip=\skip83
+\cftbeforetoctitleskip=\skip84
+\cftaftertoctitleskip=\skip85
+\cftbeforepartskip=\skip86
+\cftpartnumwidth=\skip87
+\cftpartindent=\skip88
+\cftbeforesecskip=\skip89
+\cftsecindent=\skip90
+\cftsecnumwidth=\skip91
+\cftbeforesubsecskip=\skip92
+\cftsubsecindent=\skip93
+\cftsubsecnumwidth=\skip94
+\cftbeforesubsubsecskip=\skip95
+\cftsubsubsecindent=\skip96
+\cftsubsubsecnumwidth=\skip97
+\cftbeforeparaskip=\skip98
+\cftparaindent=\skip99
+\cftparanumwidth=\skip100
+\cftbeforesubparaskip=\skip101
+\cftsubparaindent=\skip102
+\cftsubparanumwidth=\skip103
+\cftbeforeloftitleskip=\skip104
+\cftafterloftitleskip=\skip105
+\cftbeforefigskip=\skip106
+\cftfigindent=\skip107
+\cftfignumwidth=\skip108
+\c@lofdepth=\count319
+\c@lotdepth=\count320
+\cftbeforelottitleskip=\skip109
+\cftafterlottitleskip=\skip110
+\cftbeforetabskip=\skip111
+\cfttabindent=\skip112
+\cfttabnumwidth=\skip113
 ) (c:/texlive/2024/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
+) (c:/texlive/2024/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
+ (c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count321
+\float@exts=\toks44
+\float@box=\box65
+\@float@everytoks=\toks45
+\@floatcapt=\box66
+)
+\@float@every@algorithm=\toks46
+\c@algorithm=\count322
+) (c:/texlive/2024/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+ (c:/texlive/2024/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count323
+\c@ALG@rem=\count324
+\c@ALG@nested=\count325
+\ALG@tlm=\skip114
+\ALG@thistlm=\skip115
+\c@ALG@Lnr=\count326
+\c@ALG@blocknr=\count327
+\c@ALG@storecount=\count328
+\c@ALG@tmpcounter=\count329
+\ALG@tmplength=\skip116
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
 ) (c:/texlive/2024/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
@@ -536,8 +575,8 @@ Package: cite 2015/02/27  v 5.5
 Package: expl3 2024-02-20 L3 programming layer (loader) 
  (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count319
-\l__pdf_internal_box=\box64
+\l__color_backend_stack_int=\count330
+\l__pdf_internal_box=\box67
 ))
 Package: ctex 2022/07/14 v2.5.10 Chinese adapter in LaTeX (CTEX)
  (c:/texlive/2024/texmf-dist/tex/latex/ctex/ctexhook.sty
@@ -550,11 +589,11 @@ Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
-\l__ctex_tmp_int=\count320
-\l__ctex_tmp_box=\box65
-\l__ctex_tmp_dim=\dimen193
-\g__ctex_section_depth_int=\count321
-\g__ctex_font_size_int=\count322
+\l__ctex_tmp_int=\count331
+\l__ctex_tmp_box=\box68
+\l__ctex_tmp_dim=\dimen194
+\g__ctex_section_depth_int=\count332
+\g__ctex_font_size_int=\count333
  (c:/texlive/2024/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
 File: ctexopts.cfg 2022/07/14 v2.5.10 Option configuration file (CTEX)
 )
@@ -567,8 +606,8 @@ File: ctex-engine-pdftex.def 2022/07/14 v2.5.10 (pdf)LaTeX adapter (CTEX)
 Package: CJKutf8 2021/10/16 4.8.5
  (c:/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks42
-\inpenc@posthook=\toks43
+\inpenc@prehook=\toks47
+\inpenc@posthook=\toks48
 ) (c:/texlive/2024/texmf-dist/tex/latex/cjk/texinput/CJK.sty
 Package: CJK 2021/10/16 4.8.5
  (c:/texlive/2024/texmf-dist/tex/latex/cjk/texinput/mule/MULEenc.sty
@@ -640,16 +679,16 @@ Now handling font encoding C41 ...
 Now handling font encoding C62 ...
 ... no UTF-8 mapping file for font encoding C62
 )
-\CJK@indent=\box66
+\CJK@indent=\box69
 ) (c:/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )) (c:/texlive/2024/texmf-dist/tex/latex/cjkpunct/CJKpunct.sty
 Package: CJKpunct 2016/05/14 4.8.4
-\CJKpunct@cnta=\count323
-\CJKpunct@cntb=\count324
-\CJKpunct@cntc=\count325
-\CJKpunct@cntd=\count326
-\CJKpunct@cnte=\count327
+\CJKpunct@cnta=\count334
+\CJKpunct@cntb=\count335
+\CJKpunct@cntc=\count336
+\CJKpunct@cntd=\count337
+\CJKpunct@cnte=\count338
    defining Unicode char U+2018 (decimal 8216)
    defining Unicode char U+2019 (decimal 8217)
    defining Unicode char U+201C (decimal 8220)
@@ -668,14 +707,14 @@ Package hyperref Warning: Option `driverfallback' has already been used,
 (hyperref)                setting the option has no effect on input line 493.
 
 Package hyperref Info: Option `unicode' set `true' on input line 512.
-\ccwd=\dimen194
-\l__ctex_ccglue_skip=\skip113
+\ccwd=\dimen195
+\l__ctex_ccglue_skip=\skip117
 )
-\l__ctex_ziju_dim=\dimen195
+\l__ctex_ziju_dim=\dimen196
  (c:/texlive/2024/texmf-dist/tex/latex/zhnumber/zhnumber.sty
 Package: zhnumber 2022/07/14 v3.0 Typesetting numbers with Chinese glyphs
-\l__zhnum_scale_int=\count328
-\l__zhnum_tmp_int=\count329
+\l__zhnum_scale_int=\count339
+\l__zhnum_tmp_int=\count340
  (c:/texlive/2024/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
 File: zhnumber-utf8.cfg 2022/07/14 v3.0 Chinese numerals with UTF8 encoding
 )) (c:/texlive/2024/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-plain.def
@@ -693,8 +732,8 @@ Package: xparse 2024-02-18 L3 Experimental document command parser
 )) (c:/texlive/2024/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 ) (c:/texlive/2024/texmf-dist/tex/generic/xstring/xstring.sty (c:/texlive/2024/texmf-dist/tex/generic/xstring/xstring.tex
-\xs_counta=\count330
-\xs_countb=\count331
+\xs_counta=\count341
+\xs_countb=\count342
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
 ) (c:/texlive/2024/texmf-dist/tex/latex/carlisle/scalefnt.sty)
@@ -703,8 +742,8 @@ LaTeX Font Info:    Setting ntxTLF sub-encoding to TS1/0 on input line 24.
 LaTeX Font Info:    Setting ntxOsF sub-encoding to TS1/0 on input line 24.
 LaTeX Font Info:    Setting ntxTOsF sub-encoding to TS1/0 on input line 24.
  (c:/texlive/2024/texmf-dist/tex/generic/kastrup/binhex.tex)
-\ntx@tmpcnta=\count332
-\ntx@cnt=\count333
+\ntx@tmpcnta=\count343
+\ntx@cnt=\count344
  (c:/texlive/2024/texmf-dist/tex/latex/fontaxes/fontaxes.sty
 Package: fontaxes 2020/07/21 v1.0e Font selection axes
 LaTeX Info: Redefining \upshape on input line 29.
@@ -718,32 +757,32 @@ LaTeX Info: Redefining \textsw on input line 47.
 LaTeX Info: Redefining \textssc on input line 48.
 LaTeX Info: Redefining \textulc on input line 49.
 )
-\tx@sixem=\dimen196
-\tx@y=\dimen197
-\tx@x=\dimen198
-\tx@tmpdima=\dimen199
-\tx@tmpdimb=\dimen256
-\tx@tmpdimc=\dimen257
-\tx@tmpdimd=\dimen258
-\tx@tmpdime=\dimen259
-\tx@tmpdimf=\dimen260
-\tx@dimA=\dimen261
-\tx@dimAA=\dimen262
-\tx@dimB=\dimen263
-\tx@dimBB=\dimen264
-\tx@dimC=\dimen265
+\tx@sixem=\dimen197
+\tx@y=\dimen198
+\tx@x=\dimen199
+\tx@tmpdima=\dimen256
+\tx@tmpdimb=\dimen257
+\tx@tmpdimc=\dimen258
+\tx@tmpdimd=\dimen259
+\tx@tmpdime=\dimen260
+\tx@tmpdimf=\dimen261
+\tx@dimA=\dimen262
+\tx@dimAA=\dimen263
+\tx@dimB=\dimen264
+\tx@dimBB=\dimen265
+\tx@dimC=\dimen266
 LaTeX Info: Redefining \oldstylenums on input line 896.
 ) (c:/texlive/2024/texmf-dist/tex/latex/newtx/newtxmath.sty
 Package: newtxmath 2024/03/06 v1.742
  `newtxmath' v1.742, 2024/03/06 Math macros based originally on txfonts (msharpe) (c:/texlive/2024/texmf-dist/tex/latex/oberdiek/centernot.sty
 Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
 )
-\tx@cntz=\count334
+\tx@cntz=\count345
  (c:/texlive/2024/texmf-dist/tex/generic/kastrup/binhex.tex)
-\tx@Isdigit=\count335
-\tx@IsAlNum=\count336
-\tx@tA=\toks44
-\tx@tB=\toks45
+\tx@Isdigit=\count346
+\tx@IsAlNum=\count347
+\tx@tA=\toks49
+\tx@tB=\toks50
 \tx@su=\read3
 
 amsthm NOT loaded
@@ -822,7 +861,7 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 \symlargesymbolsTXA=\mathgroup14
 LaTeX Font Info:    Overwriting symbol font `largesymbolsTXA' in version `bold'
 (Font)                  U/ntxexa/m/n --> U/ntxexa/b/n on input line 662.
-\tx@sbptoks=\toks46
+\tx@sbptoks=\toks51
 LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 885.
 LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 886.
 LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 887.
@@ -842,12 +881,12 @@ LaTeX Info: Redefining \textsquare on input line 3016.
 LaTeX Info: Redefining \openbox on input line 3018.
 ) (c:/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2024/02/07 v24.2 The Babel package
-\babel@savecnt=\count337
-\U@D=\dimen266
+\babel@savecnt=\count348
+\U@D=\dimen267
 \l@unhyphenated=\language89
  (c:/texlive/2024/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read4
-\bbl@dirlevel=\count338
+\bbl@dirlevel=\count349
  (c:/texlive/2024/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
@@ -865,7 +904,7 @@ Package: lastpage 2023/10/14 v2.0e lastpage: 2.09 or 2e? (HMM)
 Package: lastpage2e 2023/10/14 v2.0e Decide which 2e lastpage version to use (HMM)
  (c:/texlive/2024/texmf-dist/tex/latex/lastpage/lastpagemodern.sty
 Package: lastpagemodern 2023-10-14 v2.0e Refers to last page's name (HMM; JPG)
-\c@lastpagecount=\count339
+\c@lastpagecount=\count350
 ) 
 )) (c:/texlive/2024/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
@@ -873,15 +912,15 @@ Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
 Package: l3keys2e 2024-02-18 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count340
-\l__lipsum_a_int=\count341
-\l__lipsum_b_int=\count342
+\g__lipsum_par_int=\count351
+\l__lipsum_a_int=\count352
+\l__lipsum_b_int=\count353
  (c:/texlive/2024/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex)) (c:/texlive/2024/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks47
-\pgfutil@tempdima=\dimen267
-\pgfutil@tempdimb=\dimen268
+\pgfutil@everybye=\toks52
+\pgfutil@tempdima=\dimen268
+\pgfutil@tempdimb=\dimen269
 ) (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box67
+\pgfutil@abb=\box70
 ) (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
@@ -889,31 +928,31 @@ Package: pgf 2023-01-15 v3.1.10 (3.1.10)
  (c:/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (c:/texlive/2024/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
  (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks48
-\pgfkeys@temptoks=\toks49
+\pgfkeys@pathtoks=\toks53
+\pgfkeys@temptoks=\toks54
  (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks50
+\pgfkeys@tmptoks=\toks55
 ))
-\pgf@x=\dimen269
-\pgf@y=\dimen270
-\pgf@xa=\dimen271
-\pgf@ya=\dimen272
-\pgf@xb=\dimen273
-\pgf@yb=\dimen274
-\pgf@xc=\dimen275
-\pgf@yc=\dimen276
-\pgf@xd=\dimen277
-\pgf@yd=\dimen278
+\pgf@x=\dimen270
+\pgf@y=\dimen271
+\pgf@xa=\dimen272
+\pgf@ya=\dimen273
+\pgf@xb=\dimen274
+\pgf@yb=\dimen275
+\pgf@xc=\dimen276
+\pgf@yc=\dimen277
+\pgf@xd=\dimen278
+\pgf@yd=\dimen279
 \w@pgf@writea=\write4
 \r@pgf@reada=\read5
-\c@pgf@counta=\count343
-\c@pgf@countb=\count344
-\c@pgf@countc=\count345
-\c@pgf@countd=\count346
-\t@pgf@toka=\toks51
-\t@pgf@tokb=\toks52
-\t@pgf@tokc=\toks53
-\pgf@sys@id@count=\count347
+\c@pgf@counta=\count354
+\c@pgf@countb=\count355
+\c@pgf@countc=\count356
+\c@pgf@countd=\count357
+\t@pgf@toka=\toks56
+\t@pgf@tokb=\toks57
+\t@pgf@tokc=\toks58
+\pgf@sys@id@count=\count358
  (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -924,59 +963,59 @@ File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 ))) (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count348
-\pgfsyssoftpath@bigbuffer@items=\count349
+\pgfsyssoftpath@smallbuffer@items=\count359
+\pgfsyssoftpath@bigbuffer@items=\count360
 ) (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
  (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen279
-\pgfmath@count=\count350
-\pgfmath@box=\box68
-\pgfmath@toks=\toks54
-\pgfmath@stack@operand=\toks55
-\pgfmath@stack@operation=\toks56
+\pgfmath@dimen=\dimen280
+\pgfmath@count=\count361
+\pgfmath@box=\box71
+\pgfmath@toks=\toks59
+\pgfmath@stack@operand=\toks60
+\pgfmath@stack@operation=\toks61
 ) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count351
+\c@pgfmathroundto@lastzeros=\count362
 )) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen280
-\pgf@picmaxx=\dimen281
-\pgf@picminy=\dimen282
-\pgf@picmaxy=\dimen283
-\pgf@pathminx=\dimen284
-\pgf@pathmaxx=\dimen285
-\pgf@pathminy=\dimen286
-\pgf@pathmaxy=\dimen287
-\pgf@xx=\dimen288
-\pgf@xy=\dimen289
-\pgf@yx=\dimen290
-\pgf@yy=\dimen291
-\pgf@zx=\dimen292
-\pgf@zy=\dimen293
+\pgf@picminx=\dimen281
+\pgf@picmaxx=\dimen282
+\pgf@picminy=\dimen283
+\pgf@picmaxy=\dimen284
+\pgf@pathminx=\dimen285
+\pgf@pathmaxx=\dimen286
+\pgf@pathminy=\dimen287
+\pgf@pathmaxy=\dimen288
+\pgf@xx=\dimen289
+\pgf@xy=\dimen290
+\pgf@yx=\dimen291
+\pgf@yy=\dimen292
+\pgf@zx=\dimen293
+\pgf@zy=\dimen294
 ) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen294
-\pgf@path@lasty=\dimen295
+\pgf@path@lastx=\dimen295
+\pgf@path@lasty=\dimen296
 ) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen296
-\pgf@shorten@start@additional=\dimen297
+\pgf@shorten@end@additional=\dimen297
+\pgf@shorten@start@additional=\dimen298
 ) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box69
-\pgf@hbox=\box70
-\pgf@layerbox@main=\box71
-\pgf@picture@serial@count=\count352
+\pgfpic=\box72
+\pgf@hbox=\box73
+\pgf@layerbox@main=\box74
+\pgf@picture@serial@count=\count363
 ) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen298
+\pgflinewidth=\dimen299
 ) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen299
-\pgf@pt@y=\dimen300
-\pgf@pt@temp=\dimen301
+\pgf@pt@x=\dimen300
+\pgf@pt@y=\dimen301
+\pgf@pt@temp=\dimen302
 ) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
@@ -985,17 +1024,17 @@ File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen302
+\pgfarrowsep=\dimen303
 ) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen303
-\pgf@sys@shading@range@num=\count353
-\pgf@shadingcount=\count354
+\pgf@max=\dimen304
+\pgf@sys@shading@range@num=\count364
+\pgf@shadingcount=\count365
 ) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box72
+\pgfexternal@startupbox=\box75
 ) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
@@ -1006,63 +1045,54 @@ File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box73
+\pgfnodeparttextbox=\box76
 ) (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (c:/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen304
-\pgf@nodesepend=\dimen305
+\pgf@nodesepstart=\dimen305
+\pgf@nodesepend=\dimen306
 ) (c:/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 )) (c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (c:/texlive/2024/texmf-dist/tex/latex/pgf/math/pgfmath.sty (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen306
-\pgffor@skip=\dimen307
-\pgffor@stack=\toks57
-\pgffor@toks=\toks58
+\pgffor@iter=\dimen307
+\pgffor@skip=\dimen308
+\pgffor@stack=\toks62
+\pgffor@toks=\toks63
 )) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count355
-\pgfplotmarksize=\dimen308
+\pgf@plot@mark@count=\count366
+\pgfplotmarksize=\dimen309
 )
-\tikz@lastx=\dimen309
-\tikz@lasty=\dimen310
-\tikz@lastxsaved=\dimen311
-\tikz@lastysaved=\dimen312
-\tikz@lastmovetox=\dimen313
-\tikz@lastmovetoy=\dimen314
-\tikzleveldistance=\dimen315
-\tikzsiblingdistance=\dimen316
-\tikz@figbox=\box74
-\tikz@figbox@bg=\box75
-\tikz@tempbox=\box76
-\tikz@tempbox@bg=\box77
-\tikztreelevel=\count356
-\tikznumberofchildren=\count357
-\tikznumberofcurrentchild=\count358
-\tikz@fig@count=\count359
+\tikz@lastx=\dimen310
+\tikz@lasty=\dimen311
+\tikz@lastxsaved=\dimen312
+\tikz@lastysaved=\dimen313
+\tikz@lastmovetox=\dimen314
+\tikz@lastmovetoy=\dimen315
+\tikzleveldistance=\dimen316
+\tikzsiblingdistance=\dimen317
+\tikz@figbox=\box77
+\tikz@figbox@bg=\box78
+\tikz@tempbox=\box79
+\tikz@tempbox@bg=\box80
+\tikztreelevel=\count367
+\tikznumberofchildren=\count368
+\tikznumberofcurrentchild=\count369
+\tikz@fig@count=\count370
  (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count360
-\pgfmatrixcurrentcolumn=\count361
-\pgf@matrix@numberofcolumns=\count362
+\pgfmatrixcurrentrow=\count371
+\pgfmatrixcurrentcolumn=\count372
+\pgf@matrix@numberofcolumns=\count373
 )
-\tikz@expandcount=\count363
+\tikz@expandcount=\count374
  (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (c:/texlive/2024/texmf-dist/tex/latex/enumitem/enumitem.sty
-Package: enumitem 2019/06/20 v3.9 Customized lists
-\enitkv@toks@=\toks59
-\labelindent=\skip114
-\enit@outerparindent=\dimen317
-\enit@toks=\toks60
-\enit@inbox=\box78
-\enit@count@id=\count364
-\enitdp@description=\count365
-) (c:/texlive/2024/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty
+))) (c:/texlive/2024/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty
 Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
  (c:/texlive/2024/texmf-dist/tex/latex/fontawesome5/fontawesome5-generic-helper.sty
 Package: fontawesome5-generic-helper 2022/05/02 v5.15.4 non-uTeX helper for fontawesome5
@@ -1082,12 +1112,12 @@ File: UTF8.enc 2021/10/16 4.8.5
 ) (c:/texlive/2024/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
 )
-LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line 61.
+LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line 68.
  (c:/texlive/2024/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
 File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 61.
+(Font)              scaled to size 12.0pt on input line 68.
  (./MCMLetax.aux
 
 LaTeX Warning: Label `fig:2' multiply defined.
@@ -1125,124 +1155,124 @@ LaTeX Warning: Label `fig:2' multiply defined.
 )
 \openout1 = `MCMLetax.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 61.
-LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 61.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 68.
+LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 68.
  (c:/texlive/2024/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 61.
-LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 61.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 68.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 68.
  (c:/texlive/2024/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 61.
-LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 61.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 68.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 68.
  (c:/texlive/2024/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 61.
-LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 61.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 68.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 68.
  (c:/texlive/2024/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 61.
-\c@lstlisting=\count366
-LaTeX Info: Command `\dddot' is already robust on input line 61.
-LaTeX Info: Command `\ddddot' is already robust on input line 61.
+LaTeX Font Info:    ... okay on input line 68.
+\c@lstlisting=\count375
+LaTeX Info: Command `\dddot' is already robust on input line 68.
+LaTeX Info: Command `\ddddot' is already robust on input line 68.
  (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count367
+\scratchcounter=\count376
 \scratchdimen=\dimen319
-\scratchbox=\box79
-\nofMPsegments=\count368
-\nofMParguments=\count369
-\everyMPshowfont=\toks61
-\MPscratchCnt=\count370
+\scratchbox=\box81
+\nofMPsegments=\count377
+\nofMParguments=\count378
+\everyMPshowfont=\toks64
+\MPscratchCnt=\count379
 \MPscratchDim=\dimen320
-\MPnumerator=\count371
-\makeMPintoPDFobject=\count372
-\everyMPtoPDFconversion=\toks62
+\MPnumerator=\count380
+\makeMPintoPDFobject=\count381
+\everyMPtoPDFconversion=\toks65
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1278,21 +1308,21 @@ LaTeX Info: Command `\ddddot' is already robust on input line 61.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 61.
+Package hyperref Info: Link coloring OFF on input line 68.
 (./MCMLetax.out) (./MCMLetax.out)
 \@outlinefile=\write5
 \openout5 = `MCMLetax.out'.
 
-\c@mv@tabular=\count373
-\c@mv@boldtabular=\count374
+\c@mv@tabular=\count382
+\c@mv@boldtabular=\count383
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 69.
+(Font)              scaled to size 12.0pt on input line 76.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 69.
+(Font)              scaled to size 17.28pt on input line 76.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 69.
+(Font)              scaled to size 17.28pt on input line 76.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 20.74pt on input line 69.
+(Font)              scaled to size 20.74pt on input line 76.
  (c:/texlive/2024/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
 File: ctex-zhmap-windows.tex 2022/07/14 v2.5.10 Windows font map loader for pdfTeX and DVIPDFMx (CTEX)
 {c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{UGBK.sfd}{Unicode.sfd}) [1
@@ -1325,50 +1355,30 @@ File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
 LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 2.
  (c:/texlive/2024/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
-) [2])
+))
 \tf@toc=\write6
 \openout6 = `MCMLetax.toc'.
 
+ [2]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 75.
-LaTeX Font Info:    Trying to load font information for T1+fvs on input line 75.
- (c:/texlive/2024/texmf-dist/tex/latex/bera/t1fvs.fd
-File: t1fvs.fd 2004/09/07 scalable font definitions for T1/fvs.
-)
-LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 75.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[3{c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 78.
+(Font)              scaled to size 14.4pt on input line 85.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 78.
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 87.
+(Font)              scaled to size 14.4pt on input line 85.
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 94.
  (c:/texlive/2024/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 87.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[4{c:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
-LaTeX Font Info:    Trying to load font information for C70+rm on input line 170.
- (c:/texlive/2024/texmf-dist/tex/latex/ctex/fd/c70rm.fd
-File: c70rm.fd 2022/07/14 v2.5.10 Chinese font definition (CTEX)
+(Font)              scaled to size 12.0pt on input line 94.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.95pt on input line 127.
+LaTeX Font Info:    Trying to load font information for T1+fvs on input line 127.
+ (c:/texlive/2024/texmf-dist/tex/latex/bera/t1fvs.fd
+File: t1fvs.fd 2004/09/07 scalable font definitions for T1/fvs.
 )
+LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
+(Font)              scaled to size 9.85492pt on input line 127.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1376,11 +1386,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[5]
-<2-Measuring tools.jpg, id=217, 416.538pt x 312.075pt>
+[3{c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[4]
+<2-Measuring tools.jpg, id=221, 416.538pt x 312.075pt>
 File: 2-Measuring tools.jpg Graphic file (type jpg)
 <use 2-Measuring tools.jpg>
-Package pdftex.def Info: 2-Measuring tools.jpg  used on input line 196.
+Package pdftex.def Info: 2-Measuring tools.jpg  used on input line 220.
 (pdftex.def)             Requested size: 341.43306pt x 255.8079pt.
 
 
@@ -1393,12 +1414,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[6{c:/texlive/2024/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}]
+[5
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.232 
+      {c:/texlive/2024/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.232 
+      ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 215.
+(Font)              scaled to size 8.8pt on input line 239.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 215.
-Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line 221.
+(Font)              scaled to size 6.6pt on input line 239.
+LaTeX Font Info:    Trying to load font information for C70+rm on input line 245.
+ (c:/texlive/2024/texmf-dist/tex/latex/ctex/fd/c70rm.fd
+File: c70rm.fd 2022/07/14 v2.5.10 Chinese font definition (CTEX)
+)
+Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line 245.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1407,11 +1442,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[7 <./2-Measuring tools.jpg>]
-<3-Infrared foot pressure zoning map.png, id=242, 1780.15062pt x 1301.36188pt>
+[6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.255 T
+       he required information includes the construction period given by the... <./2-Measuring tools.jpg>]
+<3-Infrared foot pressure zoning map.png, id=245, 1780.15062pt x 1301.36188pt>
 File: 3-Infrared foot pressure zoning map.png Graphic file (type png)
 <use 3-Infrared foot pressure zoning map.png>
-Package pdftex.def Info: 3-Infrared foot pressure zoning map.png  used on input line 269.
+Package pdftex.def Info: 3-Infrared foot pressure zoning map.png  used on input line 293.
 (pdftex.def)             Requested size: 284.52756pt x 207.98387pt.
 
 
@@ -1424,7 +1464,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[8]
+[7
+pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.312 
+      ]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1432,49 +1477,51 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[9 <./3-Infrared foot pressure zoning map.png>]
-<4-Establishment of stair coordinate axes and empirical partitioning of tread surfaces.png, id=259, 1773.62625pt x 860.71562pt>
+[8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.326 ...} \cdot \mu}{1 + e^{t - \varepsilon }} \]
+                                                   <./3-Infrared foot pressure zoning map.png>]
+<4-Establishment of stair coordinate axes and empirical partitioning of tread surfaces.png, id=264, 1773.62625pt x 860.71562pt>
 File: 4-Establishment of stair coordinate axes and empirical partitioning of tread surfaces.png Graphic file (type png)
 <use 4-Establishment of stair coordinate axes and empirical partitioning of tread surfaces.png>
-Package pdftex.def Info: 4-Establishment of stair coordinate axes and empirical partitioning of tread surfaces.png  used on input line 346.
+Package pdftex.def Info: 4-Establishment of stair coordinate axes and empirical partitioning of tread surfaces.png  used on input line 370.
 (pdftex.def)             Requested size: 284.52756pt x 138.07191pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[10]
 <7-The depth of the depression on the staircase caused by the bending deformation.jpg, id=267, 843.15pt x 632.3625pt>
 File: 7-The depth of the depression on the staircase caused by the bending deformation.jpg Graphic file (type jpg)
 <use 7-The depth of the depression on the staircase caused by the bending deformation.jpg>
-Package pdftex.def Info: 7-The depth of the depression on the staircase caused by the bending deformation.jpg  used on input line 364.
+Package pdftex.def Info: 7-The depth of the depression on the staircase caused by the bending deformation.jpg  used on input line 388.
 (pdftex.def)             Requested size: 284.52756pt x 213.39867pt.
 
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[11 <./4-Establishment of stair coordinate axes and empirical partitioning of tread surfaces.png> <./7-The depth of the depression on the staircase caused by the bending deformation.jpg>]
-<8-Length of catenary line-x.jpg, id=278, 843.15pt x 632.3625pt>
+[9]
+<8-Length of catenary line-x.jpg, id=276, 843.15pt x 632.3625pt>
 File: 8-Length of catenary line-x.jpg Graphic file (type jpg)
 <use 8-Length of catenary line-x.jpg>
-Package pdftex.def Info: 8-Length of catenary line-x.jpg  used on input line 385.
+Package pdftex.def Info: 8-Length of catenary line-x.jpg  used on input line 409.
 (pdftex.def)             Requested size: 256.0748pt x 192.05493pt.
-<6-Bending model diagram.png, id=279, 384.43625pt x 249.93375pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<6-Bending model diagram.png, id=277, 384.43625pt x 249.93375pt>
 File: 6-Bending model diagram.png Graphic file (type png)
 <use 6-Bending model diagram.png>
-Package pdftex.def Info: 6-Bending model diagram.png  used on input line 395.
+Package pdftex.def Info: 6-Bending model diagram.png  used on input line 419.
 (pdftex.def)             Requested size: 256.0748pt x 166.49368pt.
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1482,29 +1529,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[12 <./8-Length of catenary line-x.jpg> <./6-Bending model diagram.png>]
-<5-Foot sole grid.png, id=288, 1351.54938pt x 1164.85187pt>
+[10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.425 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.425 
+       <./4-Establishment of stair coordinate axes and empirical partitioning of tread surfaces.png> <./7-The depth of the depression on the staircase caused by the bending deformation.jpg>]
+<5-Foot sole grid.png, id=286, 1351.54938pt x 1164.85187pt>
 File: 5-Foot sole grid.png Graphic file (type png)
 <use 5-Foot sole grid.png>
-Package pdftex.def Info: 5-Foot sole grid.png  used on input line 408.
+Package pdftex.def Info: 5-Foot sole grid.png  used on input line 431.
 (pdftex.def)             Requested size: 284.52756pt x 245.21266pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[13 <./5-Foot sole grid.png>]
-<9-The flowchart for calculating the cumulative number of landing points.png, id=300, 4015.50188pt x 2258.93938pt>
-File: 9-The flowchart for calculating the cumulative number of landing points.png Graphic file (type png)
-<use 9-The flowchart for calculating the cumulative number of landing points.png>
-Package pdftex.def Info: 9-The flowchart for calculating the cumulative number of landing points.png  used on input line 479.
-(pdftex.def)             Requested size: 341.43306pt x 192.059pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1516,12 +1556,40 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[14]
-<10-The Distribution of the Number of Landing Points of M,H and C.png, id=308, 1614.03pt x 1235.11438pt>
-File: 10-The Distribution of the Number of Landing Points of M,H and C.png Graphic file (type png)
-<use 10-The Distribution of the Number of Landing Points of M,H and C.png>
-Package pdftex.def Info: 10-The Distribution of the Number of Landing Points of M,H and C.png  used on input line 491.
-(pdftex.def)             Requested size: 341.43306pt x 261.2663pt.
+[11
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.449   U
+         sing half the length of the grid edge in Figure n as a unit of meas...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.449   U
+         sing half the length of the grid edge in Figure n as a unit of meas... <./8-Length of catenary line-x.jpg> <./6-Bending model diagram.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[12
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.481     \item F
+                 ull-foot Walking: The entire foot applies force to the stairs.
+pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.481     \item F
+                 ull-foot Walking: The entire foot applies force to the stairs. <./5-Foot sole grid.png>]
+<9-The flowchart for calculating the cumulative number of landing points.png, id=306, 4015.50188pt x 2258.93938pt>
+File: 9-The flowchart for calculating the cumulative number of landing points.png Graphic file (type png)
+<use 9-The flowchart for calculating the cumulative number of landing points.png>
+Package pdftex.def Info: 9-The flowchart for calculating the cumulative number of landing points.png  used on input line 513.
+(pdftex.def)             Requested size: 341.43306pt x 192.059pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1530,11 +1598,45 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[15 <./9-The flowchart for calculating the cumulative number of landing points.png> <./10-The Distribution of the Number of Landing Points of M,H and C.png>]
-<12-Explanation of the Division of the Pathways.png, id=321, 3277.74562pt x 1022.82124pt>
+[13
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.519   \newpage
+                 <./9-The flowchart for calculating the cumulative number of landing points.png>]
+<10-The Distribution of the Number of Landing Points of M,H and C.png, id=317, 1614.03pt x 1235.11438pt>
+File: 10-The Distribution of the Number of Landing Points of M,H and C.png Graphic file (type png)
+<use 10-The Distribution of the Number of Landing Points of M,H and C.png>
+Package pdftex.def Info: 10-The Distribution of the Number of Landing Points of M,H and C.png  used on input line 524.
+(pdftex.def)             Requested size: 341.43306pt x 261.2663pt.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 8.8pt on input line 553.
+
+
+LaTeX Warning: Citation `1' on page 14 undefined on input line 553.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[14
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.563   \item \textbf
+                     {Forefoot Walking}
+pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.563   \item \textbf
+                     {Forefoot Walking} <./10-The Distribution of the Number of Landing Points of M,H and C.png>]
+<12-Explanation of the Division of the Pathways.png, id=329, 3277.74562pt x 1022.82124pt>
 File: 12-Explanation of the Division of the Pathways.png Graphic file (type png)
 <use 12-Explanation of the Division of the Pathways.png>
-Package pdftex.def Info: 12-Explanation of the Division of the Pathways.png  used on input line 537.
+Package pdftex.def Info: 12-Explanation of the Division of the Pathways.png  used on input line 588.
 (pdftex.def)             Requested size: 284.52756pt x 88.77246pt.
 
 
@@ -1544,7 +1646,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[16 <./12-Explanation of the Division of the Pathways.png>]
+[15
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.603 ...dot \left(k_A + k_B + k_C + k_D\right) \]
+                                                   <./12-Explanation of the Division of the Pathways.png>]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 629.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[16]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1561,18 +1678,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [18]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[19]
-<13-Illustrative cluster diagram of the renovated areas.png, id=354, 1614.03pt x 1235.11438pt>
+<13-Illustrative cluster diagram of the renovated areas.png, id=362, 1614.03pt x 1235.11438pt>
 File: 13-Illustrative cluster diagram of the renovated areas.png Graphic file (type png)
 <use 13-Illustrative cluster diagram of the renovated areas.png>
-Package pdftex.def Info: 13-Illustrative cluster diagram of the renovated areas.png  used on input line 660.
+Package pdftex.def Info: 13-Illustrative cluster diagram of the renovated areas.png  used on input line 734.
 (pdftex.def)             Requested size: 312.9803pt x 239.49883pt.
 
 
@@ -1582,7 +1691,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[20 <./13-Illustrative cluster diagram of the renovated areas.png>]
+[19
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.763 
+       <./13-Illustrative cluster diagram of the renovated areas.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[20]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1591,58 +1713,32 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [21]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[22]
-<14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png, id=384, 1614.03pt x 1235.11438pt>
+<14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png, id=393, 1614.03pt x 1235.11438pt>
 File: 14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png Graphic file (type png)
 <use 14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png>
-Package pdftex.def Info: 14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png  used on input line 785.
+Package pdftex.def Info: 14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png  used on input line 865.
 (pdftex.def)             Requested size: 312.9803pt x 239.49883pt.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[23] (./MCMLetax.bbl
+[22
+pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.873 \newpage
+               <./14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png>] (./MCMLetax.bbl
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 12.0pt on input line 4.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[24 <./14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png>]
-LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 44.
- (c:/texlive/2024/texmf-dist/tex/latex/newtx/t1ntxtt.fd
-File: t1ntxtt.fd 2012/04/20 v3.1
-)
-LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 44.
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--46
-[]\T1/ntxtlf/m/n/12 ueotek, ``An-sys me-chan-i-cal.'' []$\T1/ntxtt/m/n/12 https : / / blog . csdn . net / ueotek / article / details /
- []
-
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 802.
+(Font)              scaled to size 24.88pt on input line 882.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 24.88pt on input line 802.
+(Font)              scaled to size 24.88pt on input line 882.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1651,7 +1747,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[25] 
+[23]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[24] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./MCMLetax.aux)
  ***********
@@ -1660,27 +1764,30 @@ L3 programming layer <2020/03/25>
  ***********
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `MCMLetax.out' has not changed.
-(rerunfilecheck)             Checksum: 174789252C1C178AA627E33657310B02;6515.
+(rerunfilecheck)             Checksum: C0F706690CDC279F12F4F65A15C53DBE;6843.
  ) 
 Here is how much of TeX's memory you used:
- 37384 strings out of 474116
- 690696 string characters out of 5747716
- 1941190 words of memory out of 5000000
- 58874 multiletter control sequences out of 15000+600000
- 630610 words of font info for 127 fonts, out of 8000000 for 9000
+ 37971 strings out of 474116
+ 699866 string characters out of 5747716
+ 1945190 words of memory out of 5000000
+ 59445 multiletter control sequences out of 15000+600000
+ 633959 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,13n,93p,1029b,695s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,13n,93p,1029b,754s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Windows/Fonts/simsun.ttc
 
 pdfTeX warning: pdflatex.exe (file c:/Windows/Fonts/simsun.ttc): subfont unisong20: wrong mapping: character 11 --> 0x200B --> .notdef
-><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/bera/fvsr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/txsys.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmr.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on MCMLetax.pdf (25 pages, 10230265 bytes).
+><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/bera/fvsr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/txsys.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmr.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
+Output written on MCMLetax.pdf (24 pages, 10236907 bytes).
 PDF statistics:
- 491 PDF objects out of 1000 (max. 8388607)
- 411 compressed objects within 5 object streams
- 99 named destinations out of 1000 (max. 500000)
- 373 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 495 PDF objects out of 1000 (max. 8388607)
+ 416 compressed objects within 5 object streams
+ 102 named destinations out of 1000 (max. 500000)
+ 389 words of extra memory for PDF output out of 10000 (max. 10000000)
 
