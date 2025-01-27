@@ -6,14 +6,19 @@
         titlepage = false, abstract = true}
 
 
-        \usepackage{setspace}%目录间距的调节
-        \let\oldtableofcontents\tableofcontents
-        \renewcommand{\tableofcontents}{%
-          \begingroup
-          \setstretch{0.1} % 设定为1.5倍行距，可修改为1.2、2等
-          \oldtableofcontents
-          \endgroup
-        }
+        \usepackage{tocloft} % 使用 tocloft 宏包
+        \usepackage{setspace} % 允许调整行距
+        
+        % 调整目录标题之间的间距
+        \setlength{\cftbeforesecskip}{5pt} % 调整 section 之间的距离（可改为实际需求长度）
+        \setlength{\cftbeforesubsecskip}{3pt} % 调整 subsection 之间的距离
+       
+        
+
+      
+
+
+
       %%%%%%%%%%%下面是关于references的
       \usepackage{cite} % 推荐使用，优化引用格式
       \usepackage{geometry}
@@ -40,6 +45,8 @@
 \usepackage{enumitem} % 引入 enumitem 宏包
 \usepackage{fontawesome5} % 加载 fontawesome5 宏包，用于指南针图标
 \usepackage{amssymb} % 提供一些符号
+
+
 
 \usetikzlibrary{shapes.geometric, arrows}
 \usetikzlibrary{calc}
@@ -345,6 +352,12 @@ In addition, each individual used only one walking style during a complete fligh
 \end{itemize}
 
 The standard coordinates on the i+1st step can be obtained recursively from the standard coordinates of the i-th step:
+
+\[
+X_n = X_n + Lstride - D
+\]
+
+
 Although walking styles vary, regardless of the style, the human stride length tends to keep the landing point of the next step within a “comfort zone”. When the expected landing point is outside the comfort zone, the walker adjusts the stride length to bring it back within a reasonable range. The comfort zone can be expressed as:
 
 On this basis, the standard coordinates of the i+1-th stair need to be adjusted according to the constraints of the comfort zone. The specific calculation process is shown in Figure N. 
@@ -440,7 +453,7 @@ After calculating the total number of people on each walkway, we further sum the
 \[ K_{\text{total}} = \sum_{i=1}^n K_i \]
 
 
-\subsection{For Problem A}
+\subsection{A:Usage frequency}
 
 The question of "How often were the stairs used?" is quantified as the average usage frequency of the stairs over the total usage time, with the calculation formula as follows:
 
@@ -448,7 +461,7 @@ The question of "How often were the stairs used?" is quantified as the average u
 
 On this basis, the average time interval between uses of the stairs is obtained as .......
 
-\subsection{For Problem B}
+\subsection{B:Directional preference}
 
 The total number of people descending the stairs can be expressed as:
 
@@ -469,7 +482,7 @@ By comparing the total numbers of ascending and descending, We can draw the foll
 \end{itemize}
 
 
-\subsection{For problem C}
+\subsection{C:Usage mode}
 The Z-scores formula can be used to determine outliers in the data. When the Zi corresponding to the ith data in a data set satisfies the condition Zi>3.5\cite{curtis2016mystery}, it can be considered that there is a peak at that data point. The Z-scores formula is as follows:
 
 \[ Z_i = \frac{K_i - \bar{K}}{\sqrt{\text{Var}(K)}} \]
@@ -486,7 +499,7 @@ If there is no peak, it indicates that the distribution of people across walkway
 
 \section{Guidance Based on Stairwell Usage and Environmental Factors}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%EEE
-\subsection{For Problem E}
+\subsection{E:Age of the stair }
 
 Based on the wear data shown in (Figure x), the wear in the 39-48 range is primarily influenced by environmental factors, exhibiting a mild weathering effect, and it is assumed that no significant wear is caused to the stairs.
 
@@ -500,7 +513,7 @@ Where $R_{\text{total}}$​ represents the total wear amount, $R_{\text{daily}}$
 
 Since division operations do not alter the distribution pattern of a Gaussian distribution, the estimated value of the construction year of the stairs also follows a Gaussian distribution. Therefore, we can further calculate the probability of the time period provided by the archaeologist within this estimated Gaussian distribution. The higher the probability, the more reliable the estimated value.
 
-\subsection{For Problem F}
+\subsection{F:Repairs and renovation}
 
 The primary method for repairing building materials involves reinforcing cracks by filling them with polymer materials\cite{ YTLX200401034}. In addition, the steel plate bonding method is commonly used for strengthening flexural or tensile members (such as stair platform beams, platform slabs, and stair slabs) under normal working conditions and static loads. Closed protection by wrapping the original staircase components in steel plates is also an option.
 For repairs or renovations that are visually apparent, their presence can typically be determined through direct observation. However, for polymer reinforcement methods that are not easily discernible to the naked eye, we have designed the following detection method:
@@ -534,7 +547,7 @@ between the clustered abnormal points and normal areas, the presence and spatial
 
 Through the above multi-level detection method, not only can the presence of repairs or renovations be scientifically determined, but the repaired areas can also be accurately identified.
 
-\subsection{For Problem G}
+\subsection{G:Consistency of mechanical parameters}
 
 To determine whether the source of the target material aligns with the archaeologist's hypothesis, we recommend sampling from what the archaeologist believes to be the original source and conducting destructive mechanical experiments to obtain precise material parameters. These experimentally obtained parameters are then used to replace the tabulated values and are re-integrated into the Step-pit model to derive the optimal fitting result. Finally, this result is compared to the fitting result obtained using the tabulated parameters, with the coefficient of determination $R^2$ used as the evaluation criterion.
 
@@ -560,7 +573,7 @@ Goodness-of-fit calculation formula:
 $R^2$ represents the proportion of the total variation that can be explained by the model. The closer the $R^2$ value is to 1, the higher the consistency of the model. The $R^2$ value can be used to evaluate the match between the archaeologist's hypothesized material source and the actual results. When $R^2$ exceeds 0.8, it indicates that the source of the target material is consistent with the archaeologist's hypothesis.
 
 
-\subsection{For Problem H}
+\subsection{H:Number of people and time scale}
 
 
 \textbf{1.Number of Users in a Typical Day for Staircase }
@@ -622,9 +635,9 @@ By integrating the Mann-Whitney U test results with the theoretical analysis, th
 
 
 \section{Sensitivity Analysis}
-\section{Strengths and Weaknesses}%或者做成 Model Evaluation and Further Discussion多一个Model Extension小部分
+\section{ Evaluation of Strengths and Weaknesses}%或者做成 Model Evaluation and Further Discussion多一个Model Extension小部分
 \subsection{Strengths}
-\subsection{Weaknesses}
+\subsection{Weaknesses and Further Improvements}
 \section{Conclusion}
 
 \newpage
