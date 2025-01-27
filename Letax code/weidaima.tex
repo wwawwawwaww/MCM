@@ -1,0 +1,29 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb, algorithm, algpseudocode, booktabs}
+\usepackage[a4paper, margin=1in]{geometry}
+
+\begin{document}
+
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
+
+\begin{algorithm}
+\caption{Calculation of Material Correction Coefficients}
+\textbf{Input:} $X_3, X_4, X_5, K_A, K_B, A, B, C, D, \alpha, \Phi(x)$\\
+\textbf{Output:} $K_c, K_D$
+\begin{algorithmic}
+\State \textbf{for} $K_c \in \text{Range}(100, 100000)$ \textbf{do}
+    \State \hspace{1em} $K_D = \frac{X_5 - K_A A_{12\text{-}23} - K_c C_{12\text{-}23} - \alpha}{D_{12\text{-}23}}$
+    \State \hspace{1em} $X_{I_3} = K_A A_{3\text{-}5} + K_B B_{3\text{-}5} + K_c C_{3\text{-}5} + K_D D_{3\text{-}5} - \alpha$
+    \State \hspace{1em} $X_{I_4} = K_A A_{6\text{-}11} + K_B B_{6\text{-}11} + K_c C_{6\text{-}11} + K_D D_{6\text{-}11} - \alpha$
+    \State \hspace{1em} $\mathcal{E} = \Phi(X_{I_3} - X_3) - \Phi(-X_{I_3} - X_3)$
+    \State \hspace{1em} $\mathcal{U} = \Phi(X_{I_4} - X_4) - \Phi(-X_{I_4} - X_4)$
+    \State \hspace{1em} $\text{Result}[i] = \left[ \frac{\mathcal{E}}{\mathcal{U}}, K_c, K_D \right]$
+    \State \hspace{1em} $i = i + 1$
+\State \textbf{end}
+\State Find the maximum $\text{Result}[n][1]$
+\State \textbf{Output:} $K_c = \text{Result}[n][2], K_D = \text{Result}[n][3]$
+\end{algorithmic}
+\end{algorithm}
+
+\end{document}
