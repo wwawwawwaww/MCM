@@ -552,6 +552,12 @@ INPUT d:/texlive/2024/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 INPUT d:/texlive/2024/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 OUTPUT MCMLetax.toc
 INPUT d:/texlive/2024/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm
+INPUT d:/texlive/2024/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tlf-t1.tfm
+INPUT d:/texlive/2024/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+INPUT d:/texlive/2024/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+INPUT d:/texlive/2024/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+INPUT d:/texlive/2024/texmf-dist/fonts/tfm/public/tex-gyre/ts1-qtmr.tfm
+INPUT d:/texlive/2024/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm
 INPUT d:/texlive/2024/texmf-dist/tex/latex/bera/t1fvs.fd
 INPUT d:/texlive/2024/texmf-dist/tex/latex/bera/t1fvs.fd
 INPUT d:/texlive/2024/texmf-dist/tex/latex/bera/t1fvs.fd
@@ -559,12 +565,6 @@ INPUT d:/texlive/2024/texmf-dist/fonts/tfm/public/bera/fvsr8t.tfm
 INPUT d:/texlive/2024/texmf-dist/fonts/vf/public/bera/fvsr8t.vf
 INPUT d:/texlive/2024/texmf-dist/fonts/tfm/public/bera/fvsr8r.tfm
 INPUT d:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc
-INPUT d:/texlive/2024/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm
-INPUT d:/texlive/2024/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tlf-t1.tfm
-INPUT d:/texlive/2024/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
-INPUT d:/texlive/2024/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
-INPUT d:/texlive/2024/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
-INPUT d:/texlive/2024/texmf-dist/fonts/tfm/public/tex-gyre/ts1-qtmr.tfm
 INPUT d:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc
 INPUT ./2-Measuring tools.jpg
 INPUT ./2-Measuring tools.jpg
