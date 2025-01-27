@@ -184,34 +184,25 @@ Randomly select 10 steps from the target staircase and use a meter rule to measu
 The required information includes the construction and maintenance years, which can be determined through historical records or archaeological literature to estimate the approximate construction date and the timing of any renovations. Additionally, the material and mechanical properties of the staircase must be identified, either through a literature review or direct observation. Specifically, it is necessary to determine the primary material of the stairs and gather the following mechanical property parameters:
 
 
-\begin{table}[h!] 
-
-\centering 
-
-\caption{Material Properties for Analysis} 
-
-\label{tab:material_properties} 
-
-\begin{tabular}{@{}ll@{}} 
-
-\toprule 
-
-\textbf{Property} & \textbf{Symbol} \\ 
-
-\midrule 
-
-Elastic Modulus & \( E \) \\ 
-
-Poisson Ratio & \( \nu \) \\ 
-
-Coefficient of Wear & \( k \) \\ 
-
-Material Hardness & \( H \) \\ 
-
-\bottomrule 
-
-\end{tabular}
+\begin{table}[h!]
+  \centering
+  \caption{Material Properties for Analysis}
+  \label{tab:material_properties}
+  \begin{tabular}{@{\hspace{1cm}} p{8cm} c @{\hspace{1cm}}}
+  \toprule
+  \textbf{Property} & \textbf{Symbol} \\
+  \midrule
+  Elastic Modulus & \( E \) \\
+  Poisson Ratio & \( \nu \) \\
+  Coefficient of Wear & \( k \) \\
+  Material Hardness & \( H \) \\
+  \bottomrule
+  \end{tabular}
 \end{table}
+
+  
+  
+  
 
 \subsection{Step Load Interaction Model}
 To analyze the wear of stairs, it is essential to study how the force acts on the stairs when a person walks on them. Based on previous studies, we establish the Step Load Interaction Model (SLIM) to analyze the way forces act on stairs when a person walks on them. 
@@ -295,7 +286,7 @@ Through calculation, the wear width L1 caused by each applied load is determined
 To investigate the wear of stairs further, we first need to clarify the mechanical mechanism of human action on stairs during walking. To this end, this article developed the Step-pit model
 to quantify the wear and tear produced on the stairs by each step during walking.
 
-\textbf{1.Model preparation}
+\subsection{Model preparation}
 
 Based on the SLIM, we have simplified the force exerted by a person walking on a stair. By analyzing the IR pressure distribution map using the grid method, the length and area of the foot as a whole and the three main force regions can be obtained as follows:
 
@@ -321,14 +312,15 @@ C: The pressure centers of Medial Calcaneus Lateral Calcaneus
 This section sets the geometric foundation for the subsequent analysis and provides a rational coordinate frame.
 
 
-\textbf{2.Walking patterns and Landing point analysis}
+\subsection{Walking patterns and Landing point analysis}
 
 In this model, it is assumed that a person walks up and down stairs in two ways and only two ways:
 
+\begin{itemize}[label=$\rightarrow$]
+  \item Full-foot Walking: The entire foot applies force to the stairs.
 
-·  Full-foot Walking: The entire foot applies force to the stairs.
-
-·  Forefoot Walking: Only the forefoot region applies force, while the rear foot remains suspended in the air.
+  \item Forefoot Walking: Only the forefoot region applies force, while the rear foot remains suspended in the air.
+\end{itemize}
 
 
 In addition, each individual used only one walking style during a complete flight of stairs. To standardize the analysis, M is used as a benchmark.
@@ -346,7 +338,7 @@ After multiple iterations, the model generates a probability distribution curve 
 
  Combining the coordinate relationships of the three main force regions, the probability distributions of the first and third force regions can be further plotted in Fig. N.
 
-\textbf{3.Wear depth analysis of a single step.}
+\subsection{Wear depth analysis of a single step.}
 
 Literature \cite{ WOS:000678697003082}provides proportional relationships between the forces exerted by the three main force regions of the foot when a person walks on stairs. These ratios reflect the magnitude of the forces exerted on the stairs by the different regions. The results were plotted as a trilinear diagram below:
 
@@ -356,13 +348,13 @@ Where FGi is the vertical pressure exerted by region i on the stairs and G is th
 
 Assume that the wear volume can be approximated as a regular quadrangular pyramid, then based on its geometric characteristics, the wear depth in region m is calculated as:
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Where Wm and Sm represent the wear volume and area of the m-th region, respectively.
 
 
 The wear analysis of forefoot walking is similar to that of full-foot walking, but the proportional distribution of forces is different from that of full-foot walking due to the fact that there are only two main force regions applying forces. In Fig. N, a trilinear diagram was plotted to show the relationship between the force distribution in the two regions. The depth of wear was calculated in the same way as for full-footed walking, with only the parameters adjusted.
 
-\textbf{4. conclusion}
+\subsection{conclusion}
 
 \section{MESH Analysis Model}
 To study stair wear due to friction when a person walks, MESH analysis model is constrycted. A walkway width a person walks on stairs is at least equal to the average shoulder width (disregarding extreme crowding) and does not walk tightly against the edges of the stairs. 
@@ -374,12 +366,13 @@ Delineation of the target area of the stairs
 Combining the actual walking pattern, the force of human walking on stairs can be classified into the following four patterns:
 
 
-%（图）
+%%%%%%%%%%%%%%%%%%%%（图）
 
 
 To analyze the effect of walking patterns on the stairs more accurately, the actual stepping area at the intersection of each step of the stairs and the walkway is defined as the target area. In the plan view of the stairs, the target areas are divided into four sub-areas, numbered 1, 2, 3, and 4, based on the functional characteristics of walking patterns(shown in Fig. n).
 
-%（图）
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%（图）
+
 
 Sub-areas 1, 2, and 3: These areas correspond to the combined effects of different walking patterns, and their wears need to be analyzed separately according to the force characteristics of different patterns.
 
@@ -414,7 +407,8 @@ Where $X_i$ represents the total depth of wear due to friction in sub-area i; $k
 The formulae for subregions 1, and 2 have been given above, and since there is no direct function to calculate $X_3$ for subregion 3, Probability-based fitting method is designed to calculate the total depth of wear due to friction. The pseudo code is as follows:
 
 \section{Conlusion and Problem Solving}
-For Problem A
+
+
 
 Initially, we assume that when only one person is walking on the stairs, the walkway selection for each step remains consistent, meaning they will walk along the same walkway throughout. Based on the formula n from the ...... model and the results obtained from the pseudocode, we can derive the total number of people on each walkway as follows:
 
@@ -427,7 +421,7 @@ After calculating the total number of people on each walkway, we further sum the
 \[ K_{\text{total}} = \sum_{i=1}^n K_i \]
 
 
-For Problem A:
+\subsection{For Problem A}
 
 The question of "How often were the stairs used?" is quantified as the average usage frequency of the stairs over the total usage time, with the calculation formula as follows:
 
@@ -435,7 +429,7 @@ The question of "How often were the stairs used?" is quantified as the average u
 
 On this basis, the average time interval between uses of the stairs is obtained as .......
 
-For Problem B:
+\subsection{For Problem B}
 
 The total number of people descending the stairs can be expressed as:
 
@@ -456,7 +450,7 @@ By comparing the total numbers of ascending and descending, We can draw the foll
 \end{itemize}
 
 
-For problem C:
+\subsection{For problem C}
 The Z-scores formula can be used to determine outliers in the data. When the Zi corresponding to the ith data in a data set satisfies the condition Zi>3.5\cite{curtis2016mystery}, it can be considered that there is a peak at that data point. The Z-scores formula is as follows:
 
 \[ Z_i = \frac{K_i - \bar{K}}{\sqrt{\text{Var}(K)}} \]
@@ -465,13 +459,15 @@ Where Var(k) refers to the variance of the number of people on walkways and repr
 
 The Z-scores formula can be used to determine whether a peak exists in the bar graph of the number of people on each walkway:
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+
 If a peak exists, it indicates that the number of people on a certain walkway is significantly higher than on other paths, suggesting that people tend to walk in a line;
 
 If there is no peak, it indicates that the distribution of people across walkways is relatively uniform, suggesting that people prefer to walk side by side.
 
-\section{q}
+\section{Guidance Based on Stairwell Usage and Environmental Factors}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%EEE
-For Problem E
+\subsection{For Problem E}
 
 Based on the wear data shown in (Figure x), the wear in the 39-48 range is primarily influenced by environmental factors, exhibiting a mild weathering effect, and it is assumed that no significant wear is caused to the stairs.
 
@@ -485,7 +481,7 @@ Where $R_{\text{total}}$​ represents the total wear amount, $R_{\text{daily}}$
 
 Since division operations do not alter the distribution pattern of a Gaussian distribution, the estimated value of the construction year of the stairs also follows a Gaussian distribution. Therefore, we can further calculate the probability of the time period provided by the archaeologist within this estimated Gaussian distribution. The higher the probability, the more reliable the estimated value.
 
-For Problem F
+\subsection{For Problem F}
 
 The primary method for repairing building materials involves reinforcing cracks by filling them with polymer materials\cite{ YTLX200401034}. In addition, the steel plate bonding method is commonly used for strengthening flexural or tensile members (such as stair platform beams, platform slabs, and stair slabs) under normal working conditions and static loads. Closed protection by wrapping the original staircase components in steel plates is also an option.
 For repairs or renovations that are visually apparent, their presence can typically be determined through direct observation. However, for polymer reinforcement methods that are not easily discernible to the naked eye, we have designed the following detection method:
@@ -519,7 +515,7 @@ between the clustered abnormal points and normal areas, the presence and spatial
 
 Through the above multi-level detection method, not only can the presence of repairs or renovations be scientifically determined, but the repaired areas can also be accurately identified.
 
-For Problem G
+\subsection{For Problem G}
 
 To determine whether the source of the target material aligns with the archaeologist's hypothesis, we recommend sampling from what the archaeologist believes to be the original source and conducting destructive mechanical experiments to obtain precise material parameters. These experimentally obtained parameters are then used to replace the tabulated values and are re-integrated into the Step-pit model to derive the optimal fitting result. Finally, this result is compared to the fitting result obtained using the tabulated parameters, with the coefficient of determination $R^2$ used as the evaluation criterion.
 
@@ -545,17 +541,17 @@ Goodness-of-fit calculation formula:
 $R^2$ represents the proportion of the total variation that can be explained by the model. The closer the $R^2$ value is to 1, the higher the consistency of the model. The $R^2$ value can be used to evaluate the match between the archaeologist's hypothesized material source and the actual results. When $R^2$ exceeds 0.8, it indicates that the source of the target material is consistent with the archaeologist's hypothesis.
 
 
-For Problem H
+\subsection{For Problem H}
 
 
-Number of Users in a Typical Day for Staircase 
+\textbf{1.Number of Users in a Typical Day for Staircase }
 
 
 In ... (referenced analysis), we have already obtained the total number of users during the operational period of the staircase. Assuming that the number of people using the stairs per day remains constant during this period, the number of people using the stairs in a typical day can be expressed as:
 
 \[\text{Number of Users in a Typical Day} = \frac{\text{Total Number of Users}}{\text{Total Days of Usage}}\]
 
-Short-Time High Traffic or Long-Time Low Traffic
+\textbf{2.Short-Time High Traffic or Long-Time Low Traffic}
 
 
 Fatigue strength is significantly influenced by loading frequency, defined as the frequency at which force is applied to the
@@ -587,11 +583,13 @@ The U statistic is calculated as follows:
 $$U = n^2 + \frac{n}{2}(n + 1) - R(X_6)$$
 
 At a significance level of \(\alpha = 0.05\), the rejection region is \(U < 8\). The decision criteria are:
+\begin{itemize} 
 
-1.If U < 8, the alternative hypothesis $H_1$ is accepted, indicating material loss at the staircase edges caused by fractures.
+\item If U < 8, the alternative hypothesis $H_1$ is accepted, indicating material loss at the staircase edges caused by fractures.
 
-2.If \(U \geq 8\), the null hypothesis $H_0$ is accepted, suggesting that material loss at the staircase edges is primarily due to normal wear and bending, with no additional fractures.
+\item If \(U \geq 8\), the null hypothesis $H_0$ is accepted, suggesting that material loss at the staircase edges is primarily due to normal wear and bending, with no additional fractures.
 
+\end{itemize}
 
 Based on the Mann-Whitney U test results, the following conclusions can be drawn:
 

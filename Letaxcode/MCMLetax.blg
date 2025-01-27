@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: MCMLetax.aux
+The style file: ieeetr.bst
+Database file #1: References.bib
+Warning--empty journal in WOS:000678697003082
+You've used 14 entries,
+            1876 wiz_defined-function locations,
+            588 strings with 6762 characters,
+and the built_in function-call counts, 4391 in all, are:
+= -- 460
+> -- 164
+< -- 0
++ -- 60
+- -- 46
+* -- 319
+:= -- 615
+add.period$ -- 16
+call.type$ -- 14
+change.case$ -- 14
+chr.to.int$ -- 0
+cite$ -- 15
+duplicate$ -- 214
+empty$ -- 382
+format.name$ -- 46
+if$ -- 1071
+int.to.chr$ -- 0
+int.to.str$ -- 14
+missing$ -- 13
+newline$ -- 47
+num.names$ -- 14
+pop$ -- 29
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 171
+stack$ -- 0
+substring$ -- 346
+swap$ -- 106
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 49
+width$ -- 16
+write$ -- 148
+(There was 1 warning)

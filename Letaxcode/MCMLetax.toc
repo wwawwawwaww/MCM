@@ -1,0 +1,35 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Problem Background}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Restatement of the Problem}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Our Work}{5}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Assumptions and Justifications}{5}{section.2}%
+\contentsline {section}{\numberline {3}Notations}{6}{section.3}%
+\contentsline {section}{\numberline {4}Model Preparation}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Guidance on Obtaining Information}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Step Load Interaction Model}{7}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Synergizing Mechanics with Mathematical Modeling}{8}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Friction Model}{8}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Bending Model}{8}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Step-pit Model}{10}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Model preparation}{10}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Walking patterns and Landing point analysis}{10}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Wear depth analysis of a single step.}{11}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}conclusion}{11}{subsection.6.4}%
+\contentsline {section}{\numberline {7}MESH Analysis Model}{11}{section.7}%
+\contentsline {section}{\numberline {8}Conlusion and Problem Solving}{13}{section.8}%
+\contentsline {subsection}{\numberline {8.1}For Problem A}{13}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}For Problem B}{13}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}For problem C}{14}{subsection.8.3}%
+\contentsline {section}{\numberline {9}Guidance Based on Stairwell Usage and Environmental Factors}{14}{section.9}%
+\contentsline {subsection}{\numberline {9.1}For Problem E}{14}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}For Problem F}{14}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}For Problem G}{16}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}For Problem H}{16}{subsection.9.4}%
+\contentsline {section}{\numberline {10}Sensitivity Analysis}{18}{section.10}%
+\contentsline {section}{\numberline {11}Strengths and Weaknesses}{18}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Strengths}{18}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Weaknesses}{18}{subsection.11.2}%
+\contentsline {section}{\numberline {12}Conclusion}{18}{section.12}%
+\contentsline {section}{References}{19}{section.12}%
+\contentsline {section}{Appendices}{20}{section*.2}%
