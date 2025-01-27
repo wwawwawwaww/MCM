@@ -659,7 +659,7 @@ After calculating the total number of people on each walkway, we further sum the
 \[ K_{\text{total}} = \sum_{i=1}^n K_i \]
 
 
-\subsection{Question A:Usage frequency}
+\subsection{Question A: Usage frequency}
 
 The question of "How often were the stairs used?" is quantified as the average usage frequency of the stairs over the total usage time, with the calculation formula as follows:
 
@@ -667,7 +667,7 @@ The question of "How often were the stairs used?" is quantified as the average u
 
 On this basis, the average time interval between uses of the stairs is obtained as .......
 
-\subsection{Question B:Directional preference}
+\subsection{Question B: Directional preference}
 
 The total number of people descending the stairs can be expressed as:
 
@@ -688,12 +688,12 @@ By comparing the total numbers of ascending and descending, We can draw the foll
 \end{itemize}
 
 
-\subsection{Question C:Usage mode}
+\subsection{Question C: Usage mode}
 The Z-scores formula can be used to determine outliers in the data. When the Zi corresponding to the ith data in a data set satisfies the condition Zi>3.5\cite{curtis2016mystery},  it can be considered that this data point is a peak. The Z-scores formula is as follows:
 
 \[ Z_i = \frac{K_i - \bar{K}}{\sqrt{\text{Var}(K)}} \]
 
-Where Var(k) refers to the variance of the number of people on walkways and represents the mean value of the number of people on walkways.
+Where Var($K$) refers to the variance of the number of people on walkways and represents the mean value of the number of people on walkways.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
@@ -703,15 +703,17 @@ If a peak exists, it indicates that the number of people on a certain walkway is
 If there is no peak, it indicates that the distribution of people across walkways is relatively uniform, suggesting that people prefer to walk side by side.
 
 \section{Guidance Based on Stairwell Usage}
-\subsection{Qestion D:The fit consistency}
-When evaluating the model fit with $\varepsilon +\eta$ , if the confidence is greater than 95\% (i.e., less than 1.9), the model is considered to have a good fit with the actual data. Additionally, if the confidence is less than 0.95, the fit is considered excellent.
-\subsection{Question E:Age of the stair }
+\subsection{Question D: The fit consistency}
+When evaluating the model fit with $\varepsilon +\eta$ , if the confidence is greater than 95\% (i.e. less than 1.9), the model is considered to have a good fit with the actual data. Additionally, if the confidence is less than 0.95, the fit is considered excellent.
+\subsection{Question E: Age of the stair }
 
 Based on the wear data shown in (Figure x), the wear in the 39-48 range is primarily influenced by environmental factors, exhibiting a Micro-weathering effect, and it is assumed that no significant wear is caused to the stairs.
 
+\textbf{!!WARNING Figure x is a placeholder, please replace it with the actual figure number WARNING!!}
+
 On this basis, using the principles of probability theory, we can assume that the wear amount of the stairs caused each year follows a Gaussian distribution.
 
-The total wear rate of the stairs is determined by both the average annual wear rate and the time (i.e., the number of years since construction), and their relationship is expressed as:
+The total wear rate of the stairs is determined by both the average annual wear rate and the time (i.e. the number of years since construction), and their relationship is expressed as:
 
 \[R_{\text{total}} = R_{\text{year}} \cdot T \]
 
@@ -719,7 +721,7 @@ Where $R_{\text{total}}$​ represents the total wear amount, $R_{\text{daily}}$
 
 Since division operations do not alter the distribution pattern of a Gaussian distribution, the estimated value of the construction year of the stairs also follows a Gaussian distribution. Therefore, we can further calculate the probability of the time period provided by the archaeologist within this estimated Gaussian distribution. The higher the probability, the more reliable the estimated value.
 
-\subsection{Question F:Repairs and renovation}
+\subsection{Question F: Repairs and renovation}
 
 The primary repair method for building materials is crack reinforcement using polymer materials\cite{YTLX200401034}. Steel plate bonding is also commonly used to strengthen flexural or tensile members (e.g. stair platform beams, slabs, and treads) under normal working and static loads. Another option is wrapping original staircase components with steel plates for protection.
 
@@ -763,7 +765,7 @@ between the clustered abnormal points and normal areas, the presence and spatial
 
 Through the above multi-level detection method, not only can the presence of repairs or renovations be scientifically determined, but the repaired areas can also be accurately identified.
 \end{itemize}
-\subsection{Question G:Consistency of mechanical parameters}
+\subsection{Question G: Consistency of mechanical parameters}
 
 To determine whether the source of the target material aligns with the archaeologist's hypothesis, we recommend sampling from what the archaeologist believes to be the original source and conducting destructive mechanical experiments to obtain precise material parameters. These experimentally obtained parameters are then used to replace the tabulated values and are re-integrated into the Step Load Interaction Model to derive the optimal fitting result. Finally, this result is compared to the fitting result obtained using the tabulated parameters, with the coefficient of determination $R^2$ used as the evaluation criterion.
 
@@ -789,7 +791,7 @@ Goodness-of-fit calculation formula:
 $R^2$ represents the proportion of the total variation that can be explained by the model. The closer the $R^2$ value is to 1, the higher the consistency of the model. The $R^2$ value can be used to evaluate the match between the archaeologist's hypothesized material source and the actual results. When $R^2$ exceeds 0.8, it indicates that the source of the target material is consistent with the archaeologist's hypothesis.
 
 
-\subsection{Question H:Number of people and time scale}
+\subsection{Question H: Number of people and time scale}
 
 
 \textbf{1.Number of Users in a Typical Day for Staircase }

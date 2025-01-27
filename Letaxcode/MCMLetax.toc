@@ -21,19 +21,19 @@
 \contentsline {subsection}{\numberline {7.1}Wear depth analysis of a single step}{14}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}}{15}{subsection.7.2}%
 \contentsline {section}{\numberline {8}Conclusion of Basic Predictions}{17}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Question A:Usage frequency}{17}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Question B:Directional preference}{17}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}Question C:Usage mode}{17}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.1}Question A: Usage frequency}{17}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Question B: Directional preference}{17}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Question C: Usage mode}{17}{subsection.8.3}%
 \contentsline {section}{\numberline {9}Guidance Based on Stairwell Usage}{18}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Qestion D:The fit consistency}{18}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Question E:Age of the stair }{18}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Question F:Repairs and renovation}{18}{subsection.9.3}%
-\contentsline {subsection}{\numberline {9.4}Question G:Consistency of mechanical parameters}{20}{subsection.9.4}%
-\contentsline {subsection}{\numberline {9.5}Question H:Number of people and time scale}{20}{subsection.9.5}%
+\contentsline {subsection}{\numberline {9.1}Question D: The fit consistency}{18}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Question E: Age of the stair }{18}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Question F: Repairs and renovation}{18}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Question G: Consistency of mechanical parameters}{20}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}Question H: Number of people and time scale}{20}{subsection.9.5}%
 \contentsline {section}{\numberline {10}Sensitivity Analysis}{22}{section.10}%
-\contentsline {section}{\numberline {11} Evaluation of Strengths and Weaknesses}{22}{section.11}%
-\contentsline {subsection}{\numberline {11.1}Strengths}{22}{subsection.11.1}%
-\contentsline {subsection}{\numberline {11.2}Weaknesses and Further Improvements}{22}{subsection.11.2}%
-\contentsline {section}{\numberline {12}Conclusion}{22}{section.12}%
-\contentsline {section}{References}{23}{section.12}%
-\contentsline {section}{Appendices}{24}{section*.2}%
+\contentsline {section}{\numberline {11} Evaluation of Strengths and Weaknesses}{23}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Strengths}{23}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Weaknesses and Further Improvements}{23}{subsection.11.2}%
+\contentsline {section}{\numberline {12}Conclusion}{23}{section.12}%
+\contentsline {section}{References}{24}{section.12}%
+\contentsline {section}{Appendices}{25}{section*.2}%
