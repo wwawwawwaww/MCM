@@ -604,7 +604,6 @@ INPUT ./3-Infrared foot pressure zoning map.png
 INPUT ./3-Infrared foot pressure zoning map.png
 INPUT ./3-Infrared foot pressure zoning map.png
 INPUT ./3-Infrared foot pressure zoning map.png
-INPUT d:/texlive/2024/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong03.tfm
 INPUT ./4-Establishment of stair coordinate axes and empirical partitioning of tread surfaces.png
 INPUT ./4-Establishment of stair coordinate axes and empirical partitioning of tread surfaces.png
 INPUT ./4-Establishment of stair coordinate axes and empirical partitioning of tread surfaces.png
@@ -678,7 +677,6 @@ INPUT d:/texlive/2024/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tlf-t1.tfm
 INPUT MCMLetax.aux
 INPUT ./MCMLetax.out
 INPUT ./MCMLetax.out
-INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
 INPUT d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb

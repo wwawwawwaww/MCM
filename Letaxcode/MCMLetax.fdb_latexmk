@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex MCMLetax"] 1738013578.57915 "MCMLetax.aux" "MCMLetax.bbl" "MCMLetax" 1738013854.2719 0
+["bibtex MCMLetax"] 1738013578.57915 "MCMLetax.aux" "MCMLetax.bbl" "MCMLetax" 1738015495.01542 0
   "./References.bib" 1738009927 5111 0390507abacc1b5c1ae18450907fd398 ""
-  "MCMLetax.aux" 1738013853 10103 bb3d2b39c238695de0555e501b6be3a2 "pdflatex"
+  "MCMLetax.aux" 1738015494 10103 bb3d2b39c238695de0555e501b6be3a2 "pdflatex"
   "d:/texlive/2024/texmf-dist/bibtex/bst/base/ieeetr.bst" 1734240918 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
   (generated)
   "MCMLetax.bbl"
   "MCMLetax.blg"
   (rewritten before read)
-["pdflatex"] 1738013848.30604 "c:/Users/10451/Desktop/TEST1/MCM/Letaxcode/MCMLetax.tex" "MCMLetax.pdf" "MCMLetax" 1738013854.27222 0
+["pdflatex"] 1738015488.93923 "c:/Users/10451/Desktop/TEST1/MCM/Letaxcode/MCMLetax.tex" "MCMLetax.pdf" "MCMLetax" 1738015495.01574 0
   "10-The Distribution of the Number of Landing Points of M,H and C.png" 1738009927 173649 7e93669844c7515e5f583508657b8afa ""
   "12-Explanation of the Division of the Pathways.png" 1738009927 3541353 cdd9e50cd27488c85e7ddc407daf3bbd ""
   "13-Illustrative cluster diagram of the renovated areas.png" 1738009927 225450 fcb1350d3693e4a7e9c4c3ef3f763b4c ""
@@ -20,12 +20,12 @@
   "7-The depth of the depression on the staircase caused by the bending deformation.jpg" 1738009927 45074 7ef184a75f3878fa03d501e2a6afc2f3 ""
   "8-Length of catenary line-x.jpg" 1738009927 44228 6e3494a3cfae26cb125edc13d85f34ed ""
   "9-The flowchart for calculating the cumulative number of landing points.png" 1738009927 825644 7d0607cba67852d26f3c4b7dc3d09c3a ""
-  "MCMLetax.aux" 1738013853 10103 bb3d2b39c238695de0555e501b6be3a2 "pdflatex"
+  "MCMLetax.aux" 1738015494 10103 bb3d2b39c238695de0555e501b6be3a2 "pdflatex"
   "MCMLetax.bbl" 1738013578 3354 7784f2b35cdffd16c2817dddba10d0d1 "bibtex MCMLetax"
-  "MCMLetax.out" 1738013853 6912 d2e13125116ef68266931b6924ee39ce "pdflatex"
-  "MCMLetax.tex" 1738013847 54966 ad689820264e9d0f4097f55f181ab28a ""
-  "MCMLetax.toc" 1738013853 3331 919a15da9602c7f16e33000f007a4a50 "pdflatex"
-  "c:/Users/10451/Desktop/TEST1/MCM/Letaxcode/MCMLetax.tex" 1738013847 54966 ad689820264e9d0f4097f55f181ab28a ""
+  "MCMLetax.out" 1738015494 6912 d2e13125116ef68266931b6924ee39ce "pdflatex"
+  "MCMLetax.tex" 1738015488 55056 135a20f7ed10ab4aa6edc5fdf2191600 ""
+  "MCMLetax.toc" 1738015494 3331 919a15da9602c7f16e33000f007a4a50 "pdflatex"
+  "c:/Users/10451/Desktop/TEST1/MCM/Letaxcode/MCMLetax.tex" 1738015488 55056 135a20f7ed10ab4aa6edc5fdf2191600 ""
   "c:/Windows/Fonts/msyh.ttc" 1731521334 19704352 1e10e74402e59d54499af795caf0b135 ""
   "c:/Windows/Fonts/simsun.ttc" 1731521335 18070492 992f2bdc407dde6953c5ed83ceac9a91 ""
   "d:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1734241858 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -81,7 +81,6 @@
   "d:/texlive/2024/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm" 1734245128 688 37338d6ab346c2f1466b29e195316aa4 ""
   "d:/texlive/2024/texmf-dist/fonts/tfm/public/rsfs/rsfs7.tfm" 1734245128 692 1b6510779f0f05e9cbf03e0f6c8361e6 ""
   "d:/texlive/2024/texmf-dist/fonts/tfm/public/tex-gyre/ts1-qtmr.tfm" 1734245697 1600 20cdf11dab97d5d39e847571f9314407 ""
-  "d:/texlive/2024/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong03.tfm" 1734246628 1172 3f33eb08dc66d21841ca4be6f38a9cb1 ""
   "d:/texlive/2024/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong20.tfm" 1734246628 1172 c443622f792d7e5350ad5382dd8aebb3 ""
   "d:/texlive/2024/texmf-dist/fonts/tfm/zhmetrics/unisong/unisongff.tfm" 1734246628 1172 156175f4eaa9daea4e21b890ac9fafb8 ""
   "d:/texlive/2024/texmf-dist/fonts/type1/public/bera/fvsr8a.pfb" 1734240800 29095 ec98afab39d3605adbf4b9a6b800b398 ""

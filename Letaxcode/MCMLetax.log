@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.15)  28 JAN 2025 05:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.15)  28 JAN 2025 06:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1483,7 +1483,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has
                                                   \__shipout_drop_firstpage_...
 l.326 ...} \cdot \mu}{1 + e^{t - \varepsilon }} \]
                                                    <./3-Infrared foot pressure zoning map.png>]
-<4-Establishment of stair coordinate axes and empirical partitioning of tread surfaces.png, id=264, 1773.62625pt x 860.71562pt>
+<4-Establishment of stair coordinate axes and empirical partitioning of tread surfaces.png, id=263, 1773.62625pt x 860.71562pt>
 File: 4-Establishment of stair coordinate axes and empirical partitioning of tread surfaces.png Graphic file (type png)
 <use 4-Establishment of stair coordinate axes and empirical partitioning of tread surfaces.png>
 Package pdftex.def Info: 4-Establishment of stair coordinate axes and empirical partitioning of tread surfaces.png  used on input line 370.
@@ -1492,7 +1492,7 @@ Package pdftex.def Info: 4-Establishment of stair coordinate axes and empirical 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<7-The depth of the depression on the staircase caused by the bending deformation.jpg, id=265, 843.15pt x 632.3625pt>
+<7-The depth of the depression on the staircase caused by the bending deformation.jpg, id=264, 843.15pt x 632.3625pt>
 File: 7-The depth of the depression on the staircase caused by the bending deformation.jpg Graphic file (type jpg)
 <use 7-The depth of the depression on the staircase caused by the bending deformation.jpg>
 Package pdftex.def Info: 7-The depth of the depression on the staircase caused by the bending deformation.jpg  used on input line 388.
@@ -1505,7 +1505,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [9]
-<8-Length of catenary line-x.jpg, id=272, 843.15pt x 632.3625pt>
+<8-Length of catenary line-x.jpg, id=270, 843.15pt x 632.3625pt>
 File: 8-Length of catenary line-x.jpg Graphic file (type jpg)
 <use 8-Length of catenary line-x.jpg>
 Package pdftex.def Info: 8-Length of catenary line-x.jpg  used on input line 409.
@@ -1514,7 +1514,7 @@ Package pdftex.def Info: 8-Length of catenary line-x.jpg  used on input line 409
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<6-Bending model diagram.png, id=273, 384.43625pt x 249.93375pt>
+<6-Bending model diagram.png, id=271, 384.43625pt x 249.93375pt>
 File: 6-Bending model diagram.png Graphic file (type png)
 <use 6-Bending model diagram.png>
 Package pdftex.def Info: 6-Bending model diagram.png  used on input line 419.
@@ -1540,7 +1540,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has
                                                   \__shipout_drop_firstpage_...
 l.425 
        <./4-Establishment of stair coordinate axes and empirical partitioning of tread surfaces.png> <./7-The depth of the depression on the staircase caused by the bending deformation.jpg>]
-<5-Foot sole grid.png, id=282, 1351.54938pt x 1164.85187pt>
+<5-Foot sole grid.png, id=280, 1351.54938pt x 1164.85187pt>
 File: 5-Foot sole grid.png Graphic file (type png)
 <use 5-Foot sole grid.png>
 Package pdftex.def Info: 5-Foot sole grid.png  used on input line 431.
@@ -1585,7 +1585,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has 
                                                   \__shipout_drop_firstpage_...
 l.481     \item F
                  ull-foot Walking: The entire foot applies force to the stairs. <./5-Foot sole grid.png>]
-<9-The flowchart for calculating the cumulative number of landing points.png, id=302, 4015.50188pt x 2258.93938pt>
+<9-The flowchart for calculating the cumulative number of landing points.png, id=300, 4015.50188pt x 2258.93938pt>
 File: 9-The flowchart for calculating the cumulative number of landing points.png Graphic file (type png)
 <use 9-The flowchart for calculating the cumulative number of landing points.png>
 Package pdftex.def Info: 9-The flowchart for calculating the cumulative number of landing points.png  used on input line 513.
@@ -1604,7 +1604,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has
                                                   \__shipout_drop_firstpage_...
 l.519   \newpage
                  <./9-The flowchart for calculating the cumulative number of landing points.png>]
-<10-The Distribution of the Number of Landing Points of M,H and C.png, id=313, 1614.03pt x 1235.11438pt>
+<10-The Distribution of the Number of Landing Points of M,H and C.png, id=311, 1614.03pt x 1235.11438pt>
 File: 10-The Distribution of the Number of Landing Points of M,H and C.png Graphic file (type png)
 <use 10-The Distribution of the Number of Landing Points of M,H and C.png>
 Package pdftex.def Info: 10-The Distribution of the Number of Landing Points of M,H and C.png  used on input line 524.
@@ -1633,7 +1633,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has 
                                                   \__shipout_drop_firstpage_...
 l.563   \item \textbf
                      {Forefoot Walking} <./10-The Distribution of the Number of Landing Points of M,H and C.png>]
-<12-Explanation of the Division of the Pathways.png, id=325, 3277.74562pt x 1022.82124pt>
+<12-Explanation of the Division of the Pathways.png, id=323, 3277.74562pt x 1022.82124pt>
 File: 12-Explanation of the Division of the Pathways.png Graphic file (type png)
 <use 12-Explanation of the Division of the Pathways.png>
 Package pdftex.def Info: 12-Explanation of the Division of the Pathways.png  used on input line 588.
@@ -1678,10 +1678,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [18]
-<13-Illustrative cluster diagram of the renovated areas.png, id=358, 1614.03pt x 1235.11438pt>
+<13-Illustrative cluster diagram of the renovated areas.png, id=356, 1614.03pt x 1235.11438pt>
 File: 13-Illustrative cluster diagram of the renovated areas.png Graphic file (type png)
 <use 13-Illustrative cluster diagram of the renovated areas.png>
-Package pdftex.def Info: 13-Illustrative cluster diagram of the renovated areas.png  used on input line 736.
+Package pdftex.def Info: 13-Illustrative cluster diagram of the renovated areas.png  used on input line 738.
 (pdftex.def)             Requested size: 312.9803pt x 239.49883pt.
 
 
@@ -1695,7 +1695,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.765 
+l.767 
        <./13-Illustrative cluster diagram of the renovated areas.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1713,10 +1713,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [21]
-<14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png, id=389, 1614.03pt x 1235.11438pt>
+<14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png, id=387, 1614.03pt x 1235.11438pt>
 File: 14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png Graphic file (type png)
 <use 14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png>
-Package pdftex.def Info: 14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png  used on input line 867.
+Package pdftex.def Info: 14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png  used on input line 869.
 (pdftex.def)             Requested size: 312.9803pt x 239.49883pt.
 
 
@@ -1730,7 +1730,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.875 \newpage
+l.877 \newpage
                <./14-Staircase section Worn Pit Profile Line varies with the ratio of the number of passengers on the upward journey..png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1744,9 +1744,9 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 12.0pt on input line 4.
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 884.
+(Font)              scaled to size 24.88pt on input line 886.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 24.88pt on input line 884.
+(Font)              scaled to size 24.88pt on input line 886.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1781,21 +1781,21 @@ Package rerunfilecheck Info: File `MCMLetax.out' has not changed.
 (rerunfilecheck)             Checksum: D2E13125116EF68266931B6924EE39CE;6912.
  ) 
 Here is how much of TeX's memory you used:
- 37973 strings out of 474116
- 700000 string characters out of 5747716
+ 37969 strings out of 474116
+ 699946 string characters out of 5747716
  1945190 words of memory out of 5000000
- 59445 multiletter control sequences out of 15000+600000
- 633959 words of font info for 129 fonts, out of 8000000 for 9000
+ 59443 multiletter control sequences out of 15000+600000
+ 633689 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,13n,93p,1076b,754s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Windows/Fonts/simsun.ttc
 
 pdfTeX warning: pdflatex.exe (file c:/Windows/Fonts/simsun.ttc): subfont unisong20: wrong mapping: character 11 --> 0x200B --> .notdef
-><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/bera/fvsr8a.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/txexs.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/txsys.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmr.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on MCMLetax.pdf (25 pages, 10237519 bytes).
+><c:/Windows/Fonts/simsun.ttc><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/bera/fvsr8a.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/txexs.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/txsys.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmr.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
+Output written on MCMLetax.pdf (25 pages, 10233575 bytes).
 PDF statistics:
- 500 PDF objects out of 1000 (max. 8388607)
- 420 compressed objects within 5 object streams
+ 495 PDF objects out of 1000 (max. 8388607)
+ 417 compressed objects within 5 object streams
  103 named destinations out of 1000 (max. 500000)
- 389 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 385 words of extra memory for PDF output out of 10000 (max. 10000000)
 

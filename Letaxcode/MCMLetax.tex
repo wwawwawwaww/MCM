@@ -317,15 +317,15 @@ Figure n shows that a countertop of stairs can be divided into two parts: the ac
 \subsection{Friction Model}
 The Mills model is used to characterize the wear of materials under multiple loading conditions and is suitable for complex wear scenarios by considering the microscopic changes in the material surface and its elastic recovery properties.
 
-In the case of stairs, which are used under stable conditions (e.g. constant flow of people and gait characteristics), the friction process is dominated by sliding wear due to the low sliding velocities. In this case, the contact state of the stair surface (including pressure and temperature distribution) remains stable during the friction process. Based on this assumption, the amount of wear W is usually linearly related to the nth power of the sliding velocity V, where n is the velocity factor, which is related to the material properties and contact conditions%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%网址的引用
+In the case of stairs, which are used under stable conditions (e.g. constant flow of people and gait characteristics), the friction process is dominated by sliding wear due to the low sliding velocities. In this case, the contact state of the stair surface (including pressure and temperature distribution) remains stable during the friction process. Based on this assumption, the amount of wear W is usually linearly related to the nth power of the sliding velocity $V$, where n is the velocity factor, which is related to the material properties and contact conditions%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%网址的引用
 
 On this basis, to more accurately analyze the wear behavior of staircase materials (e.g. stone or wood), we will modify the classical Mills model and develop a mathematical model suitable for staircase wear analysis.
 
-First, the normal load F acting on the surface of the staircase material is calculated with the following expression:
+First, the normal load $F$ acting on the surface of the staircase material is calculated with the following expression:
 
 \[ F(t) = \frac{F_{q} \cdot \mu}{1 + e^{t - \varepsilon }} \]
 
-Where FG is the average value of normal pressure, $\varepsilon$  represents the adjustment coefficient, and μ represents the coefficient of kinetic friction.The F obtained above is used as an independent variable in the wear volume model to further calculate the material wear amount W:
+Where $\varepsilon$  represents the adjustment coefficient, and $\mu$ represents the coefficient of kinetic friction.The $F$ obtained above is used as an independent variable in the wear volume model to further calculate the material wear amount $W$:
 
 
 \[ W = \int_{0}^{t} \frac{K \cdot V^{n} \cdot F(t)}{H} \ dt \]
@@ -400,7 +400,7 @@ We further abstracted the overall bending deformation of the stairs as a concave
 
 \[ b = 2Wr \sinh\left(\frac{L_1}{2Wr}\right) \]
 
-Where $L_1$ refers to The width corresponding to the indentation caused by each normal load.(b and $L1$ are specifically indicated in Figure 6)
+Where $L_1$ refers to The width corresponding to the indentation caused by each normal load.($b$ and $L_1$ are specifically indicated in Figure 6)
 
 
 \begin{figure}[h]  % 图片
@@ -411,7 +411,7 @@ Where $L_1$ refers to The width corresponding to the indentation caused by each 
   \end{figure}  % 图片结束
 
 
-Through calculation, the wear width L1 caused by each applied load is determined to be 0.1±0.01. For the sake of simplification in subsequent calculations, L1 is treated as a constant value of 0.1.
+Through calculation, the wear width $L_1$ caused by each applied load is determined to be 0.1±0.01. For the sake of simplification in subsequent calculations, $L_1$ is treated as a constant value of 0.1.
 
 \begin{figure}[h]  % 图片
   \small
@@ -490,7 +490,7 @@ unit lengths and the height is about 21 unit lengths.
   \item \textbf{Calculation of standard coordinates}
   \end{itemize}
   
-  The standard coordinates on the i+1st step can be obtained recursively from the standard coordinates of the i-th step:
+  The standard coordinates on the i+1st step can be obtained recursively from the standard coordinates of the $i$-th step:
   
   \[
   X_n = X_n + L_{\text{stride}} - D
@@ -504,7 +504,7 @@ unit lengths and the height is about 21 unit lengths.
 \]
 
 
-  On this basis, the standard coordinates of the i+1-th stair need to be adjusted according to the constraints of the comfort zone. The specific calculation process is shown in Figure 10. 
+  On this basis, the standard coordinates of the $i$+1-th stair need to be adjusted according to the constraints of the comfort zone. The specific calculation process is shown in Figure 10. 
   
   
   \begin{figure}[h]  % 图片
@@ -550,16 +550,16 @@ unit lengths and the height is about 21 unit lengths.
     \end{tabular}
     \end{table}
 
-  Where\( G = 1624 \pm 19.2 \, \text{N} \) (from \cite{1})%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  Where \( G = 1624 \pm 19.2 \, \text{N} \) (from \cite{1})%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
   
-  Where FGi is the vertical pressure exerted by region i on the stairs and G is the total vertical pressure.
+  Where $FG_i$ is the vertical pressure exerted by region $i$ on the stairs and $G$ is the total vertical pressure.
   
   
   Assume that the wear volume can be approximated as a regular quadrangular pyramid, then based on its geometric characteristics, the wear depth in region m is calculated as:
   
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  Where Wm and \(S_m\) represent the wear volume and area of the m-th region, respectively.
+  Where Wm and \(S_m\) represent the wear volume and area of the $m$-th region, respectively.
   \item \textbf{Forefoot Walking}
   
   The wear analysis of forefoot walking is similar to that of full-foot walking, but the proportional distribution of forces is different from that of full-foot walking due to the fact that there are only two main force regions applying forces. In Fig. N, a trilinear diagram was plotted to show the relationship between the force distribution in the two regions. The depth of wear was calculated in the same way as for full-footed walking, with only the parameters adjusted.
@@ -653,6 +653,8 @@ Initially, we assume that when only one person is walking on the stairs, the wal
 \[ K_i = K_{Ai} + K_{Bi} + K_{Ci} + K_{Di} \]
 
 Using this expression, we can calculate the total number of people on each path, which is then visually represented using a bar chart (as shown in Figure n).
+
+\textbf{!!WARNING Figure n is a placeholder, please replace it with the actual figure WARNING!!}
 
 After calculating the total number of people on each walkway, we further sum these values to obtain the total number of people using the stairs, which could be expressed as:
 
