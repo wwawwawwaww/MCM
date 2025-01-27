@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.14)  27 JAN 2025 18:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.14)  27 JAN 2025 19:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1017,7 +1017,20 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@expandcount=\count361
  (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
+))) (c:/texlive/2024/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\enitkv@toks@=\toks59
+\labelindent=\skip83
+\enit@outerparindent=\dimen317
+\enit@toks=\toks60
+\enit@inbox=\box78
+\enit@count@id=\count362
+\enitdp@description=\count363
+) (c:/texlive/2024/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty
+Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
+ (c:/texlive/2024/texmf-dist/tex/latex/fontawesome5/fontawesome5-generic-helper.sty
+Package: fontawesome5-generic-helper 2022/05/02 v5.15.4 non-uTeX helper for fontawesome5
+ (c:/texlive/2024/texmf-dist/tex/latex/fontawesome5/fontawesome5-mapping.def))) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -1025,7 +1038,7 @@ File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\arrowsize=\dimen317
+\arrowsize=\dimen318
 )) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (c:/texlive/2024/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
@@ -1033,133 +1046,133 @@ File: UTF8.enc 2021/10/16 4.8.5
 ) (c:/texlive/2024/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
 )
-LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line 49.
+LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line 54.
  (c:/texlive/2024/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
 File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 49.
+(Font)              scaled to size 12.0pt on input line 54.
  (./MCMLetax.aux)
 \openout1 = `MCMLetax.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 49.
-LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 49.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 54.
+LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 54.
  (c:/texlive/2024/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 49.
-LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 49.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 54.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 54.
  (c:/texlive/2024/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 49.
-LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 49.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 54.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 54.
  (c:/texlive/2024/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 49.
-LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 49.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 54.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 54.
  (c:/texlive/2024/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 49.
-\c@lstlisting=\count362
-LaTeX Info: Command `\dddot' is already robust on input line 49.
-LaTeX Info: Command `\ddddot' is already robust on input line 49.
+LaTeX Font Info:    ... okay on input line 54.
+\c@lstlisting=\count364
+LaTeX Info: Command `\dddot' is already robust on input line 54.
+LaTeX Info: Command `\ddddot' is already robust on input line 54.
  (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count363
-\scratchdimen=\dimen318
-\scratchbox=\box78
-\nofMPsegments=\count364
-\nofMParguments=\count365
-\everyMPshowfont=\toks59
-\MPscratchCnt=\count366
-\MPscratchDim=\dimen319
-\MPnumerator=\count367
-\makeMPintoPDFobject=\count368
-\everyMPtoPDFconversion=\toks60
+\scratchcounter=\count365
+\scratchdimen=\dimen319
+\scratchbox=\box79
+\nofMPsegments=\count366
+\nofMParguments=\count367
+\everyMPshowfont=\toks61
+\MPscratchCnt=\count368
+\MPscratchDim=\dimen320
+\MPnumerator=\count369
+\makeMPintoPDFobject=\count370
+\everyMPtoPDFconversion=\toks62
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1195,32 +1208,32 @@ LaTeX Info: Command `\ddddot' is already robust on input line 49.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 49.
+Package hyperref Info: Link coloring OFF on input line 54.
 (./MCMLetax.out) (./MCMLetax.out)
 \@outlinefile=\write5
 \openout5 = `MCMLetax.out'.
 
-\c@mv@tabular=\count369
-\c@mv@boldtabular=\count370
+\c@mv@tabular=\count371
+\c@mv@boldtabular=\count372
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 57.
+(Font)              scaled to size 12.0pt on input line 62.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 57.
+(Font)              scaled to size 17.28pt on input line 62.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 57.
+(Font)              scaled to size 17.28pt on input line 62.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 20.74pt on input line 57.
+(Font)              scaled to size 20.74pt on input line 62.
  (c:/texlive/2024/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
 File: ctex-zhmap-windows.tex 2022/07/14 v2.5.10 Windows font map loader for pdfTeX and DVIPDFMx (CTEX)
 {c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{UGBK.sfd}{Unicode.sfd}) [1
 
 {c:/texlive/2024/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}]
-LaTeX Font Info:    Trying to load font information for T1+fvs on input line 61.
+LaTeX Font Info:    Trying to load font information for T1+fvs on input line 66.
  (c:/texlive/2024/texmf-dist/tex/latex/bera/t1fvs.fd
 File: t1fvs.fd 2004/09/07 scalable font definitions for T1/fvs.
 )
 LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
-(Font)              scaled to size 15.55188pt on input line 61.
+(Font)              scaled to size 15.55188pt on input line 66.
  (./MCMLetax.toc
 LaTeX Font Info:    Trying to load font information for OT1+minntx on input line 3.
  (c:/texlive/2024/texmf-dist/tex/latex/newtx/ot1minntx.fd
@@ -1254,9 +1267,9 @@ File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 \openout6 = `MCMLetax.toc'.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 63.
+(Font)              scaled to size 10.95pt on input line 68.
 LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 63.
+(Font)              scaled to size 9.85492pt on input line 68.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1267,9 +1280,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2{c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 66.
+(Font)              scaled to size 14.4pt on input line 71.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 66.
+(Font)              scaled to size 14.4pt on input line 71.
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 80.
+ (c:/texlive/2024/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
+)
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 80.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1278,12 +1297,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[3]
-LaTeX Font Info:    Trying to load font information for C70+rm on input line 120.
+[3{c:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
+LaTeX Font Info:    Trying to load font information for C70+rm on input line 137.
  (c:/texlive/2024/texmf-dist/tex/latex/ctex/fd/c70rm.fd
 File: c70rm.fd 2022/07/14 v2.5.10 Chinese font definition (CTEX)
 )
-Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line 120.
+Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line 137.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1294,9 +1313,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [4]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 147.
+(Font)              scaled to size 8.8pt on input line 168.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 147.
+(Font)              scaled to size 6.6pt on input line 168.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1307,10 +1326,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [5{c:/texlive/2024/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.8pt on input line 200.
+(Font)              scaled to size 8.8pt on input line 221.
 
 
-LaTeX Warning: Citation `YISX202303023' on page 6 undefined on input line 200.
+LaTeX Warning: Citation `YISX202303023' on page 6 undefined on input line 221.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1320,13 +1339,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [6]
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 219.
- (c:/texlive/2024/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
-File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
-)
-LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 219.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1334,12 +1346,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[7{c:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
+[7]
 
-LaTeX Warning: Citation `Levinson1981' on page 8 undefined on input line 258.
+LaTeX Warning: Citation `Levinson1981' on page 8 undefined on input line 280.
 
 
-LaTeX Warning: Citation `SJZT20241216003' on page 8 undefined on input line 258.
+LaTeX Warning: Citation `SJZT20241216003' on page 8 undefined on input line 280.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1350,7 +1362,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [8]
 
-LaTeX Warning: Citation `WOS:000783553300001' on page 9 undefined on input line 285.
+LaTeX Warning: Citation `WOS:000783553300001' on page 9 undefined on input line 307.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1361,7 +1373,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [9]
 
-LaTeX Warning: Citation `WOS:000678697003082' on page 10 undefined on input line 329.
+LaTeX Warning: Citation `WOS:000678697003082' on page 10 undefined on input line 351.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1380,7 +1392,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [11]
 
-LaTeX Warning: Citation `curtis2016mystery' on page 12 undefined on input line 438.
+LaTeX Warning: Citation `curtis2016mystery' on page 12 undefined on input line 460.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1391,7 +1403,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [12]
 
-LaTeX Warning: Citation `YTLX200401034' on page 13 undefined on input line 468.
+LaTeX Warning: Citation `YTLX200401034' on page 13 undefined on input line 490.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1402,7 +1414,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [13]
 
-LaTeX Warning: Citation `sena2015non' on page 14 undefined on input line 474.
+LaTeX Warning: Citation `sena2015non' on page 14 undefined on input line 496.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1413,19 +1425,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [14]
 
-LaTeX Warning: Citation `Yokobori1976' on page 15 undefined on input line 540.
+LaTeX Warning: Citation `Yokobori1976' on page 15 undefined on input line 562.
 
 
-LaTeX Warning: Citation `Takezono1980' on page 15 undefined on input line 540.
+LaTeX Warning: Citation `Takezono1980' on page 15 undefined on input line 562.
 
 
-LaTeX Warning: Citation `HeimbachHeimbach+1970+377+380' on page 15 undefined on input line 540.
+LaTeX Warning: Citation `HeimbachHeimbach+1970+377+380' on page 15 undefined on input line 562.
 
 
-LaTeX Warning: Citation `SJESAC88A958454EEE1CD4ED092FB8A0E8F8' on page 15 undefined on input line 541.
+LaTeX Warning: Citation `SJESAC88A958454EEE1CD4ED092FB8A0E8F8' on page 15 undefined on input line 563.
 
 
-LaTeX Warning: Citation `SJESF46245B4D88236414B6977C781CEC048' on page 15 undefined on input line 541.
+LaTeX Warning: Citation `SJESF46245B4D88236414B6977C781CEC048' on page 15 undefined on input line 563.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1456,9 +1468,9 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 600.
+(Font)              scaled to size 24.88pt on input line 622.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 24.88pt on input line 600.
+(Font)              scaled to size 24.88pt on input line 622.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1482,21 +1494,21 @@ Package rerunfilecheck Info: File `MCMLetax.out' has not changed.
 (rerunfilecheck)             Checksum: C48B233364BF967C4DF9BA1C5015F182;3280.
  ) 
 Here is how much of TeX's memory you used:
- 33593 strings out of 474116
- 607839 string characters out of 5747716
+ 36928 strings out of 474116
+ 679543 string characters out of 5747716
  1940190 words of memory out of 5000000
- 55155 multiletter control sequences out of 15000+600000
- 633850 words of font info for 128 fonts, out of 8000000 for 9000
+ 58474 multiletter control sequences out of 15000+600000
+ 634120 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,13n,93p,1031b,580s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc
+ 90i,13n,93p,1031b,695s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/Windows/Fonts/simsun.ttc
 
 pdfTeX warning: pdflatex.exe (file c:/Windows/Fonts/simsun.ttc): subfont unisong20: wrong mapping: character 11 --> 0x200B --> .notdef
-><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/bera/fvsb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/bera/fvsr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/txsys.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmr.pfb>
-Output written on MCMLetax.pdf (18 pages, 193787 bytes).
+><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/bera/fvsb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/bera/fvsr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/txsys.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmr.pfb>
+Output written on MCMLetax.pdf (18 pages, 200181 bytes).
 PDF statistics:
- 305 PDF objects out of 1000 (max. 8388607)
- 257 compressed objects within 3 object streams
+ 314 PDF objects out of 1000 (max. 8388607)
+ 263 compressed objects within 3 object streams
  48 named destinations out of 1000 (max. 500000)
  209 words of extra memory for PDF output out of 10000 (max. 10000000)
 

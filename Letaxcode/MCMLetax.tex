@@ -36,6 +36,11 @@
 \usepackage{indentfirst}  %首行缩进，注释掉，首行就不再缩进。
 \usepackage{lipsum}
 \usepackage{tikz}
+
+\usepackage{enumitem} % 引入 enumitem 宏包
+\usepackage{fontawesome5} % 加载 fontawesome5 宏包，用于指南针图标
+
+
 \usetikzlibrary{shapes.geometric, arrows}
 \usetikzlibrary{calc}
 \graphicspath{{C:/Users/32624/Desktop/MCM/}}
@@ -71,56 +76,69 @@ Despite the important research value of stair wear, there are still relatively f
 As shown in Fig. n, the wear traces of stairs exhibit complex and diverse patterns. Combining these features, the goal of our article is to provide archaeologists with a feasible measurement method and quantitative analysis of stair wear by building a mathematical model to excavate the historical and cultural information in the wear of stairs.
 \subsection{Restatement of the Problem}
 The wear of stairs is a complex object of study influenced by multiple factors combined. By analyzing the background of the problem in depth and combining the specific constraints, the problem can be restated as follows:
-
-1. Clarify the data requirements
+\begin{itemize}
+\item \textbf{Problem 1:}
+Clarify the data requirements
 Under the assumption that archaeologists can employ low-cost, simple, and non-destructive measurements, clarify the key types of data that need to be acquired.
 
-2. Build an analytical model
+\item \textbf{Prpblem 2:}
+Build an analytical model
 Build a mathematical model to analyze the wear of stairs and predict how the target stairs will be used, using the key data types acquired in Problem 1. Specifically include:
-
+\hspace{2em} % 添加两个字符宽度的空格
+\begin{flushleft}
 A. the frequency of use of the staircase;
 
 B. the direction in which the stairs are primarily used (upward or downward preference);
 
 C. the number of people using the stairs simultaneously and their mode of use (e.g., side-by-side walking or single-passing).
 
-3. Further exploration of issues related to specific conditions
+\end{flushleft}
+
+\item \textbf{Problem 3:}
+Further exploration of issues related to specific conditions
 
 Based on the..... model, provided being able to estimate the age exists, clarifying the way the stairwell was used, and understanding the daily pattern of life in the structure, analyse the following aspects in depth:
 
-D. whether the wear patterns are consistent with the available information;
+\hspace{2em} % 添加两个字符宽度的空格
+\begin{flushleft}
+  
+  D. whether the wear patterns are consistent with the available information; 
 
-E. the estimation of the age of the stairs and its reliability;
+  E. the estimation of the age of the stairs and its reliability;
 
-F. the repair or renovation history of the stairs;
+  F. the repair or renovation history of the stairs;
 
-G. the certainty of the source of materials used in the construction of the stair;
+  G. the certainty of the source of materials used in the construction of the stair;
 
-H. The information that can be determined includes the number of people using the stairs on a typical day and the usage frequency ( whether it involves a large number of people over a short time or a small number over a longer period).
+  H. The information that can be determined includes the number of people using the stairs on a typical day and the usage frequency ( whether it involves a large number of people over a short time or a small number over a longer period).
 
+\end{flushleft}
+\end{itemize}
 
 \subsection{Our Work}
 \section{Assumptions and Justifications}
-1. The materials from which the stairs are made have constant mechanical properties and for the same material, the mechanical properties are consistent throughout the stairs.
+\begin{itemize}
+\item \textbf{The materials from which the stairs are made have constant mechanical properties and for the same material, the mechanical properties are consistent throughout the stairs.}
 
-Changes in the mechanical properties of materials over time or space will lead to increased complexity of analysis and difficulty in accurate modeling. Therefore, assuming that the material properties are constant and consistent can simplify the research process and improve the scientific and operability of the model.
+\textbf{Explanation:}Changes in the mechanical properties of materials over time or space will lead to increased complexity of analysis and difficulty in accurate modeling. Therefore, assuming that the material properties are constant and consistent can simplify the research process and improve the scientific and operability of the model.
 
-2. The effect of special shoes such as high-heeled shoes on the wear of stairs is not considered in the analysis, and only the role of common soles is investigated.
+\item \textbf{The effect of special shoes such as high-heeled shoes on the wear of stairs is not considered in the analysis, and only the role of common soles is investigated.}
 
-The wear effect of special shoes such as high-heeled shoes is usually concentrated in localized areas and happens less frequently, which has a modest influence on the overall wear pattern.
+\textbf{Explanation:}The wear effect of special shoes such as high-heeled shoes is usually concentrated in localized areas and happens less frequently, which has a modest influence on the overall wear pattern.
 
-3. The data obtained by the simulation expedition in the article is accurate and can truly reflect the wear of stairs and usage patterns.
+\item \textbf{The data obtained by the simulation expedition in the article is accurate and can truly reflect the wear of stairs and usage patterns.}
 
-Assumptions about the data that accurately reflect the wear of stairs and patterns of use will prevent data quality issues from interfering with the study.
+\textbf{Explanation:}Assumptions about the data that accurately reflect the wear of stairs and patterns of use will prevent data quality issues from interfering with the study.
 
-4.The study was conducted only on uneven wear of stairs made of stone or wood due to long-term use.
+\item \textbf{The study was conducted only on uneven wear of stairs made of stone or wood due to long-term use.}
 
-The problem statement explicitly specifies that the study is limited to stone or wooden stairs that show uneven wear after long-term use.
+\textbf{Explanation:}The problem statement explicitly specifies that the study is limited to stone or wooden stairs that show uneven wear after long-term use.
 
-5.All stair users walk at a normal gait (based on the first model, the “Human Gait Model”), and the effects of intentional friction or other abnormal use behaviors on the wear of stairs are not considered.
+\item \textbf{All stair users walk at a normal gait (based on the first model, the “Human Gait Model”), and the effects of intentional friction or other abnormal use behaviors on the wear of stairs are not considered.}
 
-Assuming that all stair users walk at a normal gait allows the study to focus on regular use and natural wear and tear, thus simplifying the model and avoiding the introduction of unnecessary complexity due to unusual behaviors(such as intentional rubbing or fast running).
+\textbf{Explanation:}Assuming that all stair users walk at a normal gait allows the study to focus on regular use and natural wear and tear, thus simplifying the model and avoiding the introduction of unnecessary complexity due to unusual behaviors(such as intentional rubbing or fast running).
 
+\end{itemize}
 
 Additionally, to simplify the analysis, additional assumptions were introduced and are discussed in the relevant sections.
 \section{Notations}%可以有Definitions and Notations
@@ -132,15 +150,18 @@ To ensure that the measurements are non-destructive, inexpensive, and can be don
 
 %图
 
-Measurement and data preprocessing of the depth of wear on stairs
+\textbf{1.Measurement and data preprocessing of the depth of wear on stairs}
 
 Choose 20 steps of the target stairs and complete the following operations using the laser rangefinder and the vernier caliper for one steps:
 
-1. Fix the laser range finder in a constant horizontal plane using a sliding table and set the height of the stair root as the reference height;
+\begin{itemize}[label=$\star$] % 将项目符号替换为五角星
+\item Fix the laser range finder in a constant horizontal plane using a sliding table and set the height of the stair root as the reference height;
 
-2. Randomly select 100 sample points for each square meter of the stair plane and record the 2D coordinates (x,y) of each sample point and its measured height.
+\item Randomly select 100 sample points for each square meter of the stair plane and record the 2D coordinates (x,y) of each sample point and its measured height.
 
-3. Corners and other data that cannot be measured with a laser distance meter are measured with vernier calipers.
+\item Corners and other data that cannot be measured with a laser distance meter are measured with vernier calipers.
+
+\end{itemize}
 
 Next, based on the data obtained from the measurements, we can use the following formula to calculate the depth of wear for each sampling point:
 
@@ -158,7 +179,7 @@ Randomly select 10 steps from the target staircase and use a meter rule to measu
 
 \[\quad H_{\text{average}} = \frac{\sum_{i=1}^{10} H_i}{10}​\]
 
-2.Data Retrieval from Literature and Sources
+\textbf{2.Data Retrieval from Literature and Sources}
 
 The required information includes the construction and maintenance years, which can be determined through historical records or archaeological literature to estimate the approximate construction date and the timing of any renovations. Additionally, the material and mechanical properties of the staircase must be identified, either through a literature review or direct observation. Specifically, it is necessary to determine the primary material of the stairs and gather the following mechanical property parameters:
 
@@ -224,8 +245,9 @@ Where FG is the average value of normal pressure, ¥ represents the adjustment c
 Where V represents the average sliding velocity of the contact producing friction, and K and H are the wear coefficient and hardness of the staircase material, respectively.
 \subsection{Bending Model}
 To describe the wear behavior of stairs more accurately, a mathematical model based on beam bending theory is developed to predict the wear under different conditions through the relationship between deflection and loading.
-Variable description
-\begin{itemize} 
+
+\textbf{1.Variable description}
+\begin{itemize}[label=\ding{96}]  
 
 \item \( \text{Wr} \): Deflection, the depth of deformation under external forces, measured in meters (m). 
 
@@ -249,11 +271,11 @@ Variable description
 
  \end{itemize}
 
-Coordinate axis description
+\textbf{2.Coordinate axis description}
 
 The coordinate axis of the stair adopts the right-handed rectangular coordinate system, where the X-axis is along the horizontal direction of the stair, indicating the horizontal coordinates of the force position, and the Y-axis is along the vertical direction of the stair, indicating the change of deformation and deflection, and the origin of the coordinate system is located at the bottom of the stair, as illustrated in the figure n.
 
-model building
+\textbf{3.model building}
 
 Firstly, we simplify the stair to a model of a beam fixed at both ends (both ends are fixed by supports, one of which is supported with pulleys to allow sliding in the axial direction) \cite{Levinson1981}\cite{SJZT20241216003}. Based on this assumption, the deflection equation for this model is expressed as:
 
@@ -273,7 +295,7 @@ Through calculation, the wear width L1 caused by each applied load is determined
 To investigate the wear of stairs further, we first need to clarify the mechanical mechanism of human action on stairs during walking. To this end, this article developed the Step-pit model
 to quantify the wear and tear produced on the stairs by each step during walking.
 
-1.Model preparation
+\textbf{1.Model preparation}
 
 Based on the SLIM, we have simplified the force exerted by a person walking on a stair. By analyzing the IR pressure distribution map using the grid method, the length and area of the foot as a whole and the three main force regions can be obtained as follows:
 
@@ -299,7 +321,7 @@ C: The pressure centers of Medial Calcaneus Lateral Calcaneus
 This section sets the geometric foundation for the subsequent analysis and provides a rational coordinate frame.
 
 
-2.Walking patterns and Landing point analysis
+\textbf{2.Walking patterns and Landing point analysis}
 
 In this model, it is assumed that a person walks up and down stairs in two ways and only two ways:
 
@@ -324,7 +346,7 @@ After multiple iterations, the model generates a probability distribution curve 
 
  Combining the coordinate relationships of the three main force regions, the probability distributions of the first and third force regions can be further plotted in Fig. N.
 
-3.Wear depth analysis of a single step.
+\textbf{3.Wear depth analysis of a single step.}
 
 Literature \cite{ WOS:000678697003082}provides proportional relationships between the forces exerted by the three main force regions of the foot when a person walks on stairs. These ratios reflect the magnitude of the forces exerted on the stairs by the different regions. The results were plotted as a trilinear diagram below:
 
@@ -340,7 +362,7 @@ Where Wm and Sm represent the wear volume and area of the m-th region, respecti
 
 The wear analysis of forefoot walking is similar to that of full-foot walking, but the proportional distribution of forces is different from that of full-foot walking due to the fact that there are only two main force regions applying forces. In Fig. N, a trilinear diagram was plotted to show the relationship between the force distribution in the two regions. The depth of wear was calculated in the same way as for full-footed walking, with only the parameters adjusted.
 
-4. conclusion
+\textbf{4. conclusion}
 
 \section{MESH Analysis Model}
 To study stair wear due to friction when a person walks, MESH analysis model is constrycted. A walkway width a person walks on stairs is at least equal to the average shoulder width (disregarding extreme crowding) and does not walk tightly against the edges of the stairs. 
