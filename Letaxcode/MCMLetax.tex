@@ -376,7 +376,7 @@ The coordinate axis of the stair adopts the left-handed rectangular coordinate s
 
 \textbf{3.model building}
 
-Firstly, we simplify the stair to a model of a beam fixed at both ends (both ends are fixed by supports, one of which is supported with pulleys to allow sliding in the axial direction) \cite{Levinson1981}\cite{SJZT20241216003}. Based on this assumption, the deflection equation for this model is expressed as:
+Upon calculating the total number of individuals on each walkway, we subsequently aggregate these values to determine the overall number of individuals utilizing the stairs, as expressed by the following formula:
 
 \[ W_r = \frac{9X}{24EI} \left[ X^3 - 2LEN \cdot X^2 + LEN^3 - \frac{12EI}{kgA}(X - LEN) \right] \]
 
@@ -497,7 +497,7 @@ unit lengths and the height is about 21 unit lengths.
   \]
   
   
-  Although walking styles vary, regardless of the style, the human stride length tends to keep the landing point of the next step within a “comfort zone”. When the expected landing point is outside the comfort zone, the walker adjusts the stride length to bring it back within a reasonable range. The comfort zone can be expressed as:
+  Although walking styles vary, regardless of the style, the human stride length tends to keep the landing point of the next step within a “comfort zone”. When the expected landing point is outside the comfort zone, the walker adjusts the stride length to bring it back within a reasonable range. The comfort zone can be definited by:
   
 \[
 \text{Full-foot Walking: } L_{\text{stride}} = [38, 58], \quad \text{Forefoot Walking: } L_{\text{stride}} = [36, 60]
@@ -618,9 +618,9 @@ First, process the data measured by the archaeologists using the following formu
   \end{align}
   
 
-Where $X_i$ represents the total depth of wear due to friction in sub-area i; $k$ refers to the number of people; $A_{i \to j}$ refers to the depth of friction due to friction at a time corresponding to the range of distance from the edge of the staircase from i to j; and $\alpha$ is the amount of wear in the target area due to environmental factors (e.g. temperature changes, humidity fluctuations, extreme weather, etc.).
+Where $X_i$ represents the total depth of wear due to friction in sub-area $i$; $K$ refers to the number of people; $A_{i \to j}$ refers to the depth of friction due to friction at a time corresponding to the range of distance from the edge of the staircase from $i$ to $j$; and $\alpha$ is the amount of wear in the target area due to environmental factors (e.g. temperature changes, humidity fluctuations, extreme weather, etc.).
 
-The formulae for subregions 1, and 2 have been given above, and since there is no direct function to calculate $X_3$ for subregion 3, Probability-based fitting method is designed to calculate the total depth of wear due to friction. The pseudo code is as follows:
+The formula for subregions (1), and (2) have been given above, and since there is no direct function to calculate $X_3$ for subregion (3), Probability-based fitting method is designed to calculate the total depth of wear due to friction. The pseudo code is as follows:
 
 \renewcommand{\algorithmicrequire}{\textbf{Input:}}
 \renewcommand{\algorithmicensure}{\textbf{Output:}}
@@ -654,7 +654,7 @@ Initially, we assume that when only one person is walking on the stairs, the wal
 
 Using this expression, we can calculate the total number of people on each path, which is then visually represented using a bar chart (as shown in Figure n).
 
-After calculating the total number of people on each walkway, we further sum these values to obtain the total number of people using the stairs, expressed as:
+After calculating the total number of people on each walkway, we further sum these values to obtain the total number of people using the stairs, which could be expressed as:
 
 \[ K_{\text{total}} = \sum_{i=1}^n K_i \]
 
@@ -669,11 +669,11 @@ On this basis, the average time interval between uses of the stairs is obtained 
 
 \subsection{Question B: Directional preference}
 
-The total number of people descending the stairs can be expressed as:
+The total number of people descending the stairs can be definited by:
 
 \[ K_{\text{downstairs}} = K_B + K_D \]
 
-The total number of people ascending the stairs can be expressed as:
+The total number of people ascending the stairs can be definited by:
 
 \[ K_{\text{upstairs}} = K_A + K_C \]
 
@@ -713,7 +713,7 @@ Based on the wear data shown in (Figure x), the wear in the 39-48 range is prima
 
 On this basis, using the principles of probability theory, we can assume that the wear amount of the stairs caused each year follows a Gaussian distribution.
 
-The total wear rate of the stairs is determined by both the average annual wear rate and the time (i.e. the number of years since construction), and their relationship is expressed as:
+The total wear rate of the stairs is determined by both the average annual wear rate and the time (i.e. the number of years since construction), and their relationship is expressed by the following formula:
 
 \[R_{\text{total}} = R_{\text{year}} \cdot T \]
 
@@ -797,7 +797,7 @@ $R^2$ represents the proportion of the total variation that can be explained by 
 \textbf{1.Number of Users in a Typical Day for Staircase }
 
 
-In ... (referenced analysis), we have already obtained the total number of users during the operational period of the staircase. Assuming that the number of people using the stairs per day remains constant during this period, the number of people using the stairs in a typical day can be expressed as:
+In ... (referenced analysis), we have already obtained the total number of users during the operational period of the staircase. Assuming that the number of people using the stairs per day remains constant during this period, the number of people using the stairs in a typical day can be definited by:
 
 \[\text{Number of Users in a Typical Day} = \frac{\text{Total Number of Users}}{\text{Total Days of Usage}}\]
 
